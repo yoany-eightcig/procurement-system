@@ -116,7 +116,7 @@ function updateUnissued ()
 
 	$servername = "localhost";
 	$username = "root";
-	$password = "copxerkiller";
+	$password = "Magma2019";
 	$dbname = "procurement_system";
 
 	// Create connection
@@ -142,7 +142,7 @@ function updateUnissued ()
     	}
     	if ($unissued && $sku) {
 
-			$sql = "SELECT * FROM Parts WHERE sku='$sku'";
+			$sql = "SELECT * FROM parts WHERE sku='$sku'";
 			$result = mysqli_query($conn, $sql);
 
 			if (mysqli_num_rows($result) > 0) {

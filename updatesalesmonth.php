@@ -15,7 +15,7 @@ function updateSalesMonth()
 
 	$servername = "localhost";
 	$username = "root";
-	$password = "copxerkiller";
+	$password = "Magma2019";
 	$dbname = "procurement_system";
 
 	// Create connection
@@ -30,7 +30,7 @@ function updateSalesMonth()
         if (!empty($line[0])) {
         	$sku = $line[0];
 
-			$sql = "SELECT * FROM Parts WHERE sku='$sku'";
+			$sql = "SELECT * FROM parts WHERE sku='$sku'";
 			$result = mysqli_query($conn, $sql);
 
             if (mysqli_num_rows($result) > 0) {
@@ -38,7 +38,7 @@ function updateSalesMonth()
 				while($row = mysqli_fetch_assoc($result)) {
 					//
 				}
-				
+
                 $ave = str_replace(',', '', $line[3]);
                 $max = str_replace(',', '', $line[4]);
                 $jan = str_replace(',', '', $line[5]);
