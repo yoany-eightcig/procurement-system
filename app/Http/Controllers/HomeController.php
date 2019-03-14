@@ -15,7 +15,7 @@ class HomeController extends Controller
      * @return void
      */
 
-    public $items_peer_page = 20;
+    public $items_peer_page = 40;
 
     public function __construct()
     {

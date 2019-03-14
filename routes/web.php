@@ -20,8 +20,8 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/search', 'HomeController@search')->name('search');
 Route::get('/currentinventory', 'UpdateController@currentInventory')->name('currentInventory');
-Route::get('/updatesalesmonth', 'UpdateController@updateSalesMonth')->name('updateSalesMonth');
-Route::get('/import', 'UpdateController@importData')->name('importData');
 Route::get('/purchaseordersummary', 'UpdateController@purchaseOrderSummary')->name('purchaseOrderSummary');
+Route::get('/import', 'UpdateController@importData')->name('importData');
+Route::get('/updatesalesmonth', 'UpdateController@updateSalesMonth')->name('updateSalesMonth');
 Route::get('/updateunissued', 'UpdateController@updateUnissued')->name('updateUnissued');
 

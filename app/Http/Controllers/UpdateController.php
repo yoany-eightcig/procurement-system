@@ -163,6 +163,49 @@ class UpdateController extends Controller
 
 
         $report_id = 646;
+        /*
+        childlines=0
+        datefilter=apppurchaseorder.created_at
+        orderby=apppurchaseorder.`number`
+        formatassinglepage=0
+        pocarriername=0
+        pocarrierservicelevel=0
+        podatecompleted=1
+        poexpecteddelivery=0
+        poissuedate=1
+        pomemo=0
+        ponumber=1
+        poorderfobpoint=0
+        popaymentterms=1
+        popriority=0
+        poremittoaddress=0
+        poscheduledfulfillment=0
+        poshiptoaddress=0
+        poshippingterms=0
+        postatus=1
+        potax=0
+        pototalcost=1
+        povendorname=1
+        povendorsonumber=0
+        lineitemdatescheduled=1
+        lineitemdiscounts=0
+        lineitemduedate=0
+        lineitemmemo=0
+        lineitemnumber=1
+        lineitempartdescription=0
+        lineitempartname=1
+        lineitempartnumber=1
+        lineitemqtyfulfilled=1
+        lineitemqtyordered=1
+        lineitemqtyremaining=0
+        lineitemtotalcost=1
+        lineitemunitcost=1
+        lineitemuom=1
+        daterange=All+Time
+        daterange2=All+Time
+        purchaseorderstatus[]=25
+        format=pdf
+        */
 
         $response = $this->locateRequest('GET', "/report/".$report_id."/run", $this->sessionToken, array(
             'childlines' => 0,
@@ -204,7 +247,7 @@ class UpdateController extends Controller
 	        'lineitemuom' => 1,
 	        'daterange' => 'All Time',
 	        'daterange2' => 'All Time',
-	        'purchaseorderstatus[]' => 25,
+	        'purchaseorderstatus' => [25],
             'format'=> 'csv',
         ));
 
