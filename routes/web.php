@@ -25,3 +25,4 @@ Route::get('/import', 'UpdateController@importData')->name('importData');
 Route::get('/updatesalesmonth', 'UpdateController@updateSalesMonth')->name('updateSalesMonth');
 Route::get('/updateunissued', 'UpdateController@updateUnissued')->name('updateUnissued');
 
+
