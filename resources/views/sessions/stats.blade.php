@@ -23,6 +23,7 @@
 		      		<th scope="col">On Order</th>
 		      		<th scope="col">Ave.</th>
 		      		<th scope="col">Max.</th>
+		      		<th scope="col">Dec.</th>
 		      		<th scope="col">Jan.</th>
 		      		<th scope="col">Feb.</th>
 		      		<th scope="col">Mar.</th>
@@ -34,7 +35,6 @@
 		      		<th scope="col">Sept.</th>
 		      		<th scope="col">Oct.</th>
 		      		<th scope="col">Nov.</th>
-		      		<th scope="col">Dec.</th>
 		    	</tr>
 		  	</thead>
 		  	<tbody>
@@ -48,6 +48,7 @@
 		  			  		<td class="text-center" scope="col">{{ $element->on_order }}</td>
 		  			  		<td class="text-center table-primary border-left border-dark" scope="col">{{$element->ave}}</td>
 		  			  		<td class="text-center table-primary border-right border-dark" scope="col">{{$element->max}}</td>
+		  			  		<td class="text-center table-success border border-dark" scope="col">{{$element->dec}}</td>
 		  			  		<td class="text-center table-success border border-dark" scope="col">{{$element->jan}}</td>
 		  			  		<td class="text-center table-success border border-dark" scope="col">{{$element->feb}}</td>
 		  			  		<td class="text-center table-success border border-dark" scope="col">{{$element->mar}}</td>
@@ -59,7 +60,6 @@
 		  			  		<td class="text-center" scope="col">{{$element->sept}}</td>
 		  			  		<td class="text-center" scope="col">{{$element->oct}}</td>
 		  			  		<td class="text-center" scope="col">{{$element->nov}}</td>
-		  			  		<td class="text-center" scope="col">{{$element->dec}}</td>
 		  				</tr>
 		  			@endif
 		  		@endforeach

@@ -7,10 +7,11 @@
   		<td class="text-center" scope="col">{{ $element->on_order }}</td>
   		<td class="text-center table-primary border border-dark" scope="col">{{$element->ave}}</td>
   		<td class="text-center table-primary border border-dark" scope="col">{{$element->max}}</td>
+      <td class="text-center table-success border border-dark" scope="col">{{$element->dec}}</td>
   		<td class="text-center table-success border border-dark" scope="col">{{$element->jan}}</td>
   		<td class="text-center table-success border border-dark" scope="col">{{$element->feb}}</td>
-  		<td class="text-center table-success border border-dark" scope="col">{{$element->mar}}</td>
-  		<td class="text-center table-success border border-dark" scope="col">{{$element->apr}}</td>
+  		<td class="text-center " scope="col">{{$element->mar}}</td>
+  		<td class="text-center " scope="col">{{$element->apr}}</td>
   		<td class="text-center" scope="col">{{$element->may}}</td>
   		<td class="text-center" scope="col">{{$element->jun}}</td>
   		<td class="text-center" scope="col">{{$element->jul}}</td>
@@ -18,6 +19,5 @@
   		<td class="text-center" scope="col">{{$element->sept}}</td>
   		<td class="text-center" scope="col">{{$element->oct}}</td>
   		<td class="text-center" scope="col">{{$element->nov}}</td>
-  		<td class="text-center" scope="col">{{$element->dec}}</td>
 	</tr>
 @endif
