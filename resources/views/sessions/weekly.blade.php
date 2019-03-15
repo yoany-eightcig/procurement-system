@@ -23,6 +23,7 @@
 		      		<th scope="col">On Order</th>
 		      		<th scope="col">Ave.</th>
 		      		<th scope="col">Max.</th>
+		      		<th scope="col">Dec.</th>
 		      		<th scope="col">Jan.</th>
 		      		<th scope="col">Feb.</th>
 		      		<th scope="col">Mar.</th>
@@ -34,7 +35,6 @@
 		      		<th scope="col">Sept.</th>
 		      		<th scope="col">Oct.</th>
 		      		<th scope="col">Nov.</th>
-		      		<th scope="col">Dec.</th>
 		    	</tr>
 		  	</thead>
 		  	<tbody>
