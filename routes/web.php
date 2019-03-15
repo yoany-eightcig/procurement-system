@@ -24,5 +24,9 @@ Route::get('/purchaseordersummary', 'UpdateController@purchaseOrderSummary')->na
 Route::get('/import', 'UpdateController@importData')->name('importData');
 Route::get('/updatesalesmonth', 'UpdateController@updateSalesMonth')->name('updateSalesMonth');
 Route::get('/updateunissued', 'UpdateController@updateUnissued')->name('updateUnissued');
-
-
+//
+Route::get('/monthlysales', 'HomeController@monthlySales')->name('monthlySales');
+Route::get('/monthlysales/search', 'HomeController@monthlySalesSearch')->name('monthlySalesSearch');
+//
+Route::get('/weeklysales', 'HomeController@weeklySales')->name('weeklySales');
+Route::get('/weeklysales/search', 'HomeController@weeklySalesSearch')->name('weeklySalesSearch');

@@ -46,11 +46,11 @@
 		  			  		<td class="text-center" scope="col">{{ $element->quantity }}</td>
 		  			  		<td class="text-center" scope="col">{{ $element->unissued }}</td>
 		  			  		<td class="text-center" scope="col">{{ $element->on_order }}</td>
-		  			  		<td class="text-center table-primary" scope="col">{{$element->ave}}</td>
-		  			  		<td class="text-center table-primary" scope="col">{{$element->max}}</td>
-		  			  		<td class="text-center" scope="col">{{$element->jan}}</td>
-		  			  		<td class="text-center" scope="col">{{$element->feb}}</td>
-		  			  		<td class="text-center" scope="col">{{$element->mar}}</td>
+		  			  		<td class="text-center table-primary border-left border-dark" scope="col">{{$element->ave}}</td>
+		  			  		<td class="text-center table-primary border-right border-dark" scope="col">{{$element->max}}</td>
+		  			  		<td class="text-center table-success border border-dark" scope="col">{{$element->jan}}</td>
+		  			  		<td class="text-center table-success border border-dark" scope="col">{{$element->feb}}</td>
+		  			  		<td class="text-center table-success border border-dark" scope="col">{{$element->mar}}</td>
 		  			  		<td class="text-center" scope="col">{{$element->apr}}</td>
 		  			  		<td class="text-center" scope="col">{{$element->may}}</td>
 		  			  		<td class="text-center" scope="col">{{$element->jun}}</td>

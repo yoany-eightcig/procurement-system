@@ -35,24 +35,110 @@ class HomeController extends Controller
         $filter_name = $request->input('filter_name');
         $filter_sku = $request->input('filter_sku');
 
-        // dd($search, $filter_name, $filter_sku);
+        $sku_array = [];
+        if ($filter_sku) {
+            $sku_array = explode(",", str_replace(' ', '', $search));    
+        }
 
-        if ($filter_name && $filter_sku) {
+        if ($filter_name && $filter_sku && count($sku_array) == 1) {
             $parts = DB::table('parts')
                 ->where('name', 'LIKE', "%$search%")
                 ->orWhere('sku','LIKE','%'.$search.'%')
                 ->paginate($this->items_peer_page);
-        } else if ($filter_name) {
+        } else if ($filter_name && count($sku_array) == 1) {
             $parts = DB::table('parts')->where('name','LIKE','%'.$search.'%')->paginate($this->items_peer_page);
-        } else if ($filter_sku) {
+        } else if ($filter_sku && count($sku_array) == 1) {
             $parts = DB::table('parts')->where('sku','LIKE','%'.$search.'%')->paginate($this->items_peer_page);
+        } elseif ($filter_sku && count($sku_array) > 1) {
+            $query = "sku IN (";
+            foreach ($sku_array as $value) {
+                $query .= "'$value',";
+            }
+            $query = rtrim($query, ',');
+            $query .= ")";
+            $parts = DB::table('parts')->whereRaw($query)->paginate($this->items_peer_page);
         }
-
-
 
         return view('home', ['parts' => $parts]);
     }
 
+    public function monthlySales()
+    {
+        $parts = DB::table('parts')->whereRaw('quantity+unissued+on_order <= ave')->paginate($this->items_peer_page);    
+        return view('monthlysales', ['parts' => $parts]);
+    }
+
+    public function monthlySalesSearch(Request $request)
+    {
+        $search = $request->input('search');
+        $filter_name = $request->input('filter_name');
+        $filter_sku = $request->input('filter_sku');
+
+        $sku_array = [];
+        if ($filter_sku) {
+            $sku_array = explode(",", str_replace(' ', '', $search));    
+        }
+
+        if ($filter_name && $filter_sku && count($sku_array) == 1) {
+            $parts = DB::table('parts')
+                ->where('name', 'LIKE', "%$search%")
+                ->orWhere('sku','LIKE','%'.$search.'%')
+                ->paginate($this->items_peer_page);
+        } else if ($filter_name && count($sku_array) == 1) {
+            $parts = DB::table('parts')->whereRaw('quantity+unissued+on_order <= ave')->where('name','LIKE','%'.$search.'%')->paginate($this->items_peer_page);
+        } else if ($filter_sku && count($sku_array) == 1) {
+            $parts = DB::table('parts')->whereRaw('quantity+unissued+on_order <= ave')->where('sku','LIKE','%'.$search.'%')->paginate($this->items_peer_page);
+        } elseif ($filter_sku && count($sku_array) > 1) {
+            $query = "sku IN (";
+            foreach ($sku_array as $value) {
+                $query .= "'$value',";
+            }
+            $query = rtrim($query, ',');
+            $query .= ")";
+            $parts = DB::table('parts')->whereRaw($query)->paginate($this->items_peer_page);
+        }
+
+        return view('monthlysales', ['parts' => $parts]);
+    }
+
+    public function weeklySales()
+    {
+        $parts = DB::table('parts')->whereRaw('(quantity+unissued+on_order) <= (ave/4)')->paginate($this->items_peer_page);    
+        return view('weeklysales', ['parts' => $parts]);
+    }
+
+    public function weeklySalesSearch(Request $request)
+    {
+        $search = $request->input('search');
+        $filter_name = $request->input('filter_name');
+        $filter_sku = $request->input('filter_sku');
+
+        $sku_array = [];
+        if ($filter_sku) {
+            $sku_array = explode(",", str_replace(' ', '', $search));    
+        }
+
+        if ($filter_name && $filter_sku && count($sku_array) == 1) {
+            $parts = DB::table('parts')
+                ->where('name', 'LIKE', "%$search%")
+                ->orWhere('sku','LIKE','%'.$search.'%')
+                ->paginate($this->items_peer_page);
+        } else if ($filter_name && count($sku_array) == 1) {
+            $parts = DB::table('parts')->where('name','LIKE','%'.$search.'%')->paginate($this->items_peer_page);
+        } else if ($filter_sku && count($sku_array) == 1) {
+            $parts = DB::table('parts')->where('sku','LIKE','%'.$search.'%')->paginate($this->items_peer_page);
+        } elseif ($filter_sku && count($sku_array) > 1) {
+            $query = "sku IN (";
+            foreach ($sku_array as $value) {
+                $query .= "'$value',";
+            }
+            $query = rtrim($query, ',');
+            $query .= ")";
+            $parts = DB::table('parts')->whereRaw($query)->paginate($this->items_peer_page);
+        }
+
+        return view('weeklysales', ['parts' => $parts]);
+    }
     public function index()
     {
         $parts = DB::table('parts')->paginate($this->items_peer_page);

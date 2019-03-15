@@ -22,9 +22,9 @@
             @endif
             
             <div class="tab-content" id="v-pills-tabContent">
-                <div class="tab-pane fade show active" id="v-pills-statistics" role="tabpanel" aria-labelledby="v-pills-statistics-tab">
+                <div class="tab-pane fade show active" id="v-pills-monthlysales" role="tabpanel" aria-labelledby="v-pills-monthlysales-tab">
                     <div class="card-header">Parts</div>
-                    @include('sessions.stats', ['parts' => $parts])
+                    @include('sessions.weekly', ['parts' => $parts])
                 </div>
             </div>
 

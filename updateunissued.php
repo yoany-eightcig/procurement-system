@@ -39,66 +39,6 @@ function locateRequest($curlRequestType, $endpoint, $sessionToken = null, $postD
     }
 }
 
-function purchaseOrderSummary ($sessionToken)
-{
-	set_time_limit(0);
-	ini_set('max_execution_time', 0);
-
-    $report_id = 646;
-
-    $response = locateRequest('GET', "/report/".$report_id."/run", $sessionToken, array(
-        'childlines' => 0,
-        'orderby' => 'apppurchaseorder.number',
-        'datefilter' => 'apppurchaseorder.created_at',
-        'formatassinglepage' => 0,
-        'pocarriername' => 0,
-        'pocarrierservicelevel' => 0,
-        'podatecompleted' => 1,
-        'poexpecteddelivery' => 0,
-        'poissuedate' => 1,
-        'pomemo' => 0,
-        'ponumber' => 1,
-        'poorderfobpoint' => 0,
-        'popaymentterms' => 1,
-        'popriority' => 0,
-        'poremittoaddress' => 0,
-        'poscheduledfulfillment' => 0,
-        'poshiptoaddress' => 0,
-        'poshippingterms' => 0,
-        'postatus' => 1,
-        'potax' => 0,
-        'pototalcost' => 1,
-        'povendorname' => 1,
-        'povendorsonumber' => 0,
-        'lineitemdatescheduled' => 1,
-        'lineitemdiscounts' => 0,
-        'lineitemduedate' => 0,
-        'lineitemmemo' => 0,
-        'lineitemnumber' => 1,
-        'lineitempartdescription' => 0,
-        'lineitempartname' => 1,
-        'lineitempartnumber' => 1,
-        'lineitemqtyfulfilled' => 1,
-        'lineitemqtyordered' => 1,
-        'lineitemqtyremaining' => 0,
-        'lineitemtotalcost' => 1,
-        'lineitemunitcost' => 1,
-        'lineitemuom' => 1,
-        'daterange' => 'All Time',
-        'daterange2' => 'All Time',
-        'purchaseorderstatus[]' => 25,
-        'format'=> 'csv',
-    ));
-
-    $result = file_put_contents('storage/app/public/purchase_order_summary.csv', $response);
-
-    if ($result) {
-    	echo "updated \r\n";
-    } else {
-        echo "error \r\n";
-    }
-}
-
 function updateUnissued ()
 {
 	set_time_limit(0);
@@ -179,7 +119,6 @@ $sessionToken = $loginResponse->session_token;
 
 echo $sessionToken."\n";
 
-// purchaseOrderSummary($sessionToken);
 updateUnissued();
 
 echo "\n\r";
