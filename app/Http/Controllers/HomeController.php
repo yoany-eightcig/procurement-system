@@ -64,7 +64,7 @@ class HomeController extends Controller
 
     public function monthlySales()
     {
-        $parts = DB::table('parts')->whereRaw('quantity+unissued+on_order <= ave')->paginate($this->items_peer_page);    
+        $parts = DB::table('parts')->whereRaw('(quantity+unissued+on_order) <= ave')->paginate($this->items_peer_page);    
         return view('monthlysales', ['parts' => $parts]);
     }
 
@@ -85,9 +85,9 @@ class HomeController extends Controller
                 ->orWhere('sku','LIKE','%'.$search.'%')
                 ->paginate($this->items_peer_page);
         } else if ($filter_name && count($sku_array) == 1) {
-            $parts = DB::table('parts')->whereRaw('quantity+unissued+on_order <= ave')->where('name','LIKE','%'.$search.'%')->paginate($this->items_peer_page);
+            $parts = DB::table('parts')->whereRaw('(quantity+unissued+on_order) <= ave')->where('name','LIKE','%'.$search.'%')->paginate($this->items_peer_page);
         } else if ($filter_sku && count($sku_array) == 1) {
-            $parts = DB::table('parts')->whereRaw('quantity+unissued+on_order <= ave')->where('sku','LIKE','%'.$search.'%')->paginate($this->items_peer_page);
+            $parts = DB::table('parts')->whereRaw('(quantity+unissued+on_order) <= ave')->where('sku','LIKE','%'.$search.'%')->paginate($this->items_peer_page);
         } elseif ($filter_sku && count($sku_array) > 1) {
             $query = "sku IN (";
             foreach ($sku_array as $value) {
@@ -124,9 +124,9 @@ class HomeController extends Controller
                 ->orWhere('sku','LIKE','%'.$search.'%')
                 ->paginate($this->items_peer_page);
         } else if ($filter_name && count($sku_array) == 1) {
-            $parts = DB::table('parts')->where('name','LIKE','%'.$search.'%')->paginate($this->items_peer_page);
+            $parts = DB::table('parts')->whereRaw('(quantity+unissued+on_order) <= (ave/4)')->where('name','LIKE','%'.$search.'%')->paginate($this->items_peer_page);
         } else if ($filter_sku && count($sku_array) == 1) {
-            $parts = DB::table('parts')->where('sku','LIKE','%'.$search.'%')->paginate($this->items_peer_page);
+            $parts = DB::table('parts')->whereRaw('(quantity+unissued+on_order) <= (ave/4)')->where('sku','LIKE','%'.$search.'%')->paginate($this->items_peer_page);
         } elseif ($filter_sku && count($sku_array) > 1) {
             $query = "sku IN (";
             foreach ($sku_array as $value) {
