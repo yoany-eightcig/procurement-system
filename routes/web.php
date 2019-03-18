@@ -36,3 +36,6 @@ Route::get('/clearance/3/search', 'HomeController@clearance3Search')->name('clea
 //clearance 6 Months
 Route::get('/clearance/6', 'HomeController@clearance6')->name('clearance6');
 Route::get('/clearance/6/search', 'HomeController@clearance6Search')->name('clearance6Search');
+//zerosales
+Route::get('/zerosales', 'HomeController@zerosales')->name('zerosales');
+Route::get('/zerosales/search', 'HomeController@zerosalesSearch')->name('zerosalesSearch');

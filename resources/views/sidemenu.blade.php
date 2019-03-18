@@ -21,7 +21,7 @@
         <i class="fas fa-receipt pr-2"></i> 6 Months
     </a>
     <hr class="bg-dark w-100"> <span>Clearance Report</span>
-    <a class="nav-link {{ Request::path() == 'home3' ? 'active' : '' }}" id="v-pills-logs-tab" >
+    <a class="nav-link {{ Request::path() == 'zerosales' || Request::path() == 'zerosales/search' ? 'active' : '' }}" id="v-pills-weeklysales-tab" href="{{ route('zerosales') }}">
         <i class="fas fa-receipt pr-2"></i> Zero Sales
     </a>
 
