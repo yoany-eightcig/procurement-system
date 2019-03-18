@@ -139,6 +139,85 @@ class HomeController extends Controller
 
         return view('weeklysales', ['parts' => $parts]);
     }
+
+    public function clearance3()
+    {
+        $parts = DB::table('parts')->whereRaw('quantity > (ave*3)')->paginate($this->items_peer_page);    
+        return view('clearance', ['parts' => $parts, 'action' => 'clearance3Search']);
+    }
+
+    public function clearance3Search(Request $request)
+    {
+        $search = $request->input('search');
+        $filter_name = $request->input('filter_name');
+        $filter_sku = $request->input('filter_sku');
+        $sku_array = [];
+        if ($filter_sku) {
+            $sku_array = explode(",", str_replace(' ', '', $search));    
+
+        }
+
+        if ($filter_name && $filter_sku && count($sku_array) == 1) {
+            $parts = DB::table('parts')
+                ->whereRaw('(quantity >= ave*3)')
+                ->whereRaw('(name LIKE "%'.$search.'%" OR sku LIKE "%'.$search.'%")')
+                ->paginate($this->items_peer_page);
+        } else if ($filter_name && !$filter_sku) {
+            $parts = DB::table('parts')->whereRaw('(quantity >= ave*3)')->Where('name','LIKE','%'.$search.'%')->paginate($this->items_peer_page);
+        } else if (!$filter_name && $filter_sku && count($sku_array) == 1) {
+            $parts = DB::table('parts')->whereRaw('(quantity >= ave*3)')->Where('sku','LIKE','%'.$search.'%')->paginate($this->items_peer_page);
+        } elseif ($filter_sku && count($sku_array) > 1) {
+            $query = "sku IN (";
+            foreach ($sku_array as $value) {
+                $query .= "'$value',";
+            }
+            $query = rtrim($query, ',');
+            $query .= ")";
+            $parts = DB::table('parts')->whereRaw('(quantity >= ave*3)')->whereRaw($query)->paginate($this->items_peer_page);
+        }
+
+        return view('clearance', ['parts' => $parts, 'action' => 'clearance3Search']);
+    }
+
+    public function clearance6()
+    {
+        $parts = DB::table('parts')->whereRaw('quantity > (ave*3)')->paginate($this->items_peer_page);    
+        return view('clearance', ['parts' => $parts, 'action' => 'clearance6Search']);
+    }
+
+    public function clearance6Search(Request $request)
+    {
+        $search = $request->input('search');
+        $filter_name = $request->input('filter_name');
+        $filter_sku = $request->input('filter_sku');
+        $sku_array = [];
+        if ($filter_sku) {
+            $sku_array = explode(",", str_replace(' ', '', $search));    
+
+        }
+
+        if ($filter_name && $filter_sku && count($sku_array) == 1) {
+            $parts = DB::table('parts')
+                ->whereRaw('(quantity >= ave*6)')
+                ->whereRaw('(name LIKE "%'.$search.'%" OR sku LIKE "%'.$search.'%")')
+                ->paginate($this->items_peer_page);
+        } else if ($filter_name && !$filter_sku) {
+            $parts = DB::table('parts')->whereRaw('(quantity >= ave*6)')->Where('name','LIKE','%'.$search.'%')->paginate($this->items_peer_page);
+        } else if (!$filter_name && $filter_sku && count($sku_array) == 1) {
+            $parts = DB::table('parts')->whereRaw('(quantity >= ave*6)')->Where('sku','LIKE','%'.$search.'%')->paginate($this->items_peer_page);
+        } elseif ($filter_sku && count($sku_array) > 1) {
+            $query = "sku IN (";
+            foreach ($sku_array as $value) {
+                $query .= "'$value',";
+            }
+            $query = rtrim($query, ',');
+            $query .= ")";
+            $parts = DB::table('parts')->whereRaw('(quantity >= ave*6)')->whereRaw($query)->paginate($this->items_peer_page);
+        }
+
+        return view('clearance', ['parts' => $parts, 'action' => 'clearance6Search']);
+    }
+
     public function index()
     {
         $parts = DB::table('parts')->paginate($this->items_peer_page);

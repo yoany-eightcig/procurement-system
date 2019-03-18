@@ -30,3 +30,9 @@ Route::get('/monthlysales/search', 'HomeController@monthlySalesSearch')->name('m
 //
 Route::get('/weeklysales', 'HomeController@weeklySales')->name('weeklySales');
 Route::get('/weeklysales/search', 'HomeController@weeklySalesSearch')->name('weeklySalesSearch');
+//clearance 3 Months
+Route::get('/clearance/3', 'HomeController@clearance3')->name('clearance3');
+Route::get('/clearance/3/search', 'HomeController@clearance3Search')->name('clearance3Search');
+//clearance 6 Months
+Route::get('/clearance/6', 'HomeController@clearance6')->name('clearance6');
+Route::get('/clearance/6/search', 'HomeController@clearance6Search')->name('clearance6Search');

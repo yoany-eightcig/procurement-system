@@ -14,10 +14,10 @@
 
     <hr class="bg-dark w-100"> <span>Clearance Report</span>
 
-    <a class="nav-link {{ Request::path() == 'home1' ? 'active' : '' }}" id="v-pills-settings-tab" >
+    <a class="nav-link {{ Request::path() == 'clearance/3' || Request::path() == 'clearance/3/search' ? 'active' : '' }}" id="v-pills-settings-tab" href="{{ route('clearance3') }}">
         <i class="fas fa-wrench pr-1"></i> 3 Months
     </a>
-    <a class="nav-link {{ Request::path() == 'home2' ? 'active' : '' }}" id="v-pills-logs-tab" >
+    <a class="nav-link {{ Request::path() == 'clearance/6' || Request::path() == 'clearance/6/search' ? 'active' : '' }}" id="v-pills-settings-tab" href="{{ route('clearance6') }}">
         <i class="fas fa-receipt pr-2"></i> 6 Months
     </a>
     <hr class="bg-dark w-100"> <span>Clearance Report</span>
