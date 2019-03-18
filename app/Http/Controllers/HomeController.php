@@ -181,7 +181,7 @@ class HomeController extends Controller
 
     public function clearance6()
     {
-        $parts = DB::table('parts')->whereRaw('quantity > (ave*3)')->paginate($this->items_peer_page);    
+        $parts = DB::table('parts')->whereRaw('quantity > (ave*6)')->paginate($this->items_peer_page);    
         return view('clearance', ['parts' => $parts, 'action' => 'clearance6Search']);
     }
 
