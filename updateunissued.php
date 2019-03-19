@@ -88,7 +88,7 @@ function updateUnissued ()
 			if (mysqli_num_rows($result) > 0) {
 				while($row = mysqli_fetch_assoc($result)) {
 				}
-		    	$sql = "UPDATE Parts SET unissued='$unissued' WHERE sku='$sku'";
+		    	$sql = "UPDATE parts SET unissued='$unissued' WHERE sku='$sku'";
 
 		    	if (mysqli_query($conn, $sql)) {
 		    	    echo "$sku [$unissued] ";
@@ -114,10 +114,10 @@ $loginRequest = array(
     'password' => $locate_password,
 );
 
-$loginResponse = locateRequest('POST', '/login', null, $loginRequest);
-$sessionToken = $loginResponse->session_token;
+// $loginResponse = locateRequest('POST', '/login', null, $loginRequest);
+// $sessionToken = $loginResponse->session_token;
 
-echo $sessionToken."\n";
+// echo $sessionToken."\n";
 
 updateUnissued();
 

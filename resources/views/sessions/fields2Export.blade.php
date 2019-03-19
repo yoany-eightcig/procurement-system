@@ -1,0 +1,1 @@
+{{ $element->sku }},{{ $element->name }},{{ $element->quantity }},{{ $element->unissued }},{{ $element->on_order }},{{$element->ave}},{{$element->max}},{{$element->dec}},{{$element->jan}},{{$element->feb}},{{$element->mar}},{{$element->apr}},{{$element->may}},{{$element->jun}},{{$element->jul}},{{$element->aug}},{{$element->sept}},{{$element->oct}},{{$element->nov}}

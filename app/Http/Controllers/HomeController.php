@@ -220,7 +220,7 @@ class HomeController extends Controller
 
     public function zerosales()
     {
-        $parts = DB::table('parts')->Where('ave','=', 0)->paginate($this->items_peer_page);    
+        $parts = DB::table('parts')->Where('ave','=', 0)->paginate($this->items_peer_page);
         return view('zerosales', ['parts' => $parts, 'action' => 'zerosalesSearch']);
     }
 
@@ -232,7 +232,6 @@ class HomeController extends Controller
         $sku_array = [];
         if ($filter_sku) {
             $sku_array = explode(",", str_replace(' ', '', $search));    
-
         }
 
         if ($filter_name && $filter_sku && count($sku_array) == 1) {
@@ -255,6 +254,62 @@ class HomeController extends Controller
         }
 
         return view('zerosales', ['parts' => $parts, 'action' => 'zerosalesSearch']);
+    }
+
+    public function getZeroSalesData($search, $filter_name, $filter_sku, $sku_array)
+    {
+        $parts = [];
+        if ($filter_name && $filter_sku && count($sku_array) == 1) {
+            $parts = DB::table('parts')
+                ->whereRaw('(ave = 0)')
+                ->whereRaw('(name LIKE "%'.$search.'%" OR sku LIKE "%'.$search.'%")')
+                ->get();
+        } else if ($filter_name && !$filter_sku) {
+            $parts = DB::table('parts')->whereRaw('(ave = 0)')->Where('name','LIKE','%'.$search.'%')->get();
+        } else if (!$filter_name && $filter_sku && count($sku_array) == 1) {
+            $parts = DB::table('parts')->whereRaw('(ave = 0)')->Where('sku','LIKE','%'.$search.'%')->get();
+        } elseif ($filter_sku && count($sku_array) > 1) {
+            $query = "sku IN (";
+            foreach ($sku_array as $value) {
+                $query .= "'$value',";
+            }
+            $query = rtrim($query, ',');
+            $query .= ")";
+            $parts = DB::table('parts')->whereRaw('(ave = 0)')->whereRaw($query)->get();
+        }
+
+        return $parts;
+
+    }
+
+    public function exportToExcel ($export, Request $request)
+    {
+        $filename = $export;
+        $exportOptions = explode(';', $request->input('exportOptions') );
+        $search = "";
+        $filter_name = null;
+        $filter_sku = null;
+        $sku_array = [];
+
+        if (count($exportOptions) > 1) {
+            $search = explode(':', $exportOptions[0])[1];
+            $filter_name = explode(':', $exportOptions[1])[1];
+            $filter_sku = explode(':', $exportOptions[2])[1];
+
+            if ($filter_sku) {
+                $sku_array = explode(",", str_replace(' ', '', $search));    
+            }
+        }
+
+        if ($export == 'zerosales') {
+            if (count($exportOptions) > 1) {
+                $parts = $this->getZeroSalesData($search, $filter_name, $filter_sku, $sku_array);
+            } else {
+                $parts = DB::table('parts')->Where('ave','=', 0)->get();
+            }
+        }
+
+        return view("export_excel", ['filename' => $filename, 'parts' => $parts]);
     }
 
     public function index()

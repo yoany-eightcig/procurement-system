@@ -39,3 +39,5 @@ Route::get('/clearance/6/search', 'HomeController@clearance6Search')->name('clea
 //zerosales
 Route::get('/zerosales', 'HomeController@zerosales')->name('zerosales');
 Route::get('/zerosales/search', 'HomeController@zerosalesSearch')->name('zerosalesSearch');
+//export to excel file
+Route::get('/export/{report}', 'HomeController@exportToExcel')->name('exportToExcel');
