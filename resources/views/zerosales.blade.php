@@ -23,19 +23,7 @@
             
             <div class="tab-content" id="v-pills-tabContent">
                 <div class="tab-pane fade show active" id="v-pills-monthlysales" role="tabpanel" aria-labelledby="v-pills-monthlysales-tab">
-                    <div class="d-flex justify-content-between">
-                        <div class="card-header">Parts</div>
-                        @php
-                            $exportOptions = false;
-                            if (count($_GET)) {
-                                if (array_key_exists('search', $_GET) && array_key_exists('filter_sku', $_GET) && array_key_exists('filter_name', $_GET)) {
-                                    $exportOptions = "search:{$_GET['search']};filter_sku:{$_GET['filter_sku']};filter_name:{$_GET['filter_name']}";    
-                                }
-                            }
-                        @endphp
-                        <a href="{{ route('exportToExcel', ['zerosales', "exportOptions" => $exportOptions]) }}">[ Export To Excel]</a>
-                    </div>
-                    
+                    @include('sessions.header_session', ['reportName' => 'zerosales']) 
                     @include('sessions.zerosales', ['parts' => $parts])
                 </div>
             </div>

@@ -282,6 +282,30 @@ class HomeController extends Controller
 
     }
 
+    public function getClearanceData ($months, $search, $filter_name, $filter_sku, $sku_array)
+    {
+        if ($filter_name && $filter_sku && count($sku_array) == 1) {
+            $parts = DB::table('parts')
+                ->whereRaw('(quantity >= ave * '.$months.')')
+                ->whereRaw('(name LIKE "%'.$search.'%" OR sku LIKE "%'.$search.'%")')
+                ->get();
+        } else if ($filter_name && !$filter_sku) {
+            $parts = DB::table('parts')->whereRaw('(quantity >= ave * '.$months.')')->Where('name','LIKE','%'.$search.'%')->get();
+        } else if (!$filter_name && $filter_sku && count($sku_array) == 1) {
+            $parts = DB::table('parts')->whereRaw('(quantity >= ave * '.$months.')')->Where('sku','LIKE','%'.$search.'%')->get();
+        } elseif ($filter_sku && count($sku_array) > 1) {
+            $query = "sku IN (";
+            foreach ($sku_array as $value) {
+                $query .= "'$value',";
+            }
+            $query = rtrim($query, ',');
+            $query .= ")";
+            $parts = DB::table('parts')->whereRaw('(quantity >= ave * '.$months.')')->whereRaw($query)->get();
+        }
+
+        return $parts;
+    }
+
     public function exportToExcel ($export, Request $request)
     {
         $filename = $export;
@@ -306,6 +330,16 @@ class HomeController extends Controller
                 $parts = $this->getZeroSalesData($search, $filter_name, $filter_sku, $sku_array);
             } else {
                 $parts = DB::table('parts')->Where('ave','=', 0)->get();
+            }
+        }
+
+        if ($export == 'clearance3Search' || $export == 'clearance6Search') {
+            $months = ($export == 'clearance3Search') ? 3 : 6;
+            $filename = ($export == 'clearance3Search') ? 'clearance_months_3' : 'clearance_months_6';
+            if (count($exportOptions) > 1) {
+                $parts = $this->getClearanceData ($months, $search, $filter_name, $filter_sku, $sku_array);
+            } else {
+                $parts = DB::table('parts')->whereRaw('(quantity >= ave * '.$months.')')->get();
             }
         }
 
