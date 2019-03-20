@@ -23,7 +23,7 @@
             
             <div class="tab-content" id="v-pills-tabContent">
                 <div class="tab-pane fade show active" id="v-pills-monthlysales" role="tabpanel" aria-labelledby="v-pills-monthlysales-tab">
-                    <div class="card-header">Parts</div>
+                    @include('sessions.header_session', ['reportName' => 'weeklysales']) 
                     @include('sessions.weekly', ['parts' => $parts])
                 </div>
             </div>

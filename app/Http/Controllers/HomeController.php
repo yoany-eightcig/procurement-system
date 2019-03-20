@@ -42,8 +42,7 @@ class HomeController extends Controller
 
         if ($filter_name && $filter_sku && count($sku_array) == 1) {
             $parts = DB::table('parts')
-                ->where('name', 'LIKE', "%$search%")
-                ->orWhere('sku','LIKE','%'.$search.'%')
+                ->whereRaw('(name LIKE "%'.$search.'%" OR sku LIKE "%'.$search.'%")')
                 ->paginate($this->items_peer_page);
         } else if ($filter_name && count($sku_array) == 1) {
             $parts = DB::table('parts')->where('name','LIKE','%'.$search.'%')->paginate($this->items_peer_page);
@@ -81,8 +80,8 @@ class HomeController extends Controller
 
         if ($filter_name && $filter_sku && count($sku_array) == 1) {
             $parts = DB::table('parts')
-                ->where('name', 'LIKE', "%$search%")
-                ->orWhere('sku','LIKE','%'.$search.'%')
+                ->whereRaw('(quantity+unissued+on_order) <= ave')
+                ->whereRaw('(name LIKE "%'.$search.'%" OR sku LIKE "%'.$search.'%")')
                 ->paginate($this->items_peer_page);
         } else if ($filter_name && count($sku_array) == 1) {
             $parts = DB::table('parts')->whereRaw('(quantity+unissued+on_order) <= ave')->where('name','LIKE','%'.$search.'%')->paginate($this->items_peer_page);
@@ -95,7 +94,7 @@ class HomeController extends Controller
             }
             $query = rtrim($query, ',');
             $query .= ")";
-            $parts = DB::table('parts')->whereRaw($query)->paginate($this->items_peer_page);
+            $parts = DB::table('parts')->whereRaw('(quantity+unissued+on_order) <= ave')->whereRaw($query)->paginate($this->items_peer_page);
         }
 
         return view('monthlysales', ['parts' => $parts]);
@@ -120,8 +119,8 @@ class HomeController extends Controller
 
         if ($filter_name && $filter_sku && count($sku_array) == 1) {
             $parts = DB::table('parts')
-                ->where('name', 'LIKE', "%$search%")
-                ->orWhere('sku','LIKE','%'.$search.'%')
+                ->whereRaw('(quantity+unissued+on_order) <= (ave/4)')
+                ->whereRaw('(name LIKE "%'.$search.'%" OR sku LIKE "%'.$search.'%")')
                 ->paginate($this->items_peer_page);
         } else if ($filter_name && count($sku_array) == 1) {
             $parts = DB::table('parts')->whereRaw('(quantity+unissued+on_order) <= (ave/4)')->where('name','LIKE','%'.$search.'%')->paginate($this->items_peer_page);
@@ -134,7 +133,7 @@ class HomeController extends Controller
             }
             $query = rtrim($query, ',');
             $query .= ")";
-            $parts = DB::table('parts')->whereRaw($query)->paginate($this->items_peer_page);
+            $parts = DB::table('parts')->whereRaw('(quantity+unissued+on_order) <= (ave/4)')->whereRaw($query)->paginate($this->items_peer_page);
         }
 
         return view('weeklysales', ['parts' => $parts]);
@@ -256,6 +255,58 @@ class HomeController extends Controller
         return view('zerosales', ['parts' => $parts, 'action' => 'zerosalesSearch']);
     }
 
+    public function getMonthlySalesData($search, $filter_name, $filter_sku, $sku_array)
+    {
+        $parts = [];
+
+        if ($filter_name && $filter_sku && count($sku_array) == 1) {
+            $parts = DB::table('parts')
+                ->whereRaw('(quantity+unissued+on_order) <= ave')
+                ->whereRaw('(name LIKE "%'.$search.'%" OR sku LIKE "%'.$search.'%")')
+                ->get();
+        } else if ($filter_name && !$filter_sku) {
+            $parts = DB::table('parts')->whereRaw('(quantity+unissued+on_order) <= ave')->Where('name','LIKE','%'.$search.'%')->get();
+        } else if (!$filter_name && $filter_sku && count($sku_array) == 1) {
+            $parts = DB::table('parts')->whereRaw('(quantity+unissued+on_order) <= ave')->Where('sku','LIKE','%'.$search.'%')->get();
+        } elseif ($filter_sku && count($sku_array) > 1) {
+            $query = "sku IN (";
+            foreach ($sku_array as $value) {
+                $query .= "'$value',";
+            }
+            $query = rtrim($query, ',');
+            $query .= ")";
+            $parts = DB::table('parts')->whereRaw('(quantity+unissued+on_order) <= ave')->whereRaw($query)->get();
+        }
+
+        return $parts;
+    }    
+
+    public function getWeeklySalesData($search, $filter_name, $filter_sku, $sku_array)
+    {
+        $parts = [];
+        
+        if ($filter_name && $filter_sku && count($sku_array) == 1) {
+            $parts = DB::table('parts')
+                ->whereRaw('(quantity+unissued+on_order) <= (ave/4)')
+                ->whereRaw('(name LIKE "%'.$search.'%" OR sku LIKE "%'.$search.'%")')
+                ->get();
+        } else if ($filter_name && !$filter_sku) {
+            $parts = DB::table('parts')->whereRaw('(quantity+unissued+on_order) <= (ave/4)')->Where('name','LIKE','%'.$search.'%')->get();
+        } else if (!$filter_name && $filter_sku && count($sku_array) == 1) {
+            $parts = DB::table('parts')->whereRaw('(quantity+unissued+on_order) <= (ave/4)')->Where('sku','LIKE','%'.$search.'%')->get();
+        } elseif ($filter_sku && count($sku_array) > 1) {
+            $query = "sku IN (";
+            foreach ($sku_array as $value) {
+                $query .= "'$value',";
+            }
+            $query = rtrim($query, ',');
+            $query .= ")";
+            $parts = DB::table('parts')->whereRaw('(quantity+unissued+on_order) <= (ave/4)')->whereRaw($query)->get();
+        }
+
+        return $parts;
+    }    
+
     public function getZeroSalesData($search, $filter_name, $filter_sku, $sku_array)
     {
         $parts = [];
@@ -342,6 +393,23 @@ class HomeController extends Controller
                 $parts = DB::table('parts')->whereRaw('(quantity >= ave * '.$months.')')->get();
             }
         }
+
+        if ($export == 'monthlysales') {
+            if (count($exportOptions) > 1) {
+                $parts = $this->getMonthlySalesData($search, $filter_name, $filter_sku, $sku_array);
+            } else {
+                $parts = DB::table('parts')->whereRaw('(quantity+unissued+on_order) <= ave')->get();
+            }
+        }
+
+        if ($export == 'weeklysales') {
+            if (count($exportOptions) > 1) {
+                $parts = $this->getWeeklySalesData($search, $filter_name, $filter_sku, $sku_array);
+            } else {
+                $parts = DB::table('parts')->whereRaw('(quantity+unissued+on_order) <= (ave/4)')->get();
+            }
+        }
+
 
         return view("export_excel", ['filename' => $filename, 'parts' => $parts]);
     }
