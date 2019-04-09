@@ -51,7 +51,7 @@
 		  			  		<td class="text-center table-success border border-dark" scope="col">{{$element->dec}}</td>
 		  			  		<td class="text-center table-success border border-dark" scope="col">{{$element->jan}}</td>
 		  			  		<td class="text-center table-success border border-dark" scope="col">{{$element->feb}}</td>
-		  			  		<td class="text-center" scope="col">{{$element->mar}}</td>
+		  			  		<td class="text-center table-success border border-dark" scope="col">{{$element->mar}}</td>
 		  			  		<td class="text-center" scope="col">{{$element->apr}}</td>
 		  			  		<td class="text-center" scope="col">{{$element->may}}</td>
 		  			  		<td class="text-center" scope="col">{{$element->jun}}</td>
