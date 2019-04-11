@@ -5802,19 +5802,15 @@ SV0000260589,Vaporesso cCell Coil SS 0.5 (Pack of 5),ea,52,223,7,160,4,17,45,58,
 SV0000175333,Vaporesso cCell Coil SS 0.6ohm (Pack of 5),ea,12,20,17,13,12,20,19,11,16,10,10,1,3,7
 SV0000296330,Vaporesso cCell Kanthal 0.9ohm Coil (Pack of 5),ea,32,194,13,43,12,194,0,19,56,16,19,11,6,0
 LV1003688,Vaporesso cCell-GD 0.5ohm (Pack of 5),ea,2,24,0,24,1,0,0,0,0,0,0,0,0,0
-VP0000287,"Vaporesso CCELL-GD SS Coils 0.5ohm
-20-35W",ea,83,700,300,0,700,0,0,0,0,0,0,0,0,0
+VP0000287,"Vaporesso CCELL-GD SS Coils 0.5ohm 20-35W",ea,83,700,300,0,700,0,0,0,0,0,0,0,0,0
 SV53375,"Vaporesso Ceramic EUC Coil (, 0.6ohm) (5 Pcs/Pack)",ea,50,223,59,34,0,4,9,94,34,223,35,47,39,25
 SV226510,Vaporesso Ceramic EUC Coil (0.3ohm)(Pack of 5),ea,12,88,3,49,88,0,0,0,0,0,0,0,0,0
 SV226301,Vaporesso Ceramic EUC Coil (0.5ohm)(Pack of 5),ea,76,132,90,0,0,66,38,113,93,98,100,98,79,132
 SV227059,Vaporesso Ceramic EUC Coil for Aurora Starter Kit - 1.4ohm (Pack of 5),ea,30,75,4,26,8,75,58,24,47,36,49,11,4,12
-VP0000292,"Vaporesso Ceramic EUC Coil without Sleeve 0.5ohm
-25-35W",ea,125,1100,400,0,1100,0,0,0,0,0,0,0,0,0
-VP0000293,"Vaporesso Ceramic EUC Coil without Sleeve 0.6ohm
-40-55W",ea,33,300,0,300,100,0,0,0,0,0,0,0,0,0
+VP0000292,"Vaporesso Ceramic EUC Coil without Sleeve 0.5ohm 25-35W",ea,125,1100,400,0,1100,0,0,0,0,0,0,0,0,0
+VP0000293,"Vaporesso Ceramic EUC Coil without Sleeve 0.6ohm 40-55W",ea,33,300,0,300,100,0,0,0,0,0,0,0,0,0
 VP0000295,Vaporesso Ceramic EUC Coil without Sleeve SS316 0.3ohm35-40W,ea,17,200,200,0,0,0,0,0,0,0,0,0,0,0
-VP0000298,"Vaporesso Drizzle Ceramic Mini EUC 1.3ohm
-Ceramic",ea,42,500,0,500,0,0,0,0,0,0,0,0,0,0
+VP0000298,"Vaporesso Drizzle Ceramic Mini EUC 1.3ohm Ceramic",ea,42,500,0,500,0,0,0,0,0,0,0,0,0,0
 LV1004482,Vaporesso Drizzle Fit Kit Black,ea,3,15,5,15,11,0,0,0,0,0,0,0,3,1
 LV1004488,Vaporesso Drizzle Fit Kit Black and Green,ea,2,7,5,7,5,0,0,0,0,0,0,0,1,2
 LV1004489,Vaporesso Drizzle Fit Kit Black and Red,ea,1,5,5,3,4,0,0,0,0,0,0,0,1,3
@@ -5842,22 +5838,16 @@ VP0000313,Vaporesso Glass tube for Cascade Tank Transparent,ea,83,600,200,200,60
 VP0000310,Vaporesso Glass tube for NRG Tank,ea,42,200,200,200,100,0,0,0,0,0,0,0,0,0
 VP0000307,Vaporesso Glass tube for Veco Plus Tank 4ml,ea,50,500,0,100,500,0,0,0,0,0,0,0,0,0
 VP0000305,Vaporesso Glass tube for Veco Tank 2ml,ea,13,100,100,0,50,0,0,0,0,0,0,0,0,0
-VP0000223,"Vaporesso GT CCELL Core 0.5Ω
-25-35W",ea,310,1615,200,"1,400",1615,0,0,0,0,0,0,0,500,0
+VP0000223,"Vaporesso GT CCELL Core 0.5Ω 25-35W",ea,310,1615,200,"1,400",1615,0,0,0,0,0,0,0,500,0
 SV53584,Vaporesso GT CCELL Core Coil 0.5 (Pack of 3),ea,263,1210,51,174,1210,62,182,55,127,338,537,418,0,1
-VP0000113,"Vaporesso GT CCELL2 0.3Ω
-35-40W",ea,433,2500,"2,000",200,2500,0,0,0,0,0,0,0,500,0
-VP0000114,"Vaporesso GT Mesh 0.18Ω
-50-90W",ea,646,5750,500,"1,000",5750,0,0,0,0,0,0,0,0,500
+VP0000113,"Vaporesso GT CCELL2 0.3Ω 35-40W",ea,433,2500,"2,000",200,2500,0,0,0,0,0,0,0,500,0
+VP0000114,"Vaporesso GT Mesh 0.18Ω 50-90W",ea,646,5750,500,"1,000",5750,0,0,0,0,0,0,0,0,500
 SV53582,Vaporesso GT2 Coil - .4ohm (Pack of 3),ea,275,1209,37,171,1209,134,113,80,86,146,296,428,390,214
-VP0000221,"Vaporesso GT2 Core 0.4Ω
-40-80W",ea,450,2000,"1,500",400,2000,0,0,0,0,0,0,0,1000,500
+VP0000221,"Vaporesso GT2 Core 0.4Ω 40-80W",ea,450,2000,"1,500",400,2000,0,0,0,0,0,0,0,1000,500
 SV168550,Vaporesso GT4 Coil - .15ohm (Pack of 3),ea,321,961,492,235,237,190,229,227,153,270,297,961,338,228
-VP0000219,"Vaporesso GT4 Core 0.15Ω
-30-70W",ea,567,3000,"2,000",300,3000,0,0,0,0,0,0,0,1000,500
+VP0000219,"Vaporesso GT4 Core 0.15Ω 30-70W",ea,567,3000,"2,000",300,3000,0,0,0,0,0,0,0,1000,500
 SV53583,Vaporesso GT6 Coil - .2ohm (Pack of 3),ea,205,1132,95,108,1132,184,55,146,146,111,140,133,73,138
-VP0000222,"Vaporesso GT6 Core 0.2Ω
-40-100W",ea,96,650,500,0,650,0,0,0,0,0,0,0,0,0
+VP0000222,"Vaporesso GT6 Core 0.2Ω 40-100W",ea,96,650,500,0,650,0,0,0,0,0,0,0,0,0
 SV417508,Vaporesso GT8 Coil 0.15Ohm (Pack of 3),ea,407,1291,259,362,1291,339,260,165,408,400,283,549,257,314
 LV1003861,Vaporesso Luxe Kit Black,ea,25,83,83,20,68,0,0,0,0,0,0,61,59,6
 LV1003864,Vaporesso Luxe Kit Bronze,ea,21,57,55,25,41,0,0,0,0,0,0,57,37,39
@@ -5921,8 +5911,7 @@ LV1001650,Vaporesso Polar 220W Mod Green/Black,ea,8,43,10,0,0,0,0,2,43,8,4,6,2,2
 LV1001652,Vaporesso Polar 220W Mod Red,ea,6,26,4,8,26,0,0,0,16,9,6,2,2,2
 LV1001653,Vaporesso Polar 220W Mod Red/Black,ea,13,34,31,34,12,0,0,2,9,6,13,13,13,18
 LV1001654,Vaporesso Polar 220W Mod Silver,ea,7,17,9,3,17,0,0,1,9,12,8,9,11,5
-VP0000025,"Vaporesso QF Meshed 0.2 ohm
-55-85W",ea,440,1900,"1,900",800,1580,0,0,0,0,0,0,0,0,1000
+VP0000025,"Vaporesso QF Meshed 0.2 ohm 55-85W",ea,440,1900,"1,900",800,1580,0,0,0,0,0,0,0,0,1000
 LV1004326,Vaporesso QF Meshed 0.2ohm Pack of 3,ea,125,504,244,226,253,0,0,0,0,0,0,0,275,504
 LV1004325,Vaporesso QF Strip 0.15ohm Pack of 3,ea,58,276,180,62,139,0,0,0,0,0,0,0,44,276
 VP0000045,Vaporesso Renova Zero Arctic Blue,ea,279,1900,450,"1,000",1900,0,0,0,0,0,0,0,0,0
@@ -6034,8 +6023,7 @@ SV0000106966,Vaporesso Traditional EUC  Coil (0.4ohm) (10 Pcs/Pack),ea,17,104,0,
 SV226763,Vaporesso Traditional EUC  Coil Clapton (0.3ohm) (Pack of 5),ea,45,211,10,55,29,211,20,41,14,40,24,57,22,17
 SV226302,Vaporesso Traditional EUC  Coil Clapton (0.4ohm) (Pack of 5),ea,66,239,51,10,2,20,239,26,24,26,62,91,226,11
 SV226303,Vaporesso Traditional EUC  Coil Clapton (0.5ohm) (Pack of 5),ea,47,216,216,9,86,2,14,32,22,17,15,147,1,2
-VP0000294,"Vaporesso Traditional EUC Coil without Sleeve 0.2ohm
-50-70W",ea,50,400,200,0,0,0,0,0,0,0,0,0,400,0
+VP0000294,"Vaporesso Traditional EUC Coil without Sleeve 0.2ohm 50-70W",ea,50,400,200,0,0,0,0,0,0,0,0,0,400,0
 LV1000518,Vaporesso Traditional NX CCell Coil 1.0ohm 5 Pack,ea,103,316,34,39,32,0,105,213,47,152,85,316,158,60
 LV1003752,Vaporesso Transformer RDA Black,ea,7,38,15,7,3,0,0,0,0,0,0,38,17,0
 LV1003753,Vaporesso Transformer RDA Gun Color,ea,7,32,13,5,4,0,0,0,0,0,2,32,24,2
@@ -6560,8 +6548,7 @@ LV1000288,Smok V8 Baby Mesh Coil 5 Pack,ea,829,2230,"2,230",37,899,0,109,1103,77
 LV1004538,FreeMax Mesh Pro Quad Mesh Coil 0.15ohm (pack of 3),ea,858,3001,"2,265","3,001",253,0,0,0,0,0,0,0,2395,2377
 LV1004618,SMOK NORD 0.6ohm Mesh Coil (Pack of 5),ea,857,4092,"2,422","2,557",4092,0,0,0,0,0,0,0,0,1213
 LV1000310,Smok TFV12 Prince Mesh Coil (3 pack),ea,1650,2815,"2,499","1,399",1955,0,960,2815,2499,1292,1588,1912,1288,1590
-VP0000220,"Vaporesso GT8 Core 0.15Ω
-50-110W",ea,250,2500,"2,500",0,500,0,0,0,0,0,0,0,0,0
+VP0000220,"Vaporesso GT8 Core 0.15Ω 50-110W",ea,250,2500,"2,500",0,500,0,0,0,0,0,0,0,0,0
 LV1004616,SMOK NORD Pod Kit,ea,814,4294,"2,592","4,294",1781,0,0,0,0,0,0,0,0,1098
 VP0000048,Vaporesso Renova Zero Blue,ea,471,2600,"2,600",950,2000,0,0,0,0,0,0,0,100,0
 LV1003680,Vaporesso Zero Pod (Pack of 2),ea,1459,7299,"2,736","4,705",7299,0,0,0,0,0,248,400,1108,1006
@@ -6573,8 +6560,7 @@ LV1002350,Horizon Falcon Coil M2 0.16ohm 3 Pack,ea,1916,3574,"3,343","1,540",295
 SV170625,Hohm Life 18650 20.7A 3077mAh,ea,1662,3374,"3,374","1,819",1736,1478,1452,1487,1523,484,0,1130,2979,2477
 SV426752,Uwell Valyrian Coil 0.15ohm (2 Pack),ea,3842,6468,"3,395","3,473",1842,4768,4560,1912,3693,3866,4949,6468,4636,2547
 VP0000040,Vaporesso Renova Zero Black,ea,667,3650,"3,650","1,500",2750,0,0,0,0,0,0,0,0,100
-VP0000024,"Vaporesso QF Strips 0.15 ohm
-60-90W",ea,372,3900,"3,900",200,360,0,0,0,0,0,0,0,0,0
+VP0000024,"Vaporesso QF Strips 0.15 ohm 60-90W",ea,372,3900,"3,900",200,360,0,0,0,0,0,0,0,0,0
 LV1002398,FreeMax Mesh Pro Kanthal Triple Mesh Coil 3 Pack,ea,2333,4769,"3,933",183,3619,0,0,0,3797,4115,3020,4769,4221,335
 VP0000046,Vaporesso Renova Zero Red,ea,606,4020,"4,020",600,2650,0,0,0,0,0,0,0,0,0
 LV1003690,Orion Replacement Pod 0.25Ohm (Pack of 2),ea,1557,5690,"4,125","3,034",2453,0,0,0,0,0,761,1141,1481,5690

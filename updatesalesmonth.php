@@ -29,16 +29,11 @@ function updateSalesMonth()
     foreach ($csv as $line) {
         if (!empty($line[0])) {
         	$sku = $line[0];
+            $name = $line[1];
 
 			$sql = "SELECT * FROM parts WHERE sku='$sku'";
 			$result = mysqli_query($conn, $sql);
-
-            if (mysqli_num_rows($result) > 0) {
-
-				while($row = mysqli_fetch_assoc($result)) {
-					//
-				}
-
+            if (count($line) >= 17) {
                 $ave = str_replace(',', '', $line[3]);
                 $max = str_replace(',', '', $line[4]);
                 $jan = str_replace(',', '', $line[5]);
@@ -54,15 +49,30 @@ function updateSalesMonth()
                 $nov = str_replace(',', '', $line[15]);
                 $dec = str_replace(',', '', $line[16]);
 
-				$sql = "UPDATE `parts` SET `ave` = '$ave', `max` = '$max', `jan` = '$jan', `feb` = '$feb', `mar` = '$mar', `apr` = '$apr', `may` = '$may', `jun` = '$jun', `jul` = '$jul', `aug` = '$aug', `sept` = '$sept', `oct` = '$oct', `nov` = '$nov', `dec` = '$dec' WHERE `sku` LIKE '$sku'";
+                if (mysqli_num_rows($result) > 0) {
 
-				if (mysqli_query($conn, $sql)) {
-					echo "$sku ";
-				}
+                    while($row = mysqli_fetch_assoc($result)) {
+                        //
+                    }
+                    $sql = "UPDATE `parts` SET `ave` = '$ave', `max` = '$max', `jan` = '$jan', `feb` = '$feb', `mar` = '$mar', `apr` = '$apr', `may` = '$may', `jun` = '$jun', `jul` = '$jul', `aug` = '$aug', `sept` = '$sept', `oct` = '$oct', `nov` = '$nov', `dec` = '$dec' WHERE `sku` LIKE '$sku'";
 
+                    if (mysqli_query($conn, $sql)) {
+                        // echo "$sku ";
+                    }
+
+                } else {
+                    $sql = "INSERT INTO `parts` (`id`, `sku`, `name`, `quantity`, `ave`, `max`, `jan`, `feb`, `mar`, `apr`, `may`, `jun`, `jul`, `aug`, `sept`, `oct`, `nov`, `dec`, `unissued`, `on_order`, `created_at`, `updated_at`) VALUES (NULL, '$sku', '$name', '1', $ave, $max, $jan, $feb, $mar, $apr, $may, $jun, $jul, $aug, $sept, $oct, $nov, $dec, '0', '0', CURRENT_TIME(), CURRENT_TIME());";
+
+                    $missing[] = $line[0];
+                    if (mysqli_query($conn, $sql)) {
+                        echo "$sku ";
+                    }
+
+                }                
             } else {
-                $missing[] = $line[0];
+                echo "$sku ";                
             }
+
         }
     }
 
