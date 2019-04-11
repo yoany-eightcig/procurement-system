@@ -4,7 +4,7 @@
 	$time = date("hisa");
 
 	header("Content-Type: application/vnd.ms-excel");
-	header("Content-Disposition: attachment; filename=".$filename."-".$date."-".$time.".xls");
+	header("Content-Disposition: attachment; filename=".$filename."-".$date."-".$time.".csv");
 	// header("Pragma: no-cache"); 
 	// header("Expires: 0");	
 
