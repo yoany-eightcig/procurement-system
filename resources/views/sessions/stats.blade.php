@@ -1,75 +1,181 @@
-<form method="get" action="{{ route('search') }}">
-	@csrf
-	<div class="input-group mb-3">
-	  	<input type="text" class="form-control" name="search" required focused="true">
-	  	<div class="input-group-append">
-	    	<button type="submit" class="btn btn-success">Search</button>
-	    </div>
-	</div>
-	<div class="table-responsive">
-		<table class=" table table-striped  table-fixed">
-		  	<thead class="thead-dark">
-		    	<tr>
-		      		<th scope="col">
-		      			<label class="mb-0" for="filter_sku">Sku</label>
-		      			<input type="checkbox" name="filter_sku" id="filter_sku" checked>
-		      		</th>
-		      		<th scope="col">
-		      			<label class="mb-0" for="filter_name">Name</label>
-		      			<input type="checkbox" name="filter_name" id="filter_name" checked >
-		      		</th>
-		      		<th scope="col">Current Inventory</th>
-		      		<th scope="col">Unissued PO</th>
-		      		<th scope="col">On Order</th>
-		      		<th scope="col">Ave.</th>
-		      		<th scope="col">Max.</th>
-		      		<th scope="col">Dec.</th>
-		      		<th scope="col">Jan.</th>
-		      		<th scope="col">Feb.</th>
-		      		<th scope="col">Mar.</th>
-		      		<th scope="col">Apr.</th>
-		      		<th scope="col">May.</th>
-		      		<th scope="col">Jun.</th>
-		      		<th scope="col">Jul.</th>
-		      		<th scope="col">Aug.</th>
-		      		<th scope="col">Sept.</th>
-		      		<th scope="col">Oct.</th>
-		      		<th scope="col">Nov.</th>
-		    	</tr>
-		  	</thead>
-		  	<tbody>
-		  		@foreach ($parts as $element)	
-		  			@if ($element->quantity != 0 && $element->ave != 0 || $element->ave != null)
-		  				<tr {{ $element->ave >= $element->quantity  ? 'class=table-danger' : "" }}> 
-		  			  		<td class="text-center" scope="col">{{ $element->sku }}</td>
-		  			  		<td class="text-center" scope="col">{{ $element->name }}</td>
-		  			  		<td class="text-center" scope="col">{{ $element->quantity }}</td>
-		  			  		<td class="text-center" scope="col">{{ $element->unissued }}</td>
-		  			  		<td class="text-center" scope="col">{{ $element->on_order }}</td>
-		  			  		<td class="text-center table-primary border-left border-dark" scope="col">{{$element->ave}}</td>
-		  			  		<td class="text-center table-primary border-right border-dark" scope="col">{{$element->max}}</td>
-		  			  		<td class="text-center table-success border border-dark" scope="col">{{$element->dec}}</td>
-		  			  		<td class="text-center table-success border border-dark" scope="col">{{$element->jan}}</td>
-		  			  		<td class="text-center table-success border border-dark" scope="col">{{$element->feb}}</td>
-		  			  		<td class="text-center table-success border border-dark" scope="col">{{$element->mar}}</td>
-		  			  		<td class="text-center" scope="col">{{$element->apr}}</td>
-		  			  		<td class="text-center" scope="col">{{$element->may}}</td>
-		  			  		<td class="text-center" scope="col">{{$element->jun}}</td>
-		  			  		<td class="text-center" scope="col">{{$element->jul}}</td>
-		  			  		<td class="text-center" scope="col">{{$element->aug}}</td>
-		  			  		<td class="text-center" scope="col">{{$element->sept}}</td>
-		  			  		<td class="text-center" scope="col">{{$element->oct}}</td>
-		  			  		<td class="text-center" scope="col">{{$element->nov}}</td>
-		  				</tr>
-		  			@endif
-		  		@endforeach
-		  	</tbody>
-		</table>	
-	</div>
-</form>
 <div class="table-responsive">
-	{{ $parts->appends(request()->query())->links() }}	
+	<table id="table_id" class="display table table-striped table-fixed" >
+		<thead class="thead-dark">
+	    	<tr>
+	      		<th scope="col">
+	      			<label class="mb-0" for="filter_sku">Sku</label>
+	      		</th>
+	      		<th scope="col">
+	      			<label class="mb-0" for="filter_name">Name</label>
+	      		</th>
+	      		<th data-class-name="priority" scope="col">Current Inventory</th>
+	      		<th scope="col">Unissued PO</th>
+	      		<th scope="col">On Order</th>
+	      		<th scope="col">Ave.</th>
+	      		<th scope="col">Max.</th>
+	      		<th scope="col">Dec.</th>
+	      		<th scope="col">Jan.</th>
+	      		<th scope="col">Feb.</th>
+	      		<th scope="col">Mar.</th>
+	      		<th scope="col">Apr.</th>
+	      		<th scope="col">May.</th>
+	      		<th scope="col">Jun.</th>
+	      		<th scope="col">Jul.</th>
+	      		<th scope="col">Aug.</th>
+	      		<th scope="col">Sept.</th>
+	      		<th scope="col">Oct.</th>
+	      		<th scope="col">Nov.</th>
+	    	</tr>
+	  	</thead>
+		<tfoot class="thead-dark">
+	    	<tr>
+	      		<th scope="col">
+	      			<label class="mb-0" for="filter_sku">Sku</label>
+	      		</th>
+	      		<th scope="col">
+	      			<label class="mb-0" for="filter_name">Name</label>
+	      		</th>
+	      		<th data-class-name="priority" scope="col">Current Inventory</th>
+	      		<th scope="col">Unissued PO</th>
+	      		<th scope="col">On Order</th>
+	      		<th scope="col">Ave.</th>
+	      		<th scope="col">Max.</th>
+	      		<th scope="col">Dec.</th>
+	      		<th scope="col">Jan.</th>
+	      		<th scope="col">Feb.</th>
+	      		<th scope="col">Mar.</th>
+	      		<th scope="col">Apr.</th>
+	      		<th scope="col">May.</th>
+	      		<th scope="col">Jun.</th>
+	      		<th scope="col">Jul.</th>
+	      		<th scope="col">Aug.</th>
+	      		<th scope="col">Sept.</th>
+	      		<th scope="col">Oct.</th>
+	      		<th scope="col">Nov.</th>
+	    	</tr>
+	  	</tfoot>
+
+	</table>	
 </div>
 
+@section('scripts')
+<script type="text/javascript">
+	var oldExportAction = function (self, e, dt, button, config) {
+	    if (button[0].className.indexOf('buttons-excel') >= 0) {
+	        if ($.fn.dataTable.ext.buttons.excelHtml5.available(dt, config)) {
+	            $.fn.dataTable.ext.buttons.excelHtml5.action.call(self, e, dt, button, config);
+	        }
+	        else {
+	            $.fn.dataTable.ext.buttons.excelFlash.action.call(self, e, dt, button, config);
+	        }
+	    } else if (button[0].className.indexOf('buttons-print') >= 0) {
+	        $.fn.dataTable.ext.buttons.print.action(e, dt, button, config);
+	    }
+	};
+
+	var newExportAction = function (e, dt, button, config) {
+	    var self = this;
+	    var oldStart = dt.settings()[0]._iDisplayStart;
+
+	    dt.one('preXhr', function (e, s, data) {
+	        // Just this once, load all data from the server...
+	        data.start = 0;
+	        data.length = 2147483647;
+
+	        dt.one('preDraw', function (e, settings) {
+	            // Call the original action function 
+	            oldExportAction(self, e, dt, button, config);
+
+	            dt.one('preXhr', function (e, s, data) {
+	                // DataTables thinks the first item displayed is index 0, but we're not drawing that.
+	                // Set the property to what it was before exporting.
+	                settings._iDisplayStart = oldStart;
+	                data.start = oldStart;
+	            });
+
+	            // Reload the grid with the original page. Otherwise, API functions like table.cell(this) don't work properly.
+	            setTimeout(dt.ajax.reload, 0);
+
+	            // Prevent rendering of the full data to the DOM
+	            return false;
+	        });
+	    });
+
+	    // Requery the server with the new one-time export settings
+	    dt.ajax.reload();
+	};
+
+
+	$(document).ready( function () {
+		$.noConflict();
+
+		var table = $('#table_id').DataTable( {
+		    processing: true,
+		    serverSide: true,
+		    fixedHeader: true,
+		    select: true,
+		    pageLength: 100,
+		    lengthMenu: [[25, 50, 100, -1], [25, 50, 100, "All"]],
+		    ajax: {
+		        "url": "postDatatable/0",
+		        "type": "POST",
+		        "headers": {
+		        	'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+		    	},
+		    },
+		    createdRow: function( row, data, dataIndex ) {
+		    	$(row).addClass( data[5] >= data[2]  ? 'table-danger' : "" ); 
+		    },
+		    columnDefs: [ 
+		    	{
+		      		"targets": [5,6],
+		      		"createdCell": function (td, cellData, rowData, row, col) {
+	          			$(td).addClass("border border-dark");
+	          			$(td).css("background", "#c6e0f5");
+		      		}
+		      	},
+  		    	{
+  		      		"targets": [7,8,9,10],
+  		      		"createdCell": function (td, cellData, rowData, row, col) {
+  	          			$(td).addClass("border border-dark");
+  	          			$(td).css("background", "#c7eed8");
+  		      		}
+  		      	},
+
+	      	],
+		    dom: '<"justify-content-between row flex-row-reverse"Blf>rtip',
+		    buttons: [
+		        { 
+		        	extend: 'excel',
+		        	text: '<i class="fas fa-file-excel pr-2"></i>Export Page',
+		        	className: 'btn-info',
+		        	exportOptions: {
+		        		modifier: {
+		        			order : 'current',
+		        			page : 'all',
+		        			search : 'applied'
+		        		}
+		        	},
+		        	// action: newExportAction,
+		        },
+		        { 
+		        	extend: 'excel',
+		        	text: '<i class="fas fa-file-excel pr-2"></i>Export All',
+		        	className: 'btn-success ml-2',
+		        	exportOptions: {
+		        		modifier: {
+		        			order : 'current',
+		        			page : 'all',
+		        			search : 'applied'
+		        		}
+		        	},
+		        	action: newExportAction,
+		        },
+		    ],
+		} );
+
+	});	
+</script>
+@endsection
 
 

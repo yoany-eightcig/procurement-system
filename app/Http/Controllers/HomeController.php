@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-
 use App\Parts;
+
 
 class HomeController extends Controller
 {
@@ -28,6 +28,52 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
+
+    public function searchData( $report_id, Request $request) 
+    {
+        // DB table to use
+        $table = 'parts';
+
+        // Table's primary key
+        $primaryKey = 'id';
+
+        // Array of database columns which should be read and sent back to DataTables.
+        // The `db` parameter represents the column name in the database, while the `dt`
+        // parameter represents the DataTables column identifier. In this case object
+        // parameter names
+
+        $columns = array(
+            array( 'db' => 'sku', 'dt' => 0 ),
+            array( 'db' => 'name', 'dt' => 1 ),
+            array( 'db' => 'quantity', 'dt' => 2 ),
+            array( 'db' => 'unissued', 'dt' => 3),
+            array( 'db' => 'on_order', 'dt' => 4),
+            array( 'db' => 'ave', 'dt' => 5 ),
+            array( 'db' => 'max', 'dt' => 6 ),
+            array( 'db' => 'dec', 'dt' => 7),
+            array( 'db' => 'jan', 'dt' => 8),
+            array( 'db' => 'feb', 'dt' => 9),
+            array( 'db' => 'mar', 'dt' => 10),
+            array( 'db' => 'apr', 'dt' => 11),
+            array( 'db' => 'may', 'dt' => 12),
+            array( 'db' => 'jun', 'dt' => 13),
+            array( 'db' => 'jul', 'dt' => 14),
+            array( 'db' => 'aug', 'dt' => 15),
+            array( 'db' => 'sept', 'dt' => 16),
+            array( 'db' => 'oct', 'dt' => 17),
+            array( 'db' => 'nov', 'dt' => 18),
+        );
+
+        // SQL server connection information
+        $sql_details = array(
+            'user' => env('DB_USERNAME', 'forge'),
+            'pass' => env('DB_PASSWORD', ''),
+            'db'   => env('DB_DATABASE', 'forge'),
+            'host' => env('DB_HOST', '127.0.0.1')
+        );
+
+        return response()->json(SSP::simple($_POST, $sql_details, $table, $primaryKey, $columns, $report_id));
+    }
 
     public function search(Request $request)
     {

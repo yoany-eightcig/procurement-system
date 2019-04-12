@@ -23,7 +23,7 @@
             
             <div class="tab-content" id="v-pills-tabContent">
                 <div class="tab-pane fade show active" id="v-pills-statistics" role="tabpanel" aria-labelledby="v-pills-statistics-tab">
-                    <div class="card-header">Parts</div>
+                    <div class="card-header mb-2">Parts</div>
                     @include('sessions.stats', ['parts' => $parts])
                 </div>
             </div>
