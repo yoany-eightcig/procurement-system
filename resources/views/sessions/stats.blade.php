@@ -124,7 +124,7 @@
 		    	},
 		    },
 		    createdRow: function( row, data, dataIndex ) {
-		    	$(row).addClass( data[5] >= data[2]  ? 'table-danger' : "" ); 
+		    	$(row).addClass( parseInt(data[5]) >= parseInt(data[2])  ? 'table-danger' : "" ); 
 		    },
 		    columnDefs: [ 
 		    	{
