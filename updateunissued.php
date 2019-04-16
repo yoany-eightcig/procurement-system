@@ -181,8 +181,6 @@ $loginResponse = locateRequest('POST', '/login', null, $loginRequest);
 echo $sessionToken."\n";
 echo "Downloading: Purchase Order Summary Report\n";
 
-updateUnissued();
-/*
 $result = downloadPurchaseOrderSummary($sessionToken)."\n";
 
 if ($result) {
@@ -190,7 +188,6 @@ if ($result) {
 } else {
     echo $result;
 }
-*/
 
 echo "Done";
 
