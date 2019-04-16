@@ -613,23 +613,14 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 001679,,Humble Juice Co,,Unissued,,,,,,,,,$768.00
 1,SV53705,,VAPE THE RAINBOW  E-LIQUID 120ml 6mg,,64,,0,,ea,$6.00,,$384.00,04/08/2019
 2,LV1005661,,Humble Blue Dazzle 120ml 6MG,,64,,0,,ea,$6.00,,$384.00,04/08/2019
-001687,,Charlie's Chalk Dust,,Unissued,,,,,,,,,"$2,050.00"
-1,SV2785,,Pachamama - Fuji Apple Strawberry Nectarine 60ml - 6mg,,200,,0,,ea,$5.00,,"$1,000.00",04/09/2019
-2,SV227198,,Pachamama - Mango Pitaya Pineapple 60ml - 6mg,,25,,0,,ea,$5.00,,$125.00,04/09/2019
-3,SV227201,,Pachamama - Mint Honeydew Berry Kiwi 60ml - 6mg,,25,,0,,ea,$5.00,,$125.00,04/09/2019
-Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
-#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
-4,SV227195,,Pachamama - Peach Papaya Coconut Cream 60ml - 6mg,,25,,0,,ea,$5.00,,$125.00,04/09/2019
-5,SV227192,,Pachamama - Strawberry Guava Jackfruit 60ml - 6mg,,25,,0,,ea,$5.00,,$125.00,04/09/2019
-6,LV1002776,,Pachamama Passion Fruit Raspberry Yuzu 60ml 0MG,,10,,0,,ea,$5.00,,$50.00,04/09/2019
-7,SV227203,,Campfire - S'mores 60ml - 3mg,,50,,0,,ea,$5.00,,$250.00,04/09/2019
-8,SV54255,,Charlie's Chalk Dust King Bellman 60ml - 3mg,,50,,0,,ea,$5.00,,$250.00,04/09/2019
 001690,,Troogle,,Unissued,,,,,,,,,"$154,496.40"
 1,SV2206,,Smok TFV8 Baby X V8-T6 Coil (Pack of 3),,320,,0,,ea,$6.20,,"$1,984.00",04/10/2019
 2,SV2207,,Smok TFV8 Baby X V8-X4 Coil (Pack of 3),,320,,0,,ea,$5.12,,"$1,638.40",04/10/2019
 3,SV239319,,Smok TFV8 X-Baby Q2 Coil 0.4 ohm (Pack of 3),,160,,0,,ea,$4.30,,$688.00,04/10/2019
 4,SV239320,,Smok TFV8 X-Baby M2 Coil 0.25 ohm (Pack of 3),,320,,0,,ea,$4.30,,"$1,376.00",04/10/2019
 5,LV1005445,,VooPoo Drag Mini Mod B-Artovirens,,100,,0,,ea,$31.50,,"$3,150.00",04/10/2019
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 6,LV1005446,,VooPoo Drag Mini Mod B-Rhodonite,,100,,0,,ea,$31.50,,"$3,150.00",04/10/2019
 7,LV1005447,,VooPoo Drag Mini Mod B-Lava,,50,,0,,ea,$31.50,,"$1,575.00",04/10/2019
 8,LV1005448,,VooPoo Drag Mini Mod B-Prussian Blue,,100,,0,,ea,$31.50,,"$3,150.00",04/10/2019
@@ -650,8 +641,6 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 23,LV1004350,,VooPoo Drag 2 Kit Aurora,,350,,0,,ea,$40.50,,"$14,175.00",04/10/2019
 24,LV1004353,,VooPoo Drag 2 Kit Puzzle,,250,,0,,ea,$40.50,,"$10,125.00",04/10/2019
 25,LV1004354,,VooPoo Drag 2 Kit Dawn,,50,,0,,ea,$40.50,,"$2,025.00",04/10/2019
-Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
-#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 26,LV1004351,,VooPoo Drag 2 Kit Scarlet,,250,,0,,ea,$40.50,,"$10,125.00",04/10/2019
 27,LV1004355,,VooPoo Drag 2 Kit Ink,,200,,0,,ea,$40.50,,"$8,100.00",04/10/2019
 28,SV10936,,Voopoo Drag Mod -Silver/Purple Jade,,100,,0,,ea,$30.00,,"$3,000.00",04/10/2019
@@ -664,6 +653,8 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 35,LV1002529,,VooPoo Panda Pod Kit Black,,200,,0,,ea,$14.50,,"$2,900.00",04/10/2019
 36,LV1004875,,VooPoo UFORCE Coils U6 0.15ohm (Pack of 5),,200,,0,,ea,$8.75,,"$1,750.00",04/10/2019
 37,LV1004877,,VooPoo UFORCE Coils D4 0.4ohm (Pack of 5),,200,,0,,ea,$7.25,,"$1,450.00",04/10/2019
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 38,SV53446,,Voopoo Uforce U2 Coil .4ohm (Pack of 5),,400,,0,,ea,$6.40,,"$2,560.00",04/10/2019
 39,LV1001220,,VooPoo UFORCE N1 Coil 5 Pack,,200,,0,,ea,$7.00,,"$1,400.00",04/10/2019
 40,LV1004876,,VooPoo UFORCE Coils U8 0.15ohm (Pack of 5),,200,,0,,ea,$9.25,,"$1,850.00",04/10/2019
@@ -684,8 +675,6 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 7,LV1002557,,GeekVape Aegis Legend Kit Green Trim,,200,,0,,ea,$39.00,,"$7,800.00",04/11/2019
 8,SV53337,,GeekVape Shield IM4 - .15ohm (pack of 5),,600,,0,,ea,$6.70,,"$4,020.00",04/11/2019
 9,LV1000681,,GeekVape Super Mesh Coil 0.2ohm 5 Pack,,"2,500",,0,,ea,$6.70,,"$16,750.00",04/11/2019
-Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
-#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 10,LV1004098,,GeekVape Aegis Mini Kit Black and Green,,200,,0,,ea,$27.20,,"$5,440.00",04/11/2019
 11,LV1004099,,GeekVape Aegis Mini Kit Stealth Black,,80,,0,,ea,$27.20,,"$2,176.00",04/11/2019
 12,LV1004100,,GeekVape Aegis Mini Kit Black and Blue,,200,,0,,ea,$27.20,,"$5,440.00",04/11/2019
@@ -698,6 +687,8 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 19,LV1000676,,GeekVape Aegis Legend Mod Camo,,40,,0,,ea,$30.00,,"$1,200.00",04/11/2019
 20,LV1000677,,GeekVape Aegis Legend Mod Silver/Brown,,120,,0,,ea,$30.00,,"$3,600.00",04/11/2019
 21,LV1002590,,Aegis Legend Mod Red Trim,,200,,0,,ea,$30.00,,"$6,000.00",04/11/2019
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 22,LV1002591,,Aegis Legend Mod Azure Trim,,120,,0,,ea,$30.00,,"$3,600.00",04/11/2019
 23,LV1002592,,Aegis Legend Mod Rainbow Trim,,160,,0,,ea,$30.00,,"$4,800.00",04/11/2019
 24,LV1002593,,Aegis Legend Mod Navy Blue Trim,,120,,0,,ea,$30.00,,"$3,600.00",04/11/2019
@@ -715,24 +706,7 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 3,SV54401,,BLVK Unicorn FRZNApple 60ml -6mg,,50,,0,,ea,$5.25,,$262.50,04/11/2019
 4,SV53168,,Blvk FRZN Chee - 60ml -0mg,,25,,0,,ea,$5.25,,$131.25,04/11/2019
 5,LV1003537,,BLVK Unicorn Creamy Strawberry (CRMY) 100ml 6MG,,50,,0,,ea,$7.75,,$387.50,04/11/2019
-001701,,FreeMax,,Unissued,,,,,,,,,"$41,081.00"
-1,LV1003240,,Freemax Mesh Pro Tank Metal Gold,,200,,0,,ea,$12.50,,"$2,500.00",
-2,LV1003682,,FreeMax Mesh Pro Tank Carbon Fiber Purple,,200,,0,,ea,$13.50,,"$2,700.00",
-Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
-#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
-3,LV1003684,,FreeMax Mesh Pro Tank Carbon Fiber Red,,56,,0,,ea,$13.50,,$756.00,
-4,LV1003686,,FreeMax Mesh Pro Tank Carbon Fiber Green,,200,,0,,ea,$13.50,,"$2,700.00",
-5,LV1003685,,FreeMax Mesh Pro Tank Carbon Fiber Silver,,200,,0,,ea,$13.50,,"$2,700.00",
-6,LV1002385,,Freemax Mesh Pro Tank Orange Resin,,200,,0,,ea,$12.50,,"$2,500.00",
-7,LV1002387,,Freemax Mesh Pro Tank Pink Resin,,183,,0,,ea,$12.50,,"$2,287.50",
-8,LV1002386,,Freemax Mesh Pro Tank Yellow/Green Resin,,300,,0,,ea,$12.50,,"$3,750.00",
-9,LV1003238,,Freemax Mesh Pro Tank Metal Gunmetal,,201,,0,,ea,$12.50,,"$2,512.50",
-10,LV1003239,,Freemax Mesh Pro Tank Metal Rainbow,,200,,0,,ea,$12.50,,"$2,500.00",
-11,LV1003241,,Freemax Mesh Pro Tank Metal Stainless Steel,,100,,0,,ea,$12.00,,"$1,200.00",
-12,LV1002399,,Freemax Mesh Pro Tank Blue Resin,,401,,0,,ea,$12.50,,"$5,012.50",
-13,LV1002383,,Freemax Mesh Pro Tank Black Resin,,500,,0,,ea,$12.50,,"$6,250.00",
-14,LV1002384,,Freemax Mesh Pro Tank Purple Resin,,297,,0,,ea,$12.50,,"$3,712.50",
-001702,,Troogle,,Unissued,,,,,,,,,"$29,207.00"
+001702,,Troogle,,Unissued,,,,,,,,,"$29,832.00"
 1,LV1000277,,Smok Resa Stick Kit Rainbow,,50,,0,,ea,$20.00,,"$1,000.00",04/12/2019
 2,LV1000279,,Smok Resa Stick Kit Yellow,,25,,0,,ea,$20.00,,$500.00,04/12/2019
 3,LV1000278,,Smok Resa Stick Kit Black,,25,,0,,ea,$0.00,,$0.00,04/12/2019
@@ -741,96 +715,62 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 6,SV2327,,Efest Luc Blu4 Charger,,150,,0,,ea,$10.00,,"$1,500.00",04/12/2019
 7,SV0000288848,,Efest Luc V6 Charger,,100,,0,,ea,$17.70,,"$1,770.00",04/12/2019
 8,SV0000183805,,Efest Luc V4 Charger,,150,,0,,ea,$14.50,,"$2,175.00",04/12/2019
-9,SV0000207056,,Efest LUC V2 Charger,,150,,0,,ea,$12.50,,"$1,875.00",04/12/2019
+9,SV0000207056,,Efest LUC V2 Charger,,200,,0,,ea,$12.50,,"$2,500.00",04/12/2019
 10,SV239306,,Efest Lush Q4 Charger,,400,,0,,ea,$9.00,,"$3,600.00",04/12/2019
 11,LV1005614,,Suorin Edge Mod Black,,300,,0,,ea,$13.80,,"$4,140.00",04/12/2019
 12,SV53965,,Smok X Priv Kit-Prism Gun Metal,,100,,0,,ea,$29.95,,"$2,995.00",04/12/2019
 13,SV53966,,Smok X Priv Kit-Prism Rainbow,,100,,0,,ea,$29.95,,"$2,995.00",04/12/2019
 14,SV53967,,Smok X Priv Kit-Black Red,,50,,0,,ea,$36.00,,"$1,800.00",04/12/2019
-001703,,Aspire Vape Co.,,Unissued,,,,,,,,,"$29,297.50"
-1,LV1003708,,Aspire Radial Coil for Boost (ARC Technology 0.10/0.14ohm) (Pack of 3),,100,,0,,ea,$3.15,,$315.00,04/12/2019
-2,LV1000197,,Aspire Revvo Tank-Rainbow,,50,,0,,ea,$15.00,,$750.00,04/12/2019
-3,LV1001496,,Aspire Breeze 2 AIO Kit Red,,50,,0,,ea,$20.00,,"$1,000.00",04/12/2019
-4,LV1001497,,Aspire Breeze 2 AIO Kit Grey,,50,,0,,ea,$20.00,,"$1,000.00",04/12/2019
 Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
 #,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
-5,LV1001498,,Aspire Breeze 2 AIO Kit Blue,,50,,0,,ea,$20.00,,"$1,000.00",04/12/2019
-6,LV1002825,,Aspire Breeze 2 AIO Kit Gold,,50,,0,,ea,$24.00,,"$1,200.00",04/12/2019
-7,SV227277,,Aspire Breeze Kit - Red,,50,,0,,ea,$11.90,,$595.00,04/12/2019
-8,SV227275,,Aspire Breeze Kit - Blue,,50,,0,,ea,$11.90,,$595.00,04/12/2019
-9,SV227276,,Aspire Breeze Kit - Grey,,100,,0,,ea,$11.90,,"$1,190.00",04/12/2019
-10,SV227274,,Aspire Breeze Kit - Black,,50,,0,,ea,$11.90,,$595.00,04/12/2019
-11,SV54793,,Aspire Breeze Kit - Green,,100,,0,,ea,$11.90,,"$1,190.00",04/12/2019
-12,SV54793,,Aspire Breeze Kit - Green,,50,,0,,ea,$11.90,,$595.00,04/12/2019
-13,LV1006183,,Aspire Breeze Kit Camo,,50,,0,,ea,$13.75,,$687.50,04/12/2019
-14,SV227278,,Aspire Breeze Atomizer - 0.6ohm (Pack of 5),,500,,0,,ea,$5.05,,"$2,525.00",04/12/2019
-15,SV0000073830,,Aspire Cleito 120 Coil 0.16 (Pack of 5),,300,,0,,ea,$9.75,,"$2,925.00",04/12/2019
-16,LV1004479,,Aspire Cleito120 Pro Mesh Coil 0.15ohm (Pack of 5),,100,,0,,ea,$11.00,,"$1,100.00",04/12/2019
-17,SV0000235710,,Aspire Cleito Coils 0.27ohm (Pack of 5),,100,,0,,ea,$9.65,,$965.00,04/12/2019
-18,SV226983,,Aspire Cleito EXO Coil 0.16ohm (Pack of 5),,200,,0,,ea,$8.00,,"$1,600.00",04/12/2019
-19,LV1002945,,Aspire Cleito Pro Mesh Coils 5 Pack,,100,,0,,ea,$10.20,,"$1,020.00",04/12/2019
-20,LV1003251,,Aspire Cobble Ultra-Portable System Carbon Fiber,,100,,0,,ea,$7.75,,$775.00,04/12/2019
-21,LV1003252,,Aspire Cobble Ultra-Portable System Dark Marble,,50,,0,,ea,$7.75,,$387.50,04/12/2019
-22,LV1003253,,Aspire Cobble Ultra-Portable System Mountain Mist,,50,,0,,ea,$15.25,,$762.50,04/12/2019
-23,LV1003254,,Aspire Cobble Ultra-Portable System Wood Grain,,100,,0,,ea,$15.25,,"$1,525.00",04/12/2019
-24,LV1003256,,Aspire Cobble Pod (Pack of 3),,300,,0,,ea,$5.80,,"$1,740.00",04/12/2019
-25,LV1003895,,Aspire Nautilus Ultra-Portable System Pod,,50,,0,,ea,$2.95,,$147.50,04/12/2019
-26,SV0000216201,,Aspire Nautilus Tank Stainless Steel,,50,,0,,ea,$11.00,,$550.00,04/12/2019
-27,SV226396,,Aspire Nautilus AIO BVC Replacement Coils 0.7ohm (Pack of 5),,200,,0,,ea,$5.65,,"$1,130.00",04/12/2019
-28,LV1004270,,Aspire PockeX AIO Kit Rose Gold,,50,,0,,ea,$12.25,,$612.50,04/12/2019
-29,LV1004382,,Aspire PockeX Replacement Coils 0.6ohm (Pack of 5),,50,,0,,ea,$0.00,,$0.00,04/12/2019
-30,SV0000271204,,Aspire Atlantis Coils 0.5 (Pack of 5),,50,,0,,ea,$6.75,,$337.50,04/12/2019
-31,SV0000297297,,Aspire Atlantis Coils 1.0 (Pack of 5),,50,,0,,ea,$0.00,,$0.00,04/12/2019
-32,SV0000067732,,Aspire Cleito Coils SS316 0.4ohm (Pack of 5),,50,,0,,ea,$9.65,,$482.50,04/12/2019
-001707,,Dynasty Distribution,,Unissued,,,,,,,,,"$9,337.00"
+001703,,Aspire Vape Co.,,Unissued,,,,,,,,,"$28,497.50"
+1,LV1000197,,Aspire Revvo Tank-Rainbow,,50,,0,,ea,$15.00,,$750.00,04/12/2019
+2,LV1001496,,Aspire Breeze 2 AIO Kit Red,,50,,0,,ea,$16.25,,$812.50,04/12/2019
+3,LV1001497,,Aspire Breeze 2 AIO Kit Grey,,50,,0,,ea,$16.25,,$812.50,04/12/2019
+4,LV1001498,,Aspire Breeze 2 AIO Kit Blue,,50,,0,,ea,$16.25,,$812.50,04/12/2019
+5,LV1002825,,Aspire Breeze 2 AIO Kit Gold,,50,,0,,ea,$18.25,,$912.50,04/12/2019
+6,SV227277,,Aspire Breeze Kit - Red,,50,,0,,ea,$12.25,,$612.50,04/12/2019
+7,SV227275,,Aspire Breeze Kit - Blue,,50,,0,,ea,$12.25,,$612.50,04/12/2019
+8,SV227276,,Aspire Breeze Kit - Grey,,100,,0,,ea,$12.25,,"$1,225.00",04/12/2019
+9,SV227274,,Aspire Breeze Kit - Black,,50,,0,,ea,$12.25,,$612.50,04/12/2019
+10,SV54793,,Aspire Breeze Kit - Green,,100,,0,,ea,$12.25,,"$1,225.00",04/12/2019
+11,LV1006183,,Aspire Breeze Kit Camo,,50,,0,,ea,$13.75,,$687.50,04/12/2019
+12,SV227278,,Aspire Breeze Atomizer - 0.6ohm (Pack of 5),,500,,0,,ea,$5.05,,"$2,525.00",04/12/2019
+13,SV0000073830,,Aspire Cleito 120 Coil 0.16 (Pack of 5),,300,,0,,ea,$10.75,,"$3,225.00",04/12/2019
+14,LV1004479,,Aspire Cleito120 Pro Mesh Coil 0.15ohm (Pack of 5),,100,,0,,ea,$11.00,,"$1,100.00",04/12/2019
+15,SV0000235710,,Aspire Cleito Coils 0.27ohm (Pack of 5),,100,,0,,ea,$9.65,,$965.00,04/12/2019
+16,SV226983,,Aspire Cleito EXO Coil 0.16ohm (Pack of 5),,200,,0,,ea,$11.00,,"$2,200.00",04/12/2019
+17,LV1002945,,Aspire Cleito Pro Mesh Coils 5 Pack,,100,,0,,ea,$10.20,,"$1,020.00",04/12/2019
+18,LV1003251,,Aspire Cobble Ultra-Portable System Carbon Fiber,,100,,0,,ea,$7.75,,$775.00,04/12/2019
+19,LV1003252,,Aspire Cobble Ultra-Portable System Dark Marble,,50,,0,,ea,$7.75,,$387.50,04/12/2019
+20,LV1003253,,Aspire Cobble Ultra-Portable System Mountain Mist,,50,,0,,ea,$7.75,,$387.50,04/12/2019
+21,LV1003254,,Aspire Cobble Ultra-Portable System Wood Grain,,100,,0,,ea,$7.75,,$775.00,04/12/2019
+22,LV1003256,,Aspire Cobble Pod (Pack of 3),,300,,0,,ea,$5.80,,"$1,740.00",04/12/2019
+23,LV1003895,,Aspire Nautilus Ultra-Portable System Pod,,50,,0,,ea,$2.95,,$147.50,04/12/2019
+24,SV0000216201,,Aspire Nautilus Tank Stainless Steel,,50,,0,,ea,$14.30,,$715.00,04/12/2019
+25,SV226396,,Aspire Nautilus AIO BVC Replacement Coils 0.7ohm (Pack of 5),,200,,0,,ea,$5.65,,"$1,130.00",04/12/2019
+26,LV1004270,,Aspire PockeX AIO Kit Rose Gold,,50,,0,,ea,$12.25,,$612.50,04/12/2019
+27,LV1004382,,Aspire PockeX Replacement Coils 0.6ohm (Pack of 5),,50,,0,,ea,$7.70,,$385.00,04/12/2019
+28,SV0000271204,,Aspire Atlantis Coils 0.5 (Pack of 5),,50,,0,,ea,$8.50,,$425.00,04/12/2019
+29,SV0000297297,,Aspire Atlantis Coils 1.0 (Pack of 5),,50,,0,,ea,$8.50,,$425.00,04/12/2019
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
+30,SV0000067732,,Aspire Cleito Coils SS316 0.4ohm (Pack of 5),,50,,0,,ea,$9.65,,$482.50,04/12/2019
+001707,,Dynasty Distribution,,Unissued,,,,,,,,,"$3,487.00"
 1,LV1002970,,Drip This Sour Salts Green Apple 30ml 35MG,,50,,0,,ea,$5.50,,$275.00,04/13/2019
-Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
-#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 2,LV1002972,,Drip This Sour Salts Mango 30ml 35MG,,50,,0,,ea,$5.50,,$275.00,04/13/2019
 3,LV1002973,,Drip This Sour Salts Mango 30ml 55MG,,50,,0,,ea,$5.50,,$275.00,04/13/2019
 4,SV54734,,Drip This Sour E Liquid 100ml Blue Raspberry -3mg,,192,,0,,ea,$5.50,,"$1,056.00",04/13/2019
 5,SV54735,,Drip This Sour E Liquid 100ml Blue Raspberry -6mg,,64,,0,,ea,$5.50,,$352.00,04/13/2019
-6,LV1005854,,JBoi Coils Display Bundle,,30,,0,,ea,$195.00,,"$5,850.00",04/13/2019
-7,LV1006052,,Drip this Sour Salts Watermelon 30ml 55MG,,50,,0,,ea,$5.50,,$275.00,04/13/2019
-8,LV1002969,,Drip This Sour Salts Blue Raspberry 30ml 55MG,,50,,0,,ea,$5.50,,$275.00,04/13/2019
-9,SV54741,,Drip This Sour E Liquid 100ml Green Apple -6mg,,32,,0,,ea,$5.50,,$176.00,04/13/2019
-10,SV54744,,Drip This Sour E Liquid 100ml Strawberry -3mg,,64,,0,,ea,$5.50,,$352.00,04/13/2019
-11,SV54747,,Drip This Sour E Liquid 100ml Watermelon -3mg,,32,,0,,ea,$5.50,,$176.00,04/13/2019
-001708,,Juice Roll upz,,Unissued,,,,,,,,,"$4,392.50"
-1,SV53524,,Juice Roll Upz Carnival Berry Lemonade 100ml - 0mg,,10,,0,,ea,$6.50,,$65.00,04/15/2019
-2,SV53526,,Juice Roll Upz Carnival Berry Lemonade 100ml - 6mg,,100,,0,,ea,$6.50,,$650.00,04/15/2019
-3,LV1006094,,Juice Roll Upz Salt Watermelon Punch 30ml 50MG,,50,,0,,ea,$5.00,,$250.00,04/15/2019
-4,LV1006096,,Juice Roll Upz Salt Blue Raspberry On ICE 30ml 50MG,,50,,0,,ea,$5.00,,$250.00,04/15/2019
-5,LV1001175,,Juice Roll Upz Tropical Hi-Punch 100ml 0MG,,10,,0,,ea,$6.50,,$65.00,04/15/2019
-6,LV1004421,,Juice Roll Upz Twin Pack Strawberry 2x60ml 6MG,,100,,0,,ea,$9.00,,$900.00,04/15/2019
-7,LV1004961,,Juice Roll Upz Twin Pack Grape 2x60ml 3MG,,100,,0,,ea,$9.00,,$900.00,04/15/2019
-8,LV1000562,,Juice Roll Upz Brew Eliquid Caramel Frappe 100ml 3MG,,100,,0,,ea,$6.50,,$650.00,04/15/2019
-9,LV1000565,,Juice Roll Upz Brew Eliquid Strawberry Frappe 100ml 3MG,,25,,0,,ea,$6.50,,$162.50,04/15/2019
-10,LV1005489,,Carnival Salts Blue Cotton Candy 30ml 25MG,,100,,0,,ea,$5.00,,$500.00,04/15/2019
-001709,,Juice Supply Company,,Unissued,,,,,,,,,"$5,914.00"
-1,SV2669,,Kilo Original Series Tru Blue 60ML- 3MG,,100,,0,,ea,$4.40,,$440.00,04/15/2019
-2,LV1002096,,Kilo Moo Series Coffee Milk 100ml 6MG,,100,,0,,ea,$5.40,,$540.00,04/15/2019
-3,LV1000803,,Kilo Kiberry Yogurt - 3mg 100ml,,100,,0,,ea,$5.40,,$540.00,04/15/2019
-4,LV1000812,,Kilo Dewberry Cream - 3mg 100ml,,100,,0,,ea,$5.40,,$540.00,04/15/2019
-5,SV2516,,Kilo Moo Series Neapolitan 60ml - 6MG,,25,,0,,ea,$4.40,,$110.00,04/15/2019
-6,SV2098,,Kilo Moo Series Strawberry Milk 60ML - 0mg,,10,,0,,ea,$4.40,,$44.00,04/15/2019
-7,SV2040,,Kilo Moo Series Coffee Milk 60ML - 3mg,,100,,0,,ea,$4.40,,$440.00,04/15/2019
-Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
-#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
-8,SV2041,,Kilo Moo Series Coffee Milk 60ML - 6mg,,50,,0,,ea,$4.40,,$220.00,04/15/2019
-9,SV495,,Kilo Moo Series Vanilla Almond Milk 60ml - 6MG,,100,,0,,ea,$4.40,,$440.00,04/15/2019
-10,SV0000022711,,Kilo Black Series Apple Pie 60ml  3MG,,100,,0,,ea,$4.40,,$440.00,04/15/2019
-11,SV54877,,Bazooka (Kilo Sour Series) Blue Raspberry Sours 100ml 3MG,,200,,0,,ea,$5.40,,"$1,080.00",04/15/2019
-12,SV54878,,Bazooka (Kilo Sour Series) Blue Raspberry Sours 100ml 6MG,,100,,0,,ea,$5.40,,$540.00,04/15/2019
-13,SV54886,,Bazooka (Kilo Sour Series) Strawberry Sours 100ml 3MG,,100,,0,,ea,$5.40,,$540.00,04/15/2019
+6,LV1006052,,Drip this Sour Salts Watermelon 30ml 55MG,,50,,0,,ea,$5.50,,$275.00,04/13/2019
+7,LV1002969,,Drip This Sour Salts Blue Raspberry 30ml 55MG,,50,,0,,ea,$5.50,,$275.00,04/13/2019
+8,SV54741,,Drip This Sour E Liquid 100ml Green Apple -6mg,,32,,0,,ea,$5.50,,$176.00,04/13/2019
+9,SV54744,,Drip This Sour E Liquid 100ml Strawberry -3mg,,64,,0,,ea,$5.50,,$352.00,04/13/2019
+10,SV54747,,Drip This Sour E Liquid 100ml Watermelon -3mg,,32,,0,,ea,$5.50,,$176.00,04/13/2019
 001710,,Axiocore Corporation,,Unissued,,,,,,,Credit Card,,$900.00
 1,SV112204,,Yogi eLiquid 60mL Original - 3mg,,100,,0,,ea,$6.00,,$600.00,04/15/2019
 2,SV112205,,Yogi eLiquid 60mL Original - 6mg,,50,,0,,ea,$6.00,,$300.00,04/15/2019
-3,SV112204,,Yogi eLiquid 60mL Original - 3mg,,10,,0,,ea,$0.00,,$0.00,04/15/2019
-4,SV112213,,Yogi eLiquid 60mL Peanut Butter Banana - 3mg,,20,,0,,ea,$0.00,,$0.00,04/15/2019
-5,SV112214,,Yogi eLiquid 60mL Peanut Butter Banana - 6mg,,10,,0,,ea,$0.00,,$0.00,04/15/2019
-6,SV112210,,Yogi eLiquid 60mL Blueberry - 3mg,,10,,0,,ea,$0.00,,$0.00,04/15/2019
-7,LV1004244,,Yogi Java Granola Bar 60ml 3MG,,16,,0,,ea,$0.00,,$0.00,04/15/2019
+3,SV112213,,Yogi eLiquid 60mL Peanut Butter Banana - 3mg,,7,,0,,ea,$0.00,,$0.00,04/15/2019
 001711,,Space Jam,,Unissued,,,,,,,,,$675.00
 1,SV54467,,Space Jam Eclipse 60mL- 3mg,,50,,0,,ea,$5.00,,$250.00,04/15/2019
 2,SV54468,,Space Jam Eclipse 60mL- 6mg,,25,,0,,ea,$5.00,,$125.00,04/15/2019
@@ -846,9 +786,9 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 7,LV1001153,,Naked 100 Salt Very Cool 30ml Eliquid 35MG,,128,,0,,ea,$6.25,,$800.00,04/15/2019
 8,LV1001154,,Naked 100 Salt Very Cool 30ml Eliquid 50MG,,64,,0,,ea,$6.25,,$400.00,04/15/2019
 9,LV1001156,,Naked 100 Salt Amazing Mango 30ml Eliquid 50MG,,40,,0,,ea,$6.25,,$250.00,04/15/2019
-10,LV1005473,,Naked 100 Salt Arctic Air 30ml 35MG,,64,,0,,ea,$6.25,,$400.00,04/15/2019
 Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
 #,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
+10,LV1005473,,Naked 100 Salt Arctic Air 30ml 35MG,,64,,0,,ea,$6.25,,$400.00,04/15/2019
 11,LV1005474,,Naked 100 Salt Arctic Air 30ml 50MG,,64,,0,,ea,$6.25,,$400.00,04/15/2019
 12,LV1005476,,Naked 100 Salt Maui Sun 30ml 50MG,,64,,0,,ea,$6.25,,$400.00,04/15/2019
 13,SV53131,,Naked Salt American Cowboy (American Patriots) 30ml 35mg,,50,,0,,ea,$6.25,,$312.50,04/15/2019
@@ -859,11 +799,243 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 18,LV1004177,,Vapetasia Salts Killer Kustard 30ml 25MG,,40,,0,,ea,$5.75,,$230.00,04/15/2019
 19,LV1004178,,Vapetasia Salts Killer Kustard 30ml 50MG,,100,,0,,ea,$5.75,,$575.00,04/15/2019
 20,LV1004179,,Vapetasia Salts Pineapple Express 30ml 25MG,,50,,0,,ea,$5.75,,$287.50,04/15/2019
-001713,,Tasty Flavors,,Unissued,,,,,,,,,$400.00
-1,SV0000031934,,Granny's Pie - Peach Cobbler 120 ML 6mg,,25,,0,,ea,$6.00,,$150.00,04/15/2019
-2,LV1001619,,Mr. Freeze Iced Gummy Bear 120ml 3MG,,50,,0,,ea,$5.00,,$250.00,04/15/2019
-001714,,BLVK,,Unissued,,,,,,,,,$250.00
-1,SV54394,,BLVK Unicorn FRZNMango 60ml -3mg,,50,,0,,ea,$5.00,,$250.00,04/15/2019
+001713,,Tasty Flavors,,Unissued,,,,,,,,,$250.00
+1,LV1001619,,Mr. Freeze Iced Gummy Bear 120ml 3MG,,50,,0,,ea,$5.00,,$250.00,04/15/2019
+001714,,BLVK,,Unissued,,,,,,,,,"$6,540.00"
+1,SV54394,,BLVK Unicorn FRZNMango 60ml -3mg,,100,,0,,ea,$5.00,,$500.00,04/15/2019
+2,SV54397,,BLVK Unicorn FRZNBerry 60ml -3mg,,200,,0,,ea,$5.00,,"$1,000.00",04/15/2019
+3,SV54398,,BLVK Unicorn FRZNBerry 60ml -6mg,,100,,0,,ea,$5.00,,$500.00,04/15/2019
+4,SV54401,,BLVK Unicorn FRZNApple 60ml -6mg,,20,,0,,ea,$5.00,,$100.00,04/15/2019
+5,SV53168,,Blvk FRZN Chee - 60ml -0mg,,20,,0,,ea,$5.00,,$100.00,04/15/2019
+6,SV53169,,Blvk FRZN Chee - 60ml -3mg,,300,,0,,ea,$5.00,,"$1,500.00",04/15/2019
+7,LV1003537,,BLVK Unicorn Creamy Strawberry (CRMY) 100ml 6MG,,20,,0,,ea,$7.00,,$140.00,04/15/2019
+8,SV53167,,Blvk PRPL Grape - 100ml - 6mg,,50,,0,,ea,$7.00,,$350.00,04/15/2019
+9,SV2174,,Blvk Unicorn Apple 60ml - 3mg,,100,,0,,ea,$5.00,,$500.00,04/15/2019
+10,SV53173,,Blvk UNI Loop - 60ml - 3mg,,100,,0,,ea,$5.00,,$500.00,04/15/2019
+11,SV53172,,Blvk UNI Loop - 60ml - 6mg,,50,,0,,ea,$5.00,,$250.00,04/15/2019
+12,SV54389,,BLVK Unicorn 30mL Lychee Salt -50mg,,50,,0,,ea,$5.00,,$250.00,04/15/2019
+13,SV54391,,BLVK Unicorn 30mL Strawberry Salt -50mg,,50,,0,,ea,$5.00,,$250.00,04/15/2019
+14,SV53166,,Blvk PRPL Grape - 100ml - 3mg,,50,,0,,ea,$7.00,,$350.00,04/15/2019
+15,SV53170,,Blvk FRZN Chee - 60ml - 6mg,,50,,0,,ea,$5.00,,$250.00,04/15/2019
+001715,,"IBTS 1, LLC",,Unissued,,,,,,,,,"$30,532.50"
+1,LV1001715,,FRYD Banana 120ml 3MG,,100,,0,,ea,$10.00,,"$1,000.00",04/15/2019
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
+2,LV1001716,,FRYD Banana 120ml 6MG,,50,,0,,ea,$10.00,,$500.00,04/15/2019
+3,SV54798,,Drip Fried Ice Cream 120ML- 6mg,,100,,0,,ea,$10.00,,"$1,000.00",04/15/2019
+4,SV54801,,Drip Fried Cream Cake 120ML- 6mg,,50,,0,,ea,$10.00,,$500.00,04/15/2019
+5,LV1000747,,Fryd Banana Left Cheek 120ml 3MG,,100,,0,,ea,$9.50,,$950.00,04/15/2019
+6,LV1000748,,Fryd Banana Left Cheek 120ml 6MG,,50,,0,,ea,$9.50,,$475.00,04/15/2019
+7,LV1000751,,Fryd Banana Right Cheek 120ml 6MG,,100,,0,,ea,$9.50,,$950.00,04/15/2019
+8,LV1001149,,Fruit Twist Tropical Pucker Punch 120ml Eliquid 3MG,,600,,0,,ea,$9.50,,"$5,700.00",04/15/2019
+9,SV54274,,Melon Twist Honeydew Melon Chew 120ml - 0mg,,50,,0,,ea,$9.50,,$475.00,04/15/2019
+10,LV1001760,,Melon Twist Watermelon Madness 120ml 0MG,,50,,0,,ea,$9.50,,$475.00,04/15/2019
+11,LV1001762,,Melon Twist Watermelon Madness 120ml 6MG,,300,,0,,ea,$9.50,,"$2,850.00",04/15/2019
+12,LV1003492,,Melon Twist Chilled Melon Remix 120ml 6MG,,50,,0,,ea,$9.50,,$475.00,04/15/2019
+13,LV1003657,,Lemon Twist Salts Pink Punch Lemonade 60ml 35MG,,200,,0,,ea,$9.50,,"$1,900.00",04/15/2019
+14,LV1003659,,Lemon Twist Salts Iced Pink Punch 60ml 35MG,,100,,0,,ea,$9.50,,$950.00,04/15/2019
+15,LV1003662,,Melon Twist Salts Watermelon Madness 60ml 50MG,,200,,0,,ea,$9.50,,"$1,900.00",04/15/2019
+16,LV1005125,,Mango Twist Salts Mango Cream Dream 2x30ml 35MG,,50,,0,,ea,$9.50,,$475.00,04/15/2019
+17,LV1005126,,Mango Twist Salts Mango Cream Dream 2x30ml 50MG,,100,,0,,ea,$9.50,,$950.00,04/15/2019
+18,LV1005254,,TWST Salt Iced Pucker Punch 2x30ml 35MG,,100,,0,,ea,$9.50,,$950.00,04/15/2019
+19,SV179685,,Lemon Twist Peach Blossom Lemonade 120mL - 0mg,,10,,0,,ea,$9.50,,$95.00,04/15/2019
+20,SV227523,,Lemon Twist Pink Punch Lemonade120mL - 6mg,,600,,0,,ea,$9.50,,"$5,700.00",04/15/2019
+21,LV1003487,,Lemon Twist Iced Pink Punch 120ml 0MG,,25,,0,,ea,$9.50,,$237.50,04/15/2019
+22,SV54809,,Grizzly Eliquid Bear Graham 120ml - 3mg,,100,,0,,ea,$9.50,,$950.00,04/15/2019
+23,LV1002799,,Pop Clouds Salt Blue Razz 30ml 50MG,,50,,0,,ea,$6.00,,$300.00,04/15/2019
+24,LV1002805,,Pop Clouds Salt Watermelon 30ml 35MG,,25,,0,,ea,$6.00,,$150.00,04/15/2019
+25,LV1002806,,Pop Clouds Salt Watermelon 30ml 50MG,,25,,0,,ea,$6.00,,$150.00,04/15/2019
+26,SV55200,,Pop Clouds E Liquid Watermelon Candy 120ml 3MG,,50,,0,,ea,$9.50,,$475.00,04/15/2019
+001719,,Virtue Vape,,Unissued,,,,,,,,,"$1,375.00"
+1,SV55137,,Vape Breakfast Pancake Man Tooty Frooty 120ml 3MG,,45,,0,,ea,$5.50,,$247.50,04/15/2019
+2,SV55147,,Vape Breakfast Deluxe Pancake Man 120ml 6MG,,45,,0,,ea,$5.50,,$247.50,04/15/2019
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
+3,SV55149,,Vape Breakfast Deluxe French Dude 120ml 3MG,,90,,0,,ea,$5.50,,$495.00,04/15/2019
+4,SV55150,,Vape Breakfast Deluxe French Dude 120ml 6MG,,45,,0,,ea,$5.50,,$247.50,04/15/2019
+5,SV0000031934,,Granny's Pie - Peach Cobbler 120 ML 6mg,,25,,0,,ea,$5.50,,$137.50,04/15/2019
+001720,,Maduro Distrubutors INC,,Unissued,,,,,,,,,"$3,300.00"
+1,LV1006371,,Loon Pods Pineapple Express (Pack of 5),,50,,0,,ea,$6.00,,$300.00,04/03/2019
+2,LV1006377,,Loon Pods Grape (Pack of 5),,50,,0,,ea,$6.00,,$300.00,04/03/2019
+3,LV1006379,,Loon Pods Blueberry (Pack of 5),,50,,0,,ea,$6.00,,$300.00,04/03/2019
+4,LV1006381,,Loon Pods Blueberry ICE (Pack of 5),,50,,0,,ea,$6.00,,$300.00,04/03/2019
+5,LV1006382,,Loon Pods Mad Mocha (Pack of 5),,50,,0,,ea,$6.00,,$300.00,04/03/2019
+6,LV1006383,,Loon Pods Strawberry Banana (Pack of 5),,50,,0,,ea,$6.00,,$300.00,04/03/2019
+7,LV1006384,,Loon Pods Pineapple ICE (Pack of 5),,50,,0,,ea,$6.00,,$300.00,04/03/2019
+8,LV1006386,,Loon Pods Mint Crush (Pack of 5),,50,,0,,ea,$6.00,,$300.00,04/03/2019
+9,LV1006389,,Loon Pods Mango (Pack of 5),,50,,0,,ea,$6.00,,$300.00,04/03/2019
+10,LV1006390,,Loon Pods Lemon ICE (Pack of 5),,50,,0,,ea,$6.00,,$300.00,04/03/2019
+11,LV1006581,,Loon Pods Tropical POG (Pack of 5),,50,,0,,ea,$6.00,,$300.00,04/03/2019
+001723,,FreeMax,,Unissued,,,,,,,,,"$104,172.50"
+1,SV227288,,FreeMax FireLuke PEI Replacement Glass - 4mL,,25,,0,,ea,$0.70,,$17.50,04/16/2019
+2,SV53396,,Freemax X1 FireLuke Mesh Tank Coil - .15ohm (Pack of 5),,"2,000",,0,,ea,$6.30,,"$12,600.00",04/16/2019
+3,SV53391,,Freemax FireLuke Mesh tank - Metal SS,,100,,0,,ea,$11.00,,"$1,100.00",04/16/2019
+4,SV53393,,Freemax FireLuke Mesh tank - Metal Black,,100,,0,,ea,$11.50,,"$1,150.00",04/16/2019
+5,SV53390,,Freemax FireLuke Mesh tank - Metal Gun Color,,100,,0,,ea,$11.50,,"$1,150.00",04/16/2019
+6,SV53394,,Freemax FireLuke Mesh tank - Metal Blue,,100,,0,,ea,$11.50,,"$1,150.00",04/16/2019
+7,SV53389,,Freemax Mesh FireLuke tank - Metal Rainbow,,100,,0,,ea,$11.50,,"$1,150.00",04/16/2019
+8,SV53392,,Freemax FireLuke Mesh tank - Metal Gold,,100,,0,,ea,$11.50,,"$1,150.00",04/16/2019
+9,SV53465,,FreeMax FireLuke Mesh Tank - Black Carbon Fiber,,100,,0,,ea,$13.00,,"$1,300.00",04/16/2019
+10,SV53913,,FreeMax FireLuke Mesh Tank - Red Carbon Fiber,,100,,0,,ea,$13.00,,"$1,300.00",04/16/2019
+11,SV53461,,FreeMax FireLuke Mesh Tank - Black Resin,,100,,0,,ea,$12.00,,"$1,200.00",04/16/2019
+12,SV53458,,FreeMax Fireluke Mesh Tank - Blue Resin,,100,,0,,ea,$12.00,,"$1,200.00",04/16/2019
+13,SV53462,,FreeMax FireLuke Mesh Tank - Red Resin,,100,,0,,ea,$12.00,,"$1,200.00",04/16/2019
+14,SV53464,,FreeMax FireLuke Mesh Tank - Purple Resin,,100,,0,,ea,$16.70,,"$1,670.00",04/16/2019
+15,LV1004850,,FreeMax Fireluke Mesh Tank Pink Resin,,100,,0,,ea,$12.00,,"$1,200.00",04/16/2019
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
+16,SV53474,,FreeMax FireLuke Pro Tank Carbon Fibre Silver,,50,,0,,ea,$13.00,,$650.00,04/16/2019
+17,SV0031276,,FreeMax FireLuke Kanthal DVC Coil - 0.15ohm (Pack of 3),,200,,0,,ea,$3.90,,$780.00,04/16/2019
+18,SV0031275,,FreeMax FireLuke Kanthal DVC Coil - 0.25ohm (Pack of 3),,200,,0,,ea,$3.90,,$780.00,04/16/2019
+19,SV227287,,FreeMax FireLuke Sextuple Coil - 0.15ohm (Pack of 3),,500,,0,,ea,$5.10,,"$2,550.00",04/16/2019
+20,SV417510,,FreeMax Fireluke Duodenary Coil - .15ohm (Pack of 3),,500,,0,,ea,$6.90,,"$3,450.00",04/16/2019
+21,LV1002398,,FreeMax Mesh Pro Kanthal Triple Mesh Coil 3 Pack,,"3,000",,0,,ea,$6.00,,"$18,000.00",04/16/2019
+22,LV1002383,,Freemax Mesh Pro Tank Black Resin,,500,,0,,ea,$12.50,,"$6,250.00",04/16/2019
+23,LV1002384,,Freemax Mesh Pro Tank Purple Resin,,300,,0,,ea,$12.50,,"$3,750.00",04/16/2019
+24,LV1002385,,Freemax Mesh Pro Tank Orange Resin,,200,,0,,ea,$12.50,,"$2,500.00",04/16/2019
+25,LV1002386,,Freemax Mesh Pro Tank Yellow/Green Resin,,200,,0,,ea,$12.50,,"$2,500.00",04/16/2019
+26,LV1002387,,Freemax Mesh Pro Tank Pink Resin,,200,,0,,ea,$12.50,,"$2,500.00",04/16/2019
+27,LV1002399,,Freemax Mesh Pro Tank Blue Resin,,200,,0,,ea,$12.50,,"$2,500.00",04/16/2019
+28,LV1003237,,Freemax Mesh Pro Tank Metal Black,,200,,0,,ea,$12.50,,"$2,500.00",04/16/2019
+29,LV1003238,,Freemax Mesh Pro Tank Metal Gunmetal,,200,,0,,ea,$12.50,,"$2,500.00",04/16/2019
+30,LV1003239,,Freemax Mesh Pro Tank Metal Rainbow,,200,,0,,ea,$12.50,,"$2,500.00",04/16/2019
+31,LV1003240,,Freemax Mesh Pro Tank Metal Gold,,200,,0,,ea,$12.50,,"$2,500.00",04/16/2019
+32,LV1003241,,Freemax Mesh Pro Tank Metal Stainless Steel,,100,,0,,ea,$12.00,,"$1,200.00",04/16/2019
+33,LV1003682,,FreeMax Mesh Pro Tank Carbon Fiber Purple,,200,,0,,ea,$13.50,,"$2,700.00",04/16/2019
+34,LV1003683,,FreeMax Mesh Pro Tank Carbon Fiber Black,,300,,0,,ea,$13.50,,"$4,050.00",04/16/2019
+35,LV1003684,,FreeMax Mesh Pro Tank Carbon Fiber Red,,50,,0,,ea,$13.50,,$675.00,04/16/2019
+36,LV1003685,,FreeMax Mesh Pro Tank Carbon Fiber Silver,,200,,0,,ea,$13.50,,"$2,700.00",04/16/2019
+37,LV1003686,,FreeMax Mesh Pro Tank Carbon Fiber Green,,100,,0,,ea,$13.50,,"$1,350.00",04/16/2019
+38,LV1005330,,FreeMax Twister Kit Blue,,300,,0,,ea,$22.50,,"$6,750.00",04/16/2019
+001726,,Okami Brand,,Unissued,,,,,,,,,$125.00
+1,LV1001377,,OKami Lychee Lauren 100ML Ejuice 6MG,,17,,0,,ea,$5.00,,$85.00,
+2,LV1002382,,Rockt Punch Melon Milk Crusher 30ml 3MG,,20,,0,,ea,$2.00,,$40.00,
+001727,,Ruthless Vapors,,Unissued,,,,,,,,,"$1,265.50"
+1,LV1000385,,Ruthless Grape Drank On Ice 60ml - 6mg,,5,,0,,ea,$5.50,,$27.50,
+2,LV1000371,,Ruthless EZ Duz It 120ML - 0mg,,5,,0,,ea,$7.50,,$37.50,
+3,LV1000377,,Ruthless Grape Drank 120ml - 0mg,,5,,0,,ea,$7.50,,$37.50,
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
+4,LV1000381,,Ruthless Grape Drank On Ice 120ml - 3mg,,15,,0,,ea,$7.50,,$112.50,
+5,LV1000401,,Ruthless Slurricane 60ML- 6mg,,5,,0,,ea,$6.00,,$30.00,
+6,LV1000406,,Ruthless Strizzy 60ml -3mg,,10,,0,,ea,$6.00,,$60.00,
+7,LV1000407,,Ruthless Strizzy 60ml -6mg,,5,,0,,ea,$6.00,,$30.00,
+8,LV1000409,,Ruthless Swamp Thang 120ML -3mg,,15,,0,,ea,$7.50,,$112.50,
+9,LV1000412,,Ruthless Swamp Thang 60ML -3mg,,15,,0,,ea,$5.50,,$82.50,
+10,LV1000413,,Ruthless Swamp Thang 60ML -6mg,,10,,0,,ea,$5.50,,$55.00,
+11,LV1000414,,Ruthless Tropic Thunda 120ml -0mg,,5,,0,,ea,$8.50,,$42.50,
+12,LV1000415,,Ruthless Tropic Thunda 120ml -3mg,,10,,0,,ea,$7.50,,$75.00,
+13,LV1000416,,Ruthless Tropic Thunda 120ml -6mg,,10,,0,,ea,$7.50,,$75.00,
+14,LV1000418,,Ruthless Tropic Thunda 60ml -3mg,,15,,0,,ea,$5.50,,$82.50,
+15,LV1000419,,Ruthless Tropic Thunda 60ml -6mg,,10,,0,,ea,$5.50,,$55.00,
+16,LV1000378,,Ruthless Grape Drank 120ml - 3mg,,20,,0,,ea,$8.00,,$160.00,
+17,LV1000393,,Ruthless Grape Drank On Ice Salt 30ml - 50mg,,3,,0,,ea,$4.50,,$13.50,
+18,LV1000395,,Ruthless Swamp Thang Salt 30ml - 50mg,,16,,0,,ea,$4.50,,$72.00,
+19,LV1000379,,Ruthless Grape Drank 120ml - 6mg,,10,,0,,ea,$8.00,,$80.00,
+20,LV1000392,,Ruthless Grape Drank On Ice Salt 30ml - 35mg,,5,,0,,ea,$5.00,,$25.00,
+001728,,"Ecigrus, LLC",,Unissued,,,,,,,,,$491.25
+1,LV1000551,,Bazooka (Kilo Sour Series) Strawberry Sours ICE 100ml 3MG,,50,,0,,ea,$5.40,,$270.00,
+2,LV1000552,,Bazooka (Kilo Sour Series) Strawberry Sours ICE 100ml 6MG,,25,,0,,ea,$5.40,,$135.00,
+3,LV1000553,,Bazooka (Kilo Sour Series) Blue Raspberry Sours ICE 100ml 0MG,,15,,0,,ea,$5.75,,$86.25,
+001730,,New Imports LLC,,Unissued,,,,,,,,,"$1,080.00"
+1,LV1001400,,NKTR Sour Strawberry 60ml 0MG,,5,,0,,ea,$8.00,,$40.00,
+2,LV1001392,,NKTR Shake Mango 60ml 3MG,,20,,0,,ea,$8.00,,$160.00,
+3,LV1001395,,NKTR Shake Strawberry 60ml 3MG,,20,,0,,ea,$8.00,,$160.00,
+4,LV1001398,,NKTR Shake Mint 60ml 3MG,,20,,0,,ea,$8.00,,$160.00,
+5,LV1001404,,NKTR Sour Watermelon 60ml 3MG,,1,,0,,ea,$0.00,,$0.00,
+6,LV1001393,,NKTR Shake Mango 60ml 6MG,,10,,0,,ea,$8.00,,$80.00,
+7,LV1001396,,NKTR Shake Strawberry 60ml 6MG,,10,,0,,ea,$8.00,,$80.00,
+8,LV1001399,,NKTR Shake Mint 60ml 6MG,,10,,0,,ea,$8.00,,$80.00,
+9,LV1001402,,NKTR Sour Strawberry 60ml 6MG,,10,,0,,ea,$8.00,,$80.00,
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
+10,LV1001405,,NKTR Sour Watermelon 60ml 6MG,,10,,0,,ea,$8.00,,$80.00,
+11,LV1001391,,NKTR Shake Mango 60ml 0MG,,5,,0,,ea,$8.00,,$40.00,
+12,LV1001394,,NKTR Shake Strawberry 60ml 0MG,,5,,0,,ea,$8.00,,$40.00,
+13,LV1001397,,NKTR Shake Mint 60ml 0MG,,5,,0,,ea,$8.00,,$40.00,
+14,LV1001403,,NKTR Sour Watermelon 60ml 0MG,,5,,0,,ea,$8.00,,$40.00,
+001731,,Online Vape Shop(formerly Vape Society),,Unissued,,,,,,,,,$111.00
+1,LV1001442,,CLOUD NURDZ STRAWBERRY LEMON 100ML  0MG,,2,,0,,ea,$5.50,,$11.00,
+2,LV1001493,,GOST TABACCO 30ML,,20,,0,,ea,$5.00,,$100.00,
+001732,,Tasty Flavors,,Unissued,,,,,,,,,$30.00
+1,LV1001516,,Granny's Pie - Lemon Tart 120 ML 0mg,,5,,0,,ea,$6.00,,$30.00,
+001733,,"IBTS 1, LLC",,Unissued,,,,,,,,,$693.00
+1,LV1000747,,Fryd Banana Left Cheek 120ml 3MG,,25,,0,,ea,$9.50,,$237.50,
+2,LV1000748,,Fryd Banana Left Cheek 120ml 6MG,,5,,0,,ea,$9.50,,$47.50,
+3,LV1000751,,Fryd Banana Right Cheek 120ml 6MG,,24,,0,,ea,$9.50,,$228.00,
+4,LV1000017,,Strawberry Queen E Liquid 60ml The Queen - 0mg,,10,,0,,ea,$6.00,,$60.00,
+5,LV1000019,,Strawberry Queen E Liquid 60ml The Queen - 6mg,,10,,0,,ea,$6.00,,$60.00,
+6,LV1000018,,Strawberry Queen E Liquid 60ml The Queen - 3mg,,10,,0,,ea,$6.00,,$60.00,
+001734,,Silver State Trading LLC_v,,Unissued,,,,,,,,,$48.00
+1,LV1001184,,Naked 100 Hawaiian Pog ICE 60ML 12mg,,12,,0,,ea,$4.00,,$48.00,
+001735,,Marina Vape,,Unissued,,,,,,,,,$48.00
+1,LV1000118,,Aqua Pure Salt 30ml - 35mg,,8,,0,,ea,$6.00,,$48.00,
+001737,,SQN,,Unissued,,,,,,,,,$62.50
+1,LV1000938,,NKTR Mango 60ml 0MG,,10,,0,,ea,$6.25,,$62.50,04/16/2019
+001738,,LA Vapor_v,,Unissued,,,,,,,,,"$2,437.50"
+1,LV1005005,,Zeltu X Pod Device Black,,50,,0,,ea,$19.50,,$975.00,04/16/2019
+2,LV1005006,,Zeltu X Pod Device Silver,,25,,0,,ea,$19.50,,$487.50,04/16/2019
+3,LV1005007,,Zeltu X Pod Device Rose Gold,,50,,0,,ea,$19.50,,$975.00,04/16/2019
+001739,,Streamline Vape,,Unissued,,,,,,,,,"$7,662.50"
+1,LV1000883,,Juice Head Strawberry Kiwi 100ml 0MG,,25,,0,,ea,$6.00,,$150.00,04/16/2019
+2,LV1000884,,Juice Head Strawberry Kiwi 100ml 3MG,,100,,0,,ea,$6.00,,$600.00,04/16/2019
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
+3,LV1000885,,Juice Head Strawberry Kiwi 100ml 6MG,,100,,0,,ea,$6.00,,$600.00,04/16/2019
+4,LV1000886,,Juice Head Peach Pear 100ml 0MG,,25,,0,,ea,$6.00,,$150.00,04/16/2019
+5,LV1000887,,Juice Head Peach Pear 100ml 3MG,,100,,0,,ea,$6.00,,$600.00,04/16/2019
+6,LV1000888,,Juice Head Peach Pear 100ml 6MG,,100,,0,,ea,$6.00,,$600.00,04/16/2019
+7,LV1000889,,Juice Head Watermelon Lime 100ml 0MG,,25,,0,,ea,$6.00,,$150.00,04/16/2019
+8,LV1000890,,Juice Head Watermelon Lime 100ml 3MG,,200,,0,,ea,$6.00,,"$1,200.00",04/16/2019
+9,LV1000891,,Juice Head Watermelon Lime 100ml 6MG,,50,,0,,ea,$6.00,,$300.00,04/16/2019
+10,LV1004526,,Juice Head Pineapple Grapefruit 100ml 6MG,,50,,0,,ea,$6.00,,$300.00,04/16/2019
+11,LV1005981,,Juice Head Blueberry Lemon 100ml 0MG,,25,,0,,ea,$6.00,,$150.00,04/16/2019
+12,LV1006056,,Juice Head Salts Pineapple Grapefruit 30ml 25MG,,50,,0,,ea,$6.00,,$300.00,04/16/2019
+13,LV1006057,,Juice Head Salts Pineapple Grapefruit 30ml 50MG,,25,,0,,ea,$6.00,,$150.00,04/16/2019
+14,LV1006058,,Juice Head Salts Peach Pear 30ml 25MG,,25,,0,,ea,$6.00,,$150.00,04/16/2019
+15,LV1006059,,Juice Head Salts Peach Pear 30ml 50MG,,25,,0,,ea,$6.00,,$150.00,04/16/2019
+16,LV1004713,,Juice Man Salt Unicorn Frappe 30ml 35MG,,50,,0,,ea,$6.00,,$300.00,04/16/2019
+17,LV1004714,,Juice Man Salt Unicorn Frappe 30ml 50MG,,25,,0,,ea,$6.00,,$150.00,04/16/2019
+18,LV1001186,,Khali Vapors Golden Gate 60ml 3MG,,25,,0,,ea,$5.00,,$125.00,04/16/2019
+19,LV1006180,,Khali Vapors Salt Golden Gate 30ml 25MG,,25,,0,,ea,$6.00,,$150.00,04/16/2019
+20,LV1006181,,Khali Vapors Salt Golden Gate 30ml 50MG,,25,,0,,ea,$6.00,,$150.00,04/16/2019
+21,LV1006177,,Khali Vapors Salt Devil's Punchbowl ICE 30ml 50MG,,25,,0,,ea,$6.00,,$150.00,04/16/2019
+22,LV1001190,,Taffy Man Gr8pe 100ml 6MG,,25,,0,,ea,$5.50,,$137.50,04/16/2019
+23,LV1001191,,Taffy Man H20Bry 100ml 0MG,,10,,0,,ea,$5.50,,$55.00,04/16/2019
+24,LV1001193,,Taffy Man H20Bry 100ml 6MG,,10,,0,,ea,$5.50,,$55.00,04/16/2019
+25,LV1001194,,Taffy Man Tr4Blu 100ml 0MG,,10,,0,,ea,$5.50,,$55.00,04/16/2019
+26,LV1001195,,Taffy Man Tr4Blu 100ml 3MG,,50,,0,,ea,$5.50,,$275.00,04/16/2019
+27,LV1001350,,Zonk Cotton Candy 100ml 6MG,,50,,0,,ea,$6.00,,$300.00,04/16/2019
+28,LV1001353,,Zonk Orange Mango 100ml 6MG,,10,,0,,ea,$6.00,,$60.00,04/16/2019
+29,LV1001359,,Zonk Watermelon Strawberry 100ml 6MG,,25,,0,,ea,$6.00,,$150.00,04/16/2019
+001741,,Innevape,,Unissued,,,,,,,,,"$6,550.00"
+1,SV54585,,Innevape Vape My Day 75ML-3mg,,50,,0,,ea,$6.00,,$300.00,04/16/2019
+2,SV54586,,Innevape Vape My Day 75ML-6mg,,10,,0,,ea,$6.00,,$60.00,04/16/2019
+3,SV226440,,Innevape Heisenberg 75ML - 0MG,,15,,0,,ea,$6.00,,$90.00,04/16/2019
+4,SV226441,,Innevape Heisenberg 75ML - 3MG,,250,,0,,ea,$6.00,,"$1,500.00",04/16/2019
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
+5,SV226442,,Innevape Heisenberg 75ML - 6MG,,100,,0,,ea,$6.00,,$600.00,04/16/2019
+6,SV239358,,Innevape Heisenberg 75ML - 12MG,,50,,0,,ea,$6.00,,$300.00,04/16/2019
+7,SV226438,,Innevape Heisenberg Menthol 75ML 3MG,,300,,0,,ea,$6.00,,"$1,800.00",04/16/2019
+8,SV226439,,Innevape Heisenberg Menthol 75ML 6MG,,150,,0,,ea,$6.00,,$900.00,04/16/2019
+9,LV1004090,,Innevape Salts The Berg Menthol 30ml 24MG,,100,,0,,ea,$5.00,,$500.00,04/16/2019
+10,LV1004091,,Innevape Salts The Berg Menthol 30ml 50MG,,100,,0,,ea,$5.00,,$500.00,04/16/2019
+047212,,Juice Supply Company,,Unissued,,,,,,,,,"$6,016.00"
+1,SV2669,,Kilo Original Series Tru Blue 60ML- 3MG,,100,,0,,ea,$4.40,,$440.00,04/15/2019
+2,LV1002096,,Kilo Moo Series Coffee Milk 100ml 6MG,,100,,0,,ea,$5.40,,$540.00,04/15/2019
+3,LV1000803,,Kilo Kiberry Yogurt - 3mg 100ml,,100,,0,,ea,$5.40,,$540.00,04/15/2019
+4,LV1000812,,Kilo Dewberry Cream - 3mg 100ml,,100,,0,,ea,$5.40,,$540.00,04/15/2019
+5,SV2516,,Kilo Moo Series Neapolitan 60ml - 6MG,,25,,0,,ea,$4.40,,$110.00,04/15/2019
+6,SV2098,,Kilo Moo Series Strawberry Milk 60ML - 0mg,,10,,0,,ea,$4.40,,$44.00,04/15/2019
+7,SV2040,,Kilo Moo Series Coffee Milk 60ML - 3mg,,100,,0,,ea,$4.40,,$440.00,04/15/2019
+8,SV2041,,Kilo Moo Series Coffee Milk 60ML - 6mg,,50,,0,,ea,$4.40,,$220.00,04/15/2019
+9,SV495,,Kilo Moo Series Vanilla Almond Milk 60ml - 6MG,,100,,0,,ea,$4.40,,$440.00,04/15/2019
+10,SV0000022711,,Kilo Black Series Apple Pie 60ml  3MG,,100,,0,,ea,$4.40,,$440.00,04/15/2019
+11,SV54877,,Bazooka (Kilo Sour Series) Blue Raspberry Sours 100ml 3MG,,200,,0,,ea,$5.40,,"$1,080.00",04/15/2019
+12,SV54878,,Bazooka (Kilo Sour Series) Blue Raspberry Sours 100ml 6MG,,100,,0,,ea,$5.40,,$540.00,04/15/2019
+13,SV54886,,Bazooka (Kilo Sour Series) Strawberry Sours 100ml 3MG,,100,,0,,ea,$5.40,,$540.00,04/15/2019
+14,Shipping,,Shipping,,1,,0,,ea,$102.00,,$102.00,04/15/2019
 097196,,LA Vapor_v,,Unissued,,,,,,,,,"$3,450.00"
 1,LV1002490,,SMOK Vape Pen 22 Kit Light Edition Black,,80,,0,,ea,$12.50,,"$1,000.00",04/08/2019
 2,LV1002495,,SMOK Vape Pen 22 Kit Light Edition SS,,100,,0,,ea,$12.00,,"$1,200.00",04/08/2019
@@ -872,6 +1044,11 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 1,SV54134,,Mig Vapor WASP Wax Pen -Black,,30,,0,,ea,$13.95,,$418.50,04/02/2019
 2,SV54135,,Mig Vapor WASP Wax Pen -Silver,,30,,0,,ea,$13.95,,$418.50,04/02/2019
 3,Shipping,,Shipping,,1,,0,,ea,$35.06,,$35.06,04/02/2019
+189048,,COTN,,Unissued,,,,,,,,,"$2,469.94"
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
+1,LV1003371,,COTN Threads Cotton (Pack of 20 pieces),,"1,000",,0,,ea,$2.40,,"$2,400.00",04/15/2019
+2,Shipping,,Shipping,,1,,0,,ea,$69.94,,$69.94,04/15/2019
 20190402-3,,Troogle,,Unissued,,,,,,,,,"$51,152.95"
 1,LV1000676,,GeekVape Aegis Legend Mod Camo,,40,,0,,ea,$30.00,,"$1,200.00",04/02/2019
 2,LV1002592,,Aegis Legend Mod Rainbow Trim,,320,,0,,ea,$30.00,,"$9,600.00",04/02/2019
@@ -880,8 +1057,6 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 5,LV1002591,,Aegis Legend Mod Azure Trim,,40,,0,,ea,$30.00,,"$1,200.00",04/02/2019
 6,SV53336,,GeekVape Shield IM1 - .4ohm (pack of 5),,400,,0,,ea,$5.00,,"$2,000.00",04/02/2019
 7,LV1004339,,GeekVape Super Mesh X2 Coil 0.3ohm (Pack of 5),,100,,0,,ea,$6.70,,$670.00,04/02/2019
-Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
-#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 8,LV1006041,,Wotofo Profile Unity RTA Black,,405,,0,,ea,$16.75,,"$6,783.75",04/02/2019
 9,LV1005143,,Wotofo Profile RDA Frosted Black,,75,,0,,ea,$14.00,,"$1,050.00",04/02/2019
 10,LV1003587,,Wotofo Profile RDA Gold,,50,,0,,ea,$13.00,,$650.00,04/02/2019
@@ -894,36 +1069,8 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 17,LV1004137,,Smoant Naboo Kit Stainless Steel,,30,,0,,ea,$39.00,,"$1,170.00",04/02/2019
 18,LV1004337,,Smoant Naboo Single Mesh Coil 0.17ohm (Pack of 3),,100,,0,,ea,$3.90,,$390.00,04/02/2019
 19,Shipping,,Shipping,,1,,0,,ea,"$2,824.20",,"$2,824.20",04/02/2019
-20190410-1,,Troogle,,Unissued,,,,,,,,,"$50,686.20"
-1,LV1005602,,SMOK MICO Pod (Mesh 0.8ohm) (Pack of 3),,500,,0,,ea,$3.63,,"$1,815.00",04/11/2019
-2,LV1004041,,SMOK Species Mod Red Black,,50,,0,,ea,$22.30,,"$1,115.00",04/11/2019
-3,LV1003527,,SMOK Species Kit Gold Black,,25,,0,,ea,$31.80,,$795.00,04/11/2019
-4,SV2562,,Smok G-Priv 2 Kit - Black/Red,,50,,0,,ea,$43.24,,"$2,162.00",04/11/2019
-5,SV2565,,Smok G-Priv 2 Kit - Rainbow,,50,,0,,ea,$43.24,,"$2,162.00",04/11/2019
-6,LV1005867,,SMOK TFV8 Baby V2 Bulb Replacement Glass #7,,100,,0,,ea,$0.76,,$76.00,04/11/2019
-7,LV1006064,,SMOK RHA 85W Kit Prism Chrome and Black,,50,,0,,ea,$23.20,,"$1,160.00",04/11/2019
-8,LV1006155,,SMOK  RHA 85W Kit Black/Red,,50,,0,,ea,$23.20,,"$1,160.00",04/11/2019
-9,LV1006065,,SMOK RHA 85W Kit 7-Color and Black,,50,,0,,ea,$23.20,,"$1,160.00",04/11/2019
-10,LV1006223,,SMOK Morph 219 Kit Black Red,,240,,0,,ea,$34.65,,"$8,316.00",04/11/2019
-11,LV1006227,,SMOK Morph 219 Kit Prism Chrome and Black,,120,,0,,ea,$34.65,,"$4,158.00",04/11/2019
-12,LV1006224,,SMOK Morph 219 Kit 7-Color and Black,,120,,0,,ea,$34.65,,"$4,158.00",04/11/2019
-13,LV1006226,,SMOK Morph 219 Kit Prism Blue and Black,,120,,0,,ea,$34.65,,"$4,158.00",04/11/2019
-14,LV1006225,,SMOK Morph 219 Kit Gold Black,,80,,0,,ea,$34.65,,"$2,772.00",04/11/2019
-15,LV1006533,,SMOK TF2019 Bulb Glass Protective Silicone,,"2,000",,0,,ea,$0.55,,"$1,100.00",04/11/2019
-16,LV1002490,,SMOK Vape Pen 22 Kit Light Edition Black,,100,,0,,ea,$9.48,,$948.00,04/11/2019
-17,LV1002491,,SMOK Vape Pen 22 Kit Light Edition Blue,,50,,0,,ea,$9.48,,$474.00,04/11/2019
-18,LV1002494,,SMOK Vape Pen 22 Kit Light Edition Red,,50,,0,,ea,$9.48,,$474.00,04/11/2019
-19,LV1002495,,SMOK Vape Pen 22 Kit Light Edition SS,,100,,0,,ea,$9.02,,$902.00,04/11/2019
-Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
-#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
-20,LV1002496,,SMOK Vape Pen 22 Kit Light Edition Prism Rainbow,,100,,0,,ea,$9.48,,$948.00,04/11/2019
-21,SV226190,,Smok TFV8 Baby V8-M2 Coil 0.15 Ohm (Pack of 5),,160,,0,,ea,$6.10,,$976.00,04/11/2019
-22,SV226629,,Smok Stick V8 Kit - Gold,,100,,0,,ea,$17.02,,"$1,702.00",04/11/2019
-23,LV1005595,,SMOK MICO Kit Black,,200,,0,,ea,$10.38,,"$2,076.00",04/11/2019
-24,LV1005600,,SMOK MICO Kit Green,,50,,0,,ea,$10.38,,$519.00,04/11/2019
-25,SV53219,,TFV8 Bulb Big Baby #3 Replacement Glass (pack of 3),,200,,0,,ea,$2.28,,$456.00,04/11/2019
-26,Shipping,,Shipping,,1,,0,,ea,"$3,784.20",,"$3,784.20",04/11/2019
-27,LV1006064,,SMOK RHA 85W Kit Prism Chrome and Black,,50,,0,,ea,$23.20,,"$1,160.00",04/11/2019
+20190410-1-1,,Troogle,,Unissued,,,,,,,,,$369.60
+1,LV1003903,,SMOK TFV8 X-Baby Bulb Replacement Glass #3 (Pack of 1),,440,,0,,ea,$0.84,,$369.60,04/16/2019
 20190410-2,,Troogle,,Unissued,,,,,,,,,"$77,743.10"
 1,LV1004116,,GeekVape Aegis Mini Mod Black and Green,,40,,0,,ea,$20.00,,$800.00,04/10/2019
 2,LV1002557,,GeekVape Aegis Legend Kit Green Trim,,120,,0,,ea,$39.00,,"$4,680.00",04/10/2019
@@ -931,6 +1078,8 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 4,LV1006169,,GeekVape Aegis Legend Kit Coffee,,200,,0,,ea,$39.00,,"$7,800.00",04/10/2019
 5,LV1006171,,GeekVape Aegis Legend Kit Jeans,,240,,0,,ea,$39.00,,"$9,360.00",04/10/2019
 6,LV1002591,,Aegis Legend Mod Azure Trim,,120,,0,,ea,$30.00,,"$3,600.00",04/10/2019
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 7,LV1000677,,GeekVape Aegis Legend Mod Silver/Brown,,80,,0,,ea,$30.00,,"$2,400.00",04/10/2019
 8,LV1003190,,GeekVape Aero Mesh Tank Replacement Glass,,100,,0,,ea,$0.75,,$75.00,04/10/2019
 9,LV1005765,,GeekVape Zeus X RTA Stainless Steel,,150,,0,,ea,$12.50,,"$1,875.00",04/10/2019
@@ -946,8 +1095,6 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 19,LV1004257,,GeekVape Kanthal A1 Wire Roll 26ga 30ft,,25,,0,,ea,$0.56,,$14.00,04/10/2019
 20,LV1004259,,GeekVape Kanthal A1 Wire Roll 28ga 30ft,,25,,0,,ea,$0.53,,$13.25,04/10/2019
 21,SV55194,,Geek Vape N80 Fused Clapton wire 26ga*3+36ga 10ft,,100,,0,,ea,$2.51,,$251.00,04/10/2019
-Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
-#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 22,LV1005512,,Horizon Falcon King Tank Bright Chrome,,186,,0,,ea,$17.50,,"$3,255.00",04/10/2019
 23,LV1005513,,Horizon Falcon King Tank Carbon Black,,197,,0,,ea,$17.50,,"$3,447.50",04/10/2019
 24,LV1005514,,Horizon Falcon King Tank Rainbow,,197,,0,,ea,$17.50,,"$3,447.50",04/10/2019
@@ -960,105 +1107,13 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 31,LV1005516,,Horizon Falcon King Tank Stainless Steel,,40,,0,,ea,$17.50,,$700.00,04/10/2019
 32,Shipping,,Shipping,,1,,0,,ea,"$1,070.00",,"$1,070.00",04/10/2019
 33,Shipping,,Shipping,,1,,0,,ea,"$4,392.35",,"$4,392.35",04/10/2019
-20190410-3,,Troogle,,Unissued,,,,,,,,,"$85,544.90"
-1,LV1006481,,VooPoo Finic 20 Kit Electric Shock,,100,,0,,ea,$14.00,,"$1,400.00",04/10/2019
-2,LV1006482,,VooPoo Finic 20 Kit Toxic,,100,,0,,ea,$14.00,,"$1,400.00",04/10/2019
-3,SV53941,,Uwell Nunchaku Tank - SS,,30,,0,,ea,$12.50,,$375.00,04/10/2019
-4,SV53946,,Uwell Nunchaku Tank - Rainbow,,30,,0,,ea,$14.20,,$426.00,04/10/2019
-5,SV53947,,Uwell Nunchaku Tank - Metallic Green,,30,,0,,ea,$15.45,,$463.50,04/10/2019
-6,SV53942,,Uwell Nunchaku Tank - Full Black,,30,,0,,ea,$13.50,,$405.00,04/10/2019
-7,LV1006184,,Tesla Poker 218 Mod Black,,50,,0,,ea,$25.90,,"$1,295.00",04/10/2019
-8,LV1006185,,Tesla Poker 218 Mod Green,,50,,0,,ea,$25.90,,"$1,295.00",04/10/2019
-9,LV1006186,,Tesla Poker 218 Mod Blue,,50,,0,,ea,$25.90,,"$1,295.00",04/10/2019
-10,LV1006258,,Tesla Poker 218W Mod White,,50,,0,,ea,$25.90,,"$1,295.00",04/10/2019
-11,LV1006046,,Wotofo Profile Unity RTA Gunmetal,,560,,0,,ea,$16.75,,"$9,380.00",04/10/2019
-12,LV1006045,,Wotofo Profile Unity RTA Rainbow,,285,,0,,ea,$16.75,,"$4,773.75",04/10/2019
-13,LV1006041,,Wotofo Profile Unity RTA Black,,350,,0,,ea,$16.75,,"$5,862.50",04/10/2019
-14,LV1006043,,Wotofo Profile Unity RTA Stainless Steel,,250,,0,,ea,$16.75,,"$4,187.50",04/10/2019
-15,LV1006044,,Wotofo Profile Unity RTA Blue,,130,,0,,ea,$16.75,,"$2,177.50",04/10/2019
-16,LV1003567,,Wotofo Dual Core Fused Clapton (10 Pack) 0.3*2+0.1 /28*2+38g,,100,,0,,ea,$1.30,,$130.00,04/10/2019
-17,LV1004609,,OFRF nexMESH Rebuildable Mesh Sheet 0.13ohm (Pack of 10),,20,,0,,ea,$0.00,,$0.00,04/10/2019
-18,LV1006046,,Wotofo Profile Unity RTA Gunmetal,,1,,0,,ea,$0.00,,$0.00,04/10/2019
-Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
-#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
-19,LV1006257,,Orion Q Ultra-Portable System Mod Black/Ocean,,50,,0,,ea,$16.00,,$800.00,04/10/2019
-20,LV1006275,,Lost Vape Orion Q Ultra-Portable System Mod SS/Fantasy,,200,,0,,ea,$16.00,,"$3,200.00",04/10/2019
-21,LV1006259,,Orion Q UItra-Portable System Mod Blue/Aurora,,200,,0,,ea,$16.00,,"$3,200.00",04/10/2019
-22,LV1006260,,Orion Q UItra-Portable System Mod Rainbow/Rainbow,,250,,0,,ea,$16.00,,"$4,000.00",04/10/2019
-23,LV1005240,,Orion Q Replacement Pod 1.0Ohm (Pack of 2),,700,,0,,ea,$4.00,,"$2,800.00",04/10/2019
-24,LV1003690,,Orion Replacement Pod 0.25Ohm (Pack of 2),,200,,0,,ea,$4.00,,$800.00,04/10/2019
-25,LV1006497,,Lost Vape Orion Q Kit Black Weave,,900,,0,,ea,$18.00,,"$16,200.00",04/10/2019
-26,SV168551,,Suorin Air - Black,,700,,0,,ea,$9.80,,"$6,860.00",04/10/2019
-27,LV1006256,,Suorin Edge Mod Red,,175,,0,,ea,$13.80,,"$2,415.00",04/10/2019
-28,LV1003041,,Suorin Vagon Ultra-Portable System Kit Blue,,100,,0,,ea,$12.60,,"$1,260.00",04/10/2019
-29,Shipping,,Shipping,,1,,0,,ea,"$4,649.15",,"$4,649.15",04/10/2019
-30,LV1006499,,Lost Vape Orion Q Mod Gold/Dazzling,,200,,0,,ea,$16.00,,"$3,200.00",04/10/2019
-20190411-1,,Troogle,,Unissued,,,,,,,,,"$121,731.40"
-1,LV1006521,,Vandy Vape Jackaroo Kit G10 Red Ridge,,50,,0,,ea,$47.07,,"$2,353.50",04/11/2019
-2,LV1006522,,Vandy Vape Jackaroo Kit G10 Obsidian Black,,50,,0,,ea,$47.07,,"$2,353.50",04/11/2019
-3,LV1006523,,Vandy Vape Jackaroo Kit G10 American Eagle,,50,,0,,ea,$47.07,,"$2,353.50",04/11/2019
-4,LV1006524,,Vandy Vape Jackaroo Kit G10 Blue Python,,50,,0,,ea,$47.07,,"$2,353.50",04/11/2019
-5,LV1006525,,Vandy Vape Jackaroo Kit G10 Orange Viper,,50,,0,,ea,$47.07,,"$2,353.50",04/11/2019
-6,LV1006535,,Vandy Vape Jackaroo Kit G10 Green Anaconda,,50,,0,,ea,$47.07,,"$2,353.50",04/11/2019
-7,LV1006536,,Vandy Vape Jackaroo Kit Resin Red Pomegranate,,50,,0,,ea,$45.86,,"$2,293.00",04/11/2019
-8,LV1006526,,Vandy Vape Jackaroo Kit Resin Green Jade,,50,,0,,ea,$45.86,,"$2,293.00",04/11/2019
-9,LV1006527,,Vandy Vape Jackaroo Kit Resin Blue Porcelain,,50,,0,,ea,$45.86,,"$2,293.00",04/11/2019
-10,LV1006528,,Vandy Vape Jackaroo Kit Resin Gold Agate,,50,,0,,ea,$45.86,,"$2,293.00",04/11/2019
-11,LV1006529,,Vandy Vape 0.15ohm Mesh Coil (A1) (Pack of 4),,500,,0,,ea,$6.53,,"$3,265.00",04/11/2019
-12,LV1006530,,Vandy Vape 0.3ohm Mesh Coil (A1) (Pack of 4),,500,,0,,ea,$6.53,,"$3,265.00",04/11/2019
-13,LV1006531,,Vandy Vape Jackaroo Glass Tube 3.5mL,,300,,0,,ea,$0.82,,$246.00,04/11/2019
-14,LV1006532,,Vandy Vape Jackaroo Glass Tube 5mL,,300,,0,,ea,$1.33,,$399.00,04/11/2019
-15,LV1004603,,OFRF Gear RTA Black,,60,,0,,ea,$15.59,,$935.40,04/11/2019
-16,LV1004604,,OFRF Gear RTA Stainless Steel,,60,,0,,ea,$15.59,,$935.40,04/11/2019
-17,LV1004605,,OFRF Gear RTA Gunmetal,,60,,0,,ea,$15.59,,$935.40,04/11/2019
-18,LV1004606,,OFRF Gear RTA Blue,,30,,0,,ea,$15.59,,$467.70,04/11/2019
-Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
-#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
-19,LV1004607,,OFRF Gear RTA Gold,,30,,0,,ea,$15.59,,$467.70,04/11/2019
-20,LV1004609,,OFRF nexMESH Rebuildable Mesh Sheet 0.13ohm (Pack of 10),,600,,0,,ea,$2.49,,"$1,494.00",04/11/2019
-21,LV1004120,,GeekVape Aegis Mini Mod Black and Red,,200,,0,,ea,$20.00,,"$4,000.00",04/11/2019
-22,LV1002555,,GeekVape Aegis Legend Kit Azure Trim,,100,,0,,ea,$39.00,,"$3,900.00",04/11/2019
-23,LV1000672,,GeekVape Aegis Legend Kit Silver/Brown,,80,,0,,ea,$39.00,,"$3,120.00",04/11/2019
-24,LV1004336,,GeekVape Meshmellow Coil (MMX2) (Pack of 3),,500,,0,,ea,$4.00,,"$2,000.00",04/11/2019
-25,LV1006363,,Vapefly Brunhilde RTA Stainless Steel,,100,,0,,ea,$17.08,,"$1,708.00",04/11/2019
-26,LV1006364,,Vapefly Brunhilde RTA Black,,150,,0,,ea,$17.88,,"$2,682.00",04/11/2019
-27,LV1006366,,Vapefly Brunhilde RTA Gunmetal,,100,,0,,ea,$18.58,,"$1,858.00",04/11/2019
-28,LV1006368,,Vapefly Brunhilde RTA Frame Stainless Steel,,100,,0,,ea,$3.92,,$392.00,04/11/2019
-29,LV1006369,,Vapefly Brunhilde RTA Frame Black,,100,,0,,ea,$4.32,,$432.00,04/11/2019
-30,LV1002958,,Hellvape Drop Dead RDA Gunmetal,,50,,0,,ea,$15.50,,$775.00,04/11/2019
-31,LV1002959,,Hellvape Drop Dead RDA Piano Full Black,,50,,0,,ea,$15.80,,$790.00,04/11/2019
-32,LV1002961,,Hellvape Drop Dead RDA Rainbow,,50,,0,,ea,$15.50,,$775.00,04/11/2019
-33,LV1004966,,Hellvape Hellbeast Tank Full Black,,50,,0,,ea,$14.00,,$700.00,04/11/2019
-34,LV1004963,,Hellvape Hellbeast Tank Stainless Steel,,50,,0,,ea,$13.50,,$675.00,04/11/2019
-35,LV1004967,,Hellvape Hellbeast Tank Black,,50,,0,,ea,$14.00,,$700.00,04/11/2019
-36,LV1004531,,Lost Vape Orion Ultra-Portable System Kit Black Carbon Fiber (CARTRIDGES INCLUDED),,50,,0,,ea,$35.00,,"$1,750.00",04/11/2019
-37,LV1004532,,Lost Vape Orion Ultra-Portable System Kit Black Ocean Scallop (CARTRIDGES INCLUDED),,50,,0,,ea,$36.00,,"$1,800.00",04/11/2019
-38,LV1004533,,Lost Vape Orion Ultra-Portable System Kit Silver Carbon Fiber (CARTRIDGES INCLUDED),,50,,0,,ea,$35.00,,"$1,750.00",04/11/2019
-39,LV1004535,,Lost Vape Orion Ultra-Portable System Kit Silver Ocean Scallop (CARTRIDGES INCLUDED),,50,,0,,ea,$36.00,,"$1,800.00",04/11/2019
-40,LV1004537,,Lost Vape Orion Ultra-Portable System Kit Gold Abalone (CARTRIDGES INCLUDED),,50,,0,,ea,$36.00,,"$1,800.00",04/11/2019
-41,LV1004536,,Lost Vape Orion Ultra-Portable System Kit Gold Carbon Fiber (CARTRIDGES INCLUDED),,50,,0,,ea,$35.00,,"$1,750.00",04/11/2019
-42,LV1004534,,Lost Vape Orion Ultra-Portable System Kit Blue Carbon Fiber (CARTRIDGES INCLUDED),,50,,0,,ea,$35.00,,"$1,750.00",04/11/2019
-43,LV1003402,,Lost Vape Orion Ultra-Portable System Black Carbon Fiber (NO CARTRIDGES),,80,,0,,ea,$29.00,,"$2,320.00",04/11/2019
-44,LV1003403,,Lost Vape Orion Ultra-Portable System Black Ocean Scallop (NO CARTRIDGES),,70,,0,,ea,$30.00,,"$2,100.00",04/11/2019
-45,LV1003404,,Lost Vape Orion Ultra-Portable System Silver Carbon Fiber (NO CARTRIDGES),,80,,0,,ea,$29.00,,"$2,320.00",04/11/2019
-Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
-#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
-46,LV1003405,,Lost Vape Orion Ultra-Portable System Silver Ocean Scallop (NO CARTRIDGES),,80,,0,,ea,$30.00,,"$2,400.00",04/11/2019
-47,LV1003406,,Lost Vape Orion Ultra-Portable System Gold Abalone (Ocean Scallop) (NO CARTRIDGES),,80,,0,,ea,$30.00,,"$2,400.00",04/11/2019
-48,LV1003407,,Lost Vape Orion Ultra-Portable System Gold Carbon Fiber (NO CARTRIDGES),,80,,0,,ea,$29.00,,"$2,320.00",04/11/2019
-49,LV1003408,,Lost Vape Orion Ultra-Portable System Blue Carbon Fiber (NO CARTRIDGES),,80,,0,,ea,$29.00,,"$2,320.00",04/11/2019
-50,LV1005240,,Orion Q Replacement Pod 1.0Ohm (Pack of 2),,500,,0,,ea,$4.00,,"$2,000.00",04/11/2019
-51,LV1003690,,Orion Replacement Pod 0.25Ohm (Pack of 2),,750,,0,,ea,$4.00,,"$3,000.00",04/11/2019
-52,LV1003689,,Orion Replacement Pod 0.5Ohm (Pack of 2),,750,,0,,ea,$4.00,,"$3,000.00",04/11/2019
-53,LV1006537,,GeekVape Aegis Legend Mod Jeans,,560,,0,,ea,$30.00,,"$16,800.00",04/11/2019
-54,Shipping,,Shipping,,1,,0,,ea,"$6,112.80",,"$6,112.80",04/11/2019
-55,LV1006365,,Vapefly Brunhilde RTA Rainbow,,100,,0,,ea,$18.58,,"$1,858.00",04/11/2019
-56,LV1006367,,Vapefly Brunhilde RTA 8mL Glass Tube,,200,,0,,ea,$0.85,,$170.00,04/11/2019
 20190412-1,,Troogle,,Unissued,,,,,,,,,"$22,139.70"
 1,SV227070,,Uwell Crown 3 Coil - .5ohm (Pack of 4),,200,,0,,ea,$4.99,,$998.00,04/12/2019
 2,SV53341,,UWell Crown 3 Coil .4 (pack of 4),,200,,0,,ea,$4.99,,$998.00,04/12/2019
 3,LV1002687,,Uwell Whirl 22 Kit Black,,30,,0,,ea,$17.97,,$539.10,04/12/2019
 4,LV1006555,,Aegis Legend Mod Coffee,,400,,0,,ea,$30.00,,"$12,000.00",04/12/2019
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 5,LV1000671,,GeekVape Aegis Legend Kit Camo,,40,,0,,ea,$39.00,,"$1,560.00",04/12/2019
 6,LV1002557,,GeekVape Aegis Legend Kit Green Trim,,40,,0,,ea,$39.00,,"$1,560.00",04/12/2019
 7,LV1000672,,GeekVape Aegis Legend Kit Silver/Brown,,40,,0,,ea,$39.00,,"$1,560.00",04/12/2019
@@ -1073,8 +1128,6 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 5,SV53685,,Smok Stick Prince Kit - Red,,100,,0,,ea,$18.86,,"$1,886.00",04/15/2019
 6,SV53686,,Smok Stick Prince Kit - Blue,,50,,0,,ea,$18.86,,$943.00,04/15/2019
 7,SV53688,,Smok Stick Prince Kit - Rainbow,,100,,0,,ea,$18.86,,"$1,886.00",04/15/2019
-Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
-#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 8,SV53690,,Smok Stick Prince Kit - S.S.,,150,,0,,ea,$18.86,,"$2,829.00",04/15/2019
 9,Shipping,,Shipping,,1,,0,,ea,"$1,386.35",,"$1,386.35",04/15/2019
 20190413-2,,Troogle,,Unissued,,,,,,,,,"$88,003.05"
@@ -1093,6 +1146,8 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 13,SV53936,,Uwell Nunchaku Kit - Black/Gold,,60,,0,,ea,$41.33,,"$2,479.80",04/15/2019
 14,SV53939,,Uwell Nunchaku Kit - Rainbow,,30,,0,,ea,$42.57,,"$1,277.10",04/15/2019
 15,SV53937,,Uwell Nunchaku Kit - Sapphire Blue,,30,,0,,ea,$42.57,,"$1,277.10",04/15/2019
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 16,SV53940,,Uwell Nunchaku Kit - Metallic Green,,30,,0,,ea,$44.58,,"$1,337.40",04/15/2019
 17,SV53935,,Uwell Nunchaku Kit - Full Black,,60,,0,,ea,$41.33,,"$2,479.80",04/15/2019
 18,LV1002555,,GeekVape Aegis Legend Kit Azure Trim,,40,,0,,ea,$39.00,,"$1,560.00",04/15/2019
@@ -1107,29 +1162,39 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 27,SV168557,,Suorin Air Cartridge,,"3,000",,0,,ea,$1.45,,"$4,350.00",04/15/2019
 28,LV1005614,,Suorin Edge Mod Black,,175,,0,,ea,$13.80,,"$2,415.00",04/15/2019
 29,LV1006042,,Wotofo Profile Unity RTA Gold,,200,,0,,ea,$16.75,,"$3,350.00",04/15/2019
-Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
-#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 30,LV1006045,,Wotofo Profile Unity RTA Rainbow,,20,,0,,ea,$16.75,,$335.00,04/15/2019
 31,LV1006044,,Wotofo Profile Unity RTA Blue,,180,,0,,ea,$16.75,,"$3,015.00",04/15/2019
 32,Shipping,,Shipping,,1,,0,,ea,"$1,556.85",,"$1,556.85",04/15/2019
 33,LV1002591,,Aegis Legend Mod Azure Trim,,120,,0,,ea,$30.00,,"$3,600.00",04/15/2019
 34,Shipping,,Shipping,,1,,0,,ea,"$4,922.00",,"$4,922.00",04/15/2019
-20890,,Maduro Distrubutors INC,,Unissued,,,,,,,,,$900.00
-1,LV1006371,,Loon Pods Pineapple Express (Pack of 5),,10,,0,,ea,$6.00,,$60.00,04/03/2019
-2,LV1006377,,Loon Pods Grape (Pack of 5),,10,,0,,ea,$6.00,,$60.00,04/03/2019
-3,LV1006378,,Loon Pods Cherry (Pack of 5),,10,,0,,ea,$6.00,,$60.00,04/03/2019
-4,LV1006379,,Loon Pods Blueberry (Pack of 5),,10,,0,,ea,$6.00,,$60.00,04/03/2019
-5,LV1006380,,Loon Pods Variety Pack (Pack of 5),,10,,0,,ea,$6.00,,$60.00,04/03/2019
-6,LV1006381,,Loon Pods Blueberry ICE (Pack of 5),,10,,0,,ea,$6.00,,$60.00,04/03/2019
-7,LV1006382,,Loon Pods Mad Mocha (Pack of 5),,10,,0,,ea,$6.00,,$60.00,04/03/2019
-8,LV1006383,,Loon Pods Strawberry Banana (Pack of 5),,10,,0,,ea,$6.00,,$60.00,04/03/2019
-9,LV1006384,,Loon Pods Pineapple ICE (Pack of 5),,10,,0,,ea,$6.00,,$60.00,04/03/2019
-10,LV1006385,,Loon Pods Passion Fruit (Pack of 5),,10,,0,,ea,$6.00,,$60.00,04/03/2019
-11,LV1006386,,Loon Pods Mint Crush (Pack of 5),,10,,0,,ea,$6.00,,$60.00,04/03/2019
-12,LV1006387,,Loon Pods Grapefruit ICE (Pack of 5),,10,,0,,ea,$6.00,,$60.00,04/03/2019
-13,LV1006388,,Loon Pods Tobacco (Pack of 5),,10,,0,,ea,$6.00,,$60.00,04/03/2019
-14,LV1006389,,Loon Pods Mango (Pack of 5),,10,,0,,ea,$6.00,,$60.00,04/03/2019
-15,LV1006390,,Loon Pods Lemon ICE (Pack of 5),,10,,0,,ea,$6.00,,$60.00,04/03/2019
+20190416-1,,Troogle,,Unissued,,,,,,,,,"$65,035.00"
+1,LV1006300,,Wismec Luxotic Surface Kit Unistar,,100,,0,,ea,$34.50,,"$3,450.00",04/16/2019
+2,LV1006301,,Wismec Luxotic Surface Kit Basketball,,100,,0,,ea,$34.50,,"$3,450.00",04/16/2019
+3,LV1006302,,Wismec Luxotic Surface Kit Linear,,100,,0,,ea,$34.50,,"$3,450.00",04/16/2019
+4,LV1006303,,Wismec Luxotic Surface Kit Honeycomb,,50,,0,,ea,$34.50,,"$1,725.00",04/16/2019
+5,LV1006582,,Luxotic Surface E-Liquid Bottle Black (Pack of 5),,50,,0,,ea,$6.00,,$300.00,04/16/2019
+6,LV1006583,,Luxotic Surface E-Liquid Bottle Red (Pack of 5),,50,,0,,ea,$6.00,,$300.00,04/16/2019
+7,LV1006584,,Luxotic Surface E-Liquid Bottle Purple (Pack of 5),,50,,0,,ea,$6.00,,$300.00,04/16/2019
+8,LV1006585,,One Vape Lambo Kit Classic Version Black + Red PC,,100,,0,,ea,$11.50,,"$1,150.00",04/16/2019
+9,LV1006586,,One Vape Lambo Kit Classic Version Black + Blue PC,,100,,0,,ea,$11.50,,"$1,150.00",04/16/2019
+10,LV1006587,,One Vape Lambo Kit Resin Series Rainbow + Resin,,100,,0,,ea,$14.00,,"$1,400.00",04/16/2019
+11,LV1006588,,One Vape Lambo Kit Resin Series Black+ Resin,,100,,0,,ea,$14.00,,"$1,400.00",04/16/2019
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
+12,LV1006589,,One Vape Lambo Kit Resin Series Silver + Resin,,100,,0,,ea,$14.00,,"$1,400.00",04/16/2019
+13,LV1004703,,ONE Vape Lambo Replacement Pods (Pack of 2),,200,,0,,ea,$3.60,,$720.00,04/16/2019
+14,LV1006188,,OVNS JC01 Pod Device Kit Soft Touch Black,,100,,0,,ea,$6.20,,$620.00,04/16/2019
+15,LV1006286,,OVNS JC01 Pod Device Kit Metal Blue Purple,,100,,0,,ea,$6.95,,$695.00,04/16/2019
+16,LV1006287,,OVNS JC01 Pod Device Kit Metal Diamond Blue,,100,,0,,ea,$6.95,,$695.00,04/16/2019
+17,LV1006290,,OVNS JC01 Pod Device Kit Metal Aurora,,100,,0,,ea,$6.95,,$695.00,04/16/2019
+18,LV1006292,,OVNS JC01 Pod Device Kit Rainbow,,100,,0,,ea,$6.95,,$695.00,04/16/2019
+19,LV1006598,,Eleaf iStick Mix Mod Wind Ninja,,300,,0,,ea,$23.70,,"$7,110.00",04/16/2019
+20,LV1006599,,Eleaf iStick Mix Mod Skyline Numen,,250,,0,,ea,$23.70,,"$5,925.00",04/16/2019
+21,LV1006600,,Eleaf iStick Mix Mod Seabed Snaker,,150,,0,,ea,$23.70,,"$3,555.00",04/16/2019
+22,LV1006601,,Eleaf iStick Mix Mod Hell Witch,,150,,0,,ea,$23.70,,"$3,555.00",04/16/2019
+23,LV1006602,,Eleaf iStick Mix Mod Glary Knight,,150,,0,,ea,$23.70,,"$3,555.00",04/16/2019
+24,LV1005500,,CoilART LUX 200 Kit White,,100,,0,,ea,$37.00,,"$3,700.00",04/16/2019
+25,LV1006170,,GeekVape Aegis Legend Kit Jade,,360,,0,,ea,$39.00,,"$14,040.00",04/16/2019
 221199,,SS Vape Brands,,Unissued,,,,,,,,,"$12,766.00"
 1,LV1003101,,Jam Monster Raspberry LE 100ml 0MG,,147,,0,,ea,$0.00,,$0.00,04/09/2019
 2,LV1003102,,Jam Monster Raspberry LE 100ml 3MG,,147,,0,,ea,$6.50,,$955.50,04/09/2019
@@ -1141,8 +1206,6 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 8,SV53619,,Ice Jam Monster Mangerine Guava 100ML 3MG,,294,,0,,ea,$6.50,,"$1,911.00",04/09/2019
 9,SV53620,,Ice Jam Monster Mangerine Guava 100ML 6MG,,49,,0,,ea,$6.50,,$318.50,04/09/2019
 10,SV53623,,Ice Jam Monster Melon Colada 100ML 6MG,,49,,0,,ea,$6.50,,$318.50,04/09/2019
-Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
-#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 227675,,Ruthless Vapors,,Unissued,,,,,,,,,"$5,137.50"
 1,LV1000371,,Ruthless EZ Duz It 120ML - 0mg,,10,,0,,ea,$7.50,,$75.00,04/11/2019
 2,LV1000373,,Ruthless EZ Duz It 120ML - 6mg,,50,,0,,ea,$7.50,,$375.00,04/11/2019
@@ -1150,12 +1213,27 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 4,SV54156,,Ruthless EZ DUZ IT ON ICE - 120ML 6MG,,50,,0,,ea,$7.50,,$375.00,04/11/2019
 5,LV1000378,,Ruthless Grape Drank 120ml - 3mg,,150,,0,,ea,$7.50,,"$1,125.00",04/11/2019
 6,LV1000379,,Ruthless Grape Drank 120ml - 6mg,,100,,0,,ea,$7.50,,$750.00,04/11/2019
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 7,LV1000381,,Ruthless Grape Drank On Ice 120ml - 3mg,,100,,0,,ea,$7.50,,$750.00,04/11/2019
 8,LV1000409,,Ruthless Swamp Thang 120ML -3mg,,50,,0,,ea,$7.50,,$375.00,04/11/2019
 9,LV1000414,,Ruthless Tropic Thunda 120ml -0mg,,10,,0,,ea,$7.50,,$75.00,04/11/2019
 10,LV1000415,,Ruthless Tropic Thunda 120ml -3mg,,25,,0,,ea,$7.50,,$187.50,04/11/2019
 11,LV1000416,,Ruthless Tropic Thunda 120ml -6mg,,25,,0,,ea,$7.50,,$187.50,04/11/2019
 12,LV1000392,,Ruthless Grape Drank On Ice Salt 30ml - 35mg,,25,,0,,ea,$4.50,,$112.50,04/11/2019
+23897,,La Ejuice LLC,,Unissued,,,,,,,,,"$4,208.03"
+1,LV1005712,,SilverBack Juice Co Harambe 120ml 3MG,,81,,0,,ea,$7.00,,$567.00,04/15/2019
+2,LV1005713,,SilverBack Juice Co Harambe 120ml 6MG,,40,,0,,ea,$7.00,,$280.00,04/15/2019
+3,LV1005716,,SilverBack Juice Co Booboo 120ml 6MG,,40,,0,,ea,$7.00,,$280.00,04/15/2019
+4,LV1005709,,SilverBack Juice Co Amy 120ml 3MG,,81,,0,,ea,$7.00,,$567.00,04/15/2019
+5,LV1005710,,SilverBack Juice Co Amy 120ml 6MG,,40,,0,,ea,$7.00,,$280.00,04/15/2019
+6,LV1005718,,SilverBack Juice Co Jenny 120ml 3MG,,81,,0,,ea,$7.00,,$567.00,04/15/2019
+7,LV1005719,,SilverBack Juice Co Jenny 120ml 6MG,,40,,0,,ea,$7.00,,$280.00,04/15/2019
+8,LV1005722,,SilverBack Juice Co Rocky 120ml 6MG,,40,,0,,ea,$7.00,,$280.00,04/15/2019
+9,LV1005724,,SilverBack Juice Co Sandy 120ml 3MG,,81,,0,,ea,$7.00,,$567.00,04/15/2019
+10,LV1005725,,SilverBack Juice Co Sandy 120ml 6MG,,40,,0,,ea,$7.00,,$280.00,04/15/2019
+11,LV1005726,,SilverBack Juice Co Lola 120ml 0MG,,20,,0,,ea,$7.00,,$140.00,04/15/2019
+12,Shipping,,Shipping,,1,,0,,ea,$120.03,,$120.03,04/15/2019
 25186,,JMJL Global,,Unissued,,,,,,,,,"$3,302.12"
 1,SV426745,,MLV Basic PHIX Starter Kit (NO POD),,25,,0,,ea,$11.00,,$275.00,04/05/2019
 2,SV226459,,Phix Butterscotch Pods,,50,,0,,ea,$10.00,,$500.00,04/05/2019
@@ -1165,18 +1243,18 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 6,LV1005422,,PHIX Dinner Lady Lemon Tart Pods,,50,,0,,ea,$10.00,,$500.00,04/05/2019
 7,LV1006446,,INFZN Pods Mango (PHIX Compatible) (Pack of 4),,50,,0,,ea,$10.00,,$500.00,04/05/2019
 8,Shipping,,Shipping,,1,,0,,ea,$27.12,,$27.12,04/05/2019
-265,,Glas Vapor,,Unissued,,,,,,,Credit Card,,"$6,155.65"
+265,,Glas Vapor,,Unissued,,,,,,,Credit Card,,"$7,307.65"
 1,SV2592,,GLAS Basix Blueberry Cake 60Ml- 3mg,,132,,0,,ea,$5.00,,$660.00,04/13/2019
 2,SV2594,,GLAS Basix Butterscotch Reserve 60Ml- 0mg,,25,,0,,ea,$5.00,,$125.00,04/13/2019
 3,SV2595,,GLAS Basix Butterscotch Reserve 60Ml- 3mg,,132,,0,,ea,$5.00,,$660.00,04/13/2019
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 4,SV2596,,GLAS Basix Butterscotch Reserve 60Ml- 6mg,,66,,0,,ea,$5.00,,$330.00,04/13/2019
 5,SV2598,,GLAS Basix Fizzy Lemonade 60Ml- 3mg,,132,,0,,ea,$5.00,,$660.00,04/13/2019
 6,SV2599,,GLAS Basix Fizzy Lemonade 60Ml- 6mg,,66,,0,,ea,$5.00,,$330.00,04/13/2019
 7,SV2600,,GLAS Basix Strawberry Gummy 60Ml- 0mg,,25,,0,,ea,$5.00,,$125.00,04/13/2019
 8,SV2601,,GLAS Basix Strawberry Gummy 60Ml- 3mg,,132,,0,,ea,$5.00,,$660.00,04/13/2019
 9,SV2602,,GLAS Basix Strawberry Gummy 60Ml- 6mg,,25,,0,,ea,$5.00,,$125.00,04/13/2019
-Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
-#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 10,SV2607,,GLAS Guave 75Ml- 3mg,,24,,0,,ea,$8.00,,$192.00,04/13/2019
 11,SV2612,,GLAS O.F.T. 75Ml- 0mg,,12,,0,,ea,$8.00,,$96.00,04/13/2019
 12,SV2613,,GLAS O.F.T. 75Ml- 3mg,,48,,0,,ea,$8.00,,$384.00,04/13/2019
@@ -1186,7 +1264,25 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 16,SV54422,,GLAS Basix Caribbean Punch 60ML - 3MG,,198,,0,,ea,$5.00,,$990.00,04/13/2019
 17,SV54423,,GLAS Basix Caribbean Punch 60ML - 6MG,,66,,0,,ea,$5.00,,$330.00,04/13/2019
 18,Shipping,,Shipping,,1,,0,,ea,$100.65,,$100.65,04/13/2019
+19,LV1006567,,Glas Basix Banana Cream Pie Nic Salt 30ml 30MG,,12,,0,,ea,$6.00,,$72.00,04/13/2019
+20,LV1006571,,Glas Basix Blue Magic Nic Salt 30ml 30MG,,12,,0,,ea,$6.00,,$72.00,04/13/2019
+21,LV1006565,,Glas Basix Crunch Berry Nic Salt 30ml 30MG,,12,,0,,ea,$6.00,,$72.00,04/13/2019
+22,LV1006579,,Glas Basix Cool Melon Nic Salt 30ml 30MG,,12,,0,,ea,$6.00,,$72.00,04/13/2019
+23,LV1006573,,Glas Basix Fizzy Lemonade Nic Salt 30ml 30MG,,12,,0,,ea,$6.00,,$72.00,04/13/2019
+24,LV1006575,,Glas Basix Grape Drink Nic Salt 30ml 30MG,,12,,0,,ea,$6.00,,$72.00,04/13/2019
+25,LV1006569,,Glas Basix Juicy Apple Nic Salt 30ml 30MG,,12,,0,,ea,$6.00,,$72.00,04/13/2019
+26,LV1006577,,Glas Basix Mango Tango Nic Salt 30ml 30MG,,12,,0,,ea,$6.00,,$72.00,04/13/2019
+27,LV1006568,,Glas Basix Banana Cream Pie Nic Salt 30ml 50MG,,12,,0,,ea,$6.00,,$72.00,04/13/2019
+28,LV1006572,,Glas Basix Blue Magic Nic Salt 30ml 50MG,,12,,0,,ea,$6.00,,$72.00,04/13/2019
+29,LV1006566,,Glas Basix Crunch Berry Nic Salt 30ml 50MG,,12,,0,,ea,$6.00,,$72.00,04/13/2019
+30,LV1006580,,Glas Basix Cool Melon Nic Salt 30ml 50MG,,12,,0,,ea,$6.00,,$72.00,04/13/2019
+31,LV1006574,,Glas Basix Fizzy Lemonade Nic Salt 30ml 50MG,,12,,0,,ea,$6.00,,$72.00,04/13/2019
+32,LV1006576,,Glas Basix Grape Drink Nic Salt 30ml 50MG,,12,,0,,ea,$6.00,,$72.00,04/13/2019
+33,LV1006570,,Glas Basix Juicy Apple Nic Salt 30ml 50MG,,12,,0,,ea,$6.00,,$72.00,04/13/2019
+34,LV1006578,,Glas Basix Mango Tango Nic Salt 30ml 50MG,,12,,0,,ea,$6.00,,$72.00,04/13/2019
 40678,,Propaganda E Liquid,,Unissued,,,,,,,,,"$4,206.00"
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 1,LV1001296,,The Hype Strawberry Shortcake 60ml 0MG,,10,,0,,ea,$5.50,,$55.00,03/27/2019
 2,LV1001299,,The Hype Blue Slushee 60ml 0MG,,10,,0,,ea,$5.50,,$55.00,03/27/2019
 3,LV1006015,,The Hype Cotton Candy 100ml 3MG,,96,,0,,ea,$6.00,,$576.00,03/27/2019
@@ -1209,8 +1305,6 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 9,LV1001300,,The Hype Blue Slushee 60ml 3MG,,32,,0,,ea,$5.50,,$176.00,04/08/2019
 10,LV1006019,,The Hype Strawberry Shortcake 100ml 6MG,,16,,0,,ea,$6.00,,$96.00,04/08/2019
 11,LV1006021,,The Hype Blue Slushee 100ml 3MG,,32,,0,,ea,$6.00,,$192.00,04/08/2019
-Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
-#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 12,LV1006030,,The Hype Sour Apple Dust 100ml 3MG,,48,,0,,ea,$6.00,,$288.00,04/08/2019
 13,LV1002075,,Propaganda Salts Blue Slushee 30ml 35MG,,32,,0,,ea,$5.50,,$176.00,04/08/2019
 14,LV1002076,,Propaganda Salts Blue Slushee 30ml 50MG,,64,,0,,ea,$5.50,,$352.00,04/08/2019
@@ -1221,6 +1315,8 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 19,LV1001285,,Vape Pink Cookie Butter 100ml 3MG,,224,,0,,ea,$6.00,,"$1,344.00",04/08/2019
 20,LV1001286,,Vape Pink Cookie Butter 100ml 6MG,,192,,0,,ea,$6.00,,"$1,152.00",04/08/2019
 21,LV1001291,,Vape Pink Chew 100ml 3MG,,96,,0,,ea,$6.00,,$576.00,04/08/2019
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 22,LV1001292,,Vape Pink Chew 100ml 6MG,,10,,0,,ea,$6.00,,$60.00,04/08/2019
 23,LV1005568,,Vape Pink Whipp'd 100ml 3MG,,16,,0,,ea,$6.00,,$96.00,04/08/2019
 24,LV1005571,,Vape Pink Melon Blast 100ml 3MG,,48,,0,,ea,$6.00,,$288.00,04/08/2019
@@ -1242,8 +1338,6 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 5,SV54534,,Lost Art Unicorn Puke 120ML - 6MG,,25,,0,,ea,$9.00,,$225.00,04/09/2019
 6,SV54537,,Lost Art Cottontail Cream 120ML - 6MG,,25,,0,,ea,$9.00,,$225.00,04/09/2019
 7,SV54539,,Lost Art Space Rocks 120ML - 3MG,,75,,0,,ea,$9.00,,$675.00,04/09/2019
-Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
-#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 8,SV54540,,Lost Art Space Rocks 120ML - 6MG,,25,,0,,ea,$9.00,,$225.00,04/09/2019
 9,SV54546,,Lost Art Slotter Pop 120ML - 6MG,,10,,0,,ea,$9.00,,$90.00,04/09/2019
 10,SV226720,,Lost Art Strawberry Strike 120Ml - 3MG,,50,,0,,ea,$10.00,,$500.00,04/09/2019
@@ -1254,6 +1348,8 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 15,LV1002258,,Lost Art Slotter Pop OGB 120ml 3MG,,50,,0,,ea,$9.00,,$450.00,04/09/2019
 16,LV1002259,,Lost Art Slotter Pop OGB 120ml 6MG,,50,,0,,ea,$9.00,,$450.00,04/09/2019
 17,SV54519,,Lost Art Gummy Glu 60ML - 6MG,,10,,0,,ea,$5.00,,$50.00,04/09/2019
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 18,SV54521,,Lost Art Unicorn Puke 60ML - 3MG,,25,,0,,ea,$5.00,,$125.00,04/09/2019
 19,SV54522,,Lost Art Unicorn Puke 60ML - 6MG,,10,,0,,ea,$5.00,,$50.00,04/09/2019
 20,SV54528,,Lost Art Space Rocks Iced 60ML - 6MG,,10,,0,,ea,$6.00,,$60.00,04/09/2019
@@ -1276,8 +1372,6 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 5624-A,,Sugoi,,Unissued,,,,,,,,,$150.00
 1,LV1002340,,Sugoi Vapor Good Karma 100ml 6MG,,25,,0,,ea,$6.00,,$150.00,03/27/2019
 65661,,D&A Distribution,,Unissued,,,,,,,,,"$15,843.92"
-Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
-#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 1,SV0000215459,,Loaded Glazed Donuts 120ML Ejuice - 3Mg,,500,,0,,ea,$7.00,,"$3,500.00",01/02/2019
 2,SV0000130679,,Loaded Glazed Donuts 120ML Ejuice - 6Mg,,200,,0,,ea,$7.00,,"$1,400.00",01/02/2019
 3,SV0000266150,,Loaded Smores 120ML Ejuice - 3Mg,,100,,0,,ea,$7.00,,$700.00,01/02/2019
@@ -1287,7 +1381,42 @@ Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Term
 7,SV2162,,Loaded Strawberry Jelly Donut 120ml - 3mg,,50,,0,,ea,$7.00,,$350.00,01/02/2019
 8,SV2163,,Loaded Strawberry Jelly Donut 120ml - 6mg,,100,,0,,ea,$7.00,,$700.00,01/02/2019
 9,Shipping,,Shipping,,1,,0,,ea,$268.92,,$268.92,01/02/2019
+88885888,,FreeMax,,Unissued,,,,,,,,,"$210,050.00"
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
+1,LV1003240,,Freemax Mesh Pro Tank Metal Gold,,200,,0,,ea,$12.50,,"$2,500.00",
+2,LV1003682,,FreeMax Mesh Pro Tank Carbon Fiber Purple,,200,,0,,ea,$13.50,,"$2,700.00",
+3,LV1003684,,FreeMax Mesh Pro Tank Carbon Fiber Red,,100,,0,,ea,$13.50,,"$1,350.00",
+4,LV1003686,,FreeMax Mesh Pro Tank Carbon Fiber Green,,200,,0,,ea,$13.50,,"$2,700.00",
+5,LV1003685,,FreeMax Mesh Pro Tank Carbon Fiber Silver,,200,,0,,ea,$13.50,,"$2,700.00",
+6,LV1002385,,Freemax Mesh Pro Tank Orange Resin,,200,,0,,ea,$12.50,,"$2,500.00",
+7,LV1002387,,Freemax Mesh Pro Tank Pink Resin,,200,,0,,ea,$12.50,,"$2,500.00",
+8,LV1002386,,Freemax Mesh Pro Tank Yellow/Green Resin,,300,,0,,ea,$12.50,,"$3,750.00",
+9,LV1003238,,Freemax Mesh Pro Tank Metal Gunmetal,,300,,0,,ea,$12.50,,"$3,750.00",
+10,LV1003239,,Freemax Mesh Pro Tank Metal Rainbow,,200,,0,,ea,$12.50,,"$2,500.00",
+11,LV1003241,,Freemax Mesh Pro Tank Metal Stainless Steel,,100,,0,,ea,$12.00,,"$1,200.00",
+12,LV1002399,,Freemax Mesh Pro Tank Blue Resin,,500,,0,,ea,$12.50,,"$6,250.00",
+13,LV1002383,,Freemax Mesh Pro Tank Black Resin,,500,,0,,ea,$12.50,,"$6,250.00",
+14,LV1002384,,Freemax Mesh Pro Tank Purple Resin,,400,,0,,ea,$12.50,,"$5,000.00",
+15,LV1002384,,Freemax Mesh Pro Tank Purple Resin,,800,,0,,ea,$12.50,,"$10,000.00",
+16,LV1002385,,Freemax Mesh Pro Tank Orange Resin,,800,,0,,ea,$12.50,,"$10,000.00",
+17,LV1002386,,Freemax Mesh Pro Tank Yellow/Green Resin,,800,,0,,ea,$12.50,,"$10,000.00",
+18,LV1002387,,Freemax Mesh Pro Tank Pink Resin,,800,,0,,ea,$12.50,,"$10,000.00",
+19,LV1002399,,Freemax Mesh Pro Tank Blue Resin,,800,,0,,ea,$12.50,,"$10,000.00",
+20,LV1003237,,Freemax Mesh Pro Tank Metal Black,,800,,0,,ea,$12.50,,"$10,000.00",
+21,LV1003238,,Freemax Mesh Pro Tank Metal Gunmetal,,800,,0,,ea,$12.50,,"$10,000.00",
+22,LV1003239,,Freemax Mesh Pro Tank Metal Rainbow,,800,,0,,ea,$12.50,,"$10,000.00",
+23,LV1003240,,Freemax Mesh Pro Tank Metal Gold,,800,,0,,ea,$12.50,,"$10,000.00",
+24,LV1003241,,Freemax Mesh Pro Tank Metal Stainless Steel,,800,,0,,ea,$12.00,,"$9,600.00",
+25,LV1003682,,FreeMax Mesh Pro Tank Carbon Fiber Purple,,800,,0,,ea,$13.50,,"$10,800.00",
+26,LV1003683,,FreeMax Mesh Pro Tank Carbon Fiber Black,,800,,0,,ea,$13.50,,"$10,800.00",
+27,LV1003684,,FreeMax Mesh Pro Tank Carbon Fiber Red,,800,,0,,ea,$13.50,,"$10,800.00",
+28,LV1003685,,FreeMax Mesh Pro Tank Carbon Fiber Silver,,800,,0,,ea,$13.50,,"$10,800.00",
+29,LV1003686,,FreeMax Mesh Pro Tank Carbon Fiber Green,,800,,0,,ea,$13.50,,"$10,800.00",
+30,LV1003687,,FreeMax Mesh Pro Tank Carbon Fiber Blue,,800,,0,,ea,$13.50,,"$10,800.00",
 ACC-312019040301,,Feellife Health Inc,,Unissued,,,,,,,,,"$5,275.00"
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 1,SV54965,,Junky's Stash E Liquid Buried Yesterday 100ml 3mg,,300,,0,,ea,$2.00,,$600.00,02/07/2019
 2,SV54971,,Junky's Stash E Liquid The Old Stuff 100ml 3mg,,400,,0,,ea,$2.00,,$800.00,02/07/2019
 3,LV1002202,,Junky's Stash Buried Yesterday 30ml 3MG,,"2,000",,0,,ea,$1.10,,"$2,200.00",02/07/2019
@@ -1295,6 +1424,35 @@ ACC-312019040301,,Feellife Health Inc,,Unissued,,,,,,,,,"$5,275.00"
 5,LV1002201,,Junky's Stash Buried Yesterday 30ml 0MG,,200,,0,,ea,$1.10,,$220.00,02/07/2019
 6,LV1002204,,Junky's Stash A Chill Day 30ml 0MG,,200,,0,,ea,$1.10,,$220.00,02/07/2019
 7,Shipping,,Shipping,,1,,0,,ea,$135.00,,$135.00,02/07/2019
+CCD38431,,Charlie's Chalk Dust,,Unissued,,,,,,,,,"$2,050.00"
+1,SV2785,,Pachamama - Fuji Apple Strawberry Nectarine 60ml - 6mg,,200,,0,,ea,$5.00,,"$1,000.00",04/09/2019
+2,SV227198,,Pachamama - Mango Pitaya Pineapple 60ml - 6mg,,25,,0,,ea,$5.00,,$125.00,04/09/2019
+3,SV227201,,Pachamama - Mint Honeydew Berry Kiwi 60ml - 6mg,,25,,0,,ea,$5.00,,$125.00,04/09/2019
+4,SV227195,,Pachamama - Peach Papaya Coconut Cream 60ml - 6mg,,25,,0,,ea,$5.00,,$125.00,04/09/2019
+5,SV227192,,Pachamama - Strawberry Guava Jackfruit 60ml - 6mg,,25,,0,,ea,$5.00,,$125.00,04/09/2019
+6,LV1002776,,Pachamama Passion Fruit Raspberry Yuzu 60ml 0MG,,10,,0,,ea,$5.00,,$50.00,04/09/2019
+7,SV227203,,Campfire - S'mores 60ml - 3mg,,50,,0,,ea,$5.00,,$250.00,04/09/2019
+8,SV54255,,Charlie's Chalk Dust King Bellman 60ml - 3mg,,50,,0,,ea,$5.00,,$250.00,04/09/2019
+D1271,,Town Vapor Co,,Unissued,,,,,,,,,"$6,612.50"
+1,LV1001914,,Holy Cannoli Blueberry Strudel 100ml 3MG,,50,,0,,ea,$6.00,,$300.00,04/15/2019
+2,LV1001915,,Holy Cannoli Blueberry Strudel 100ml 6MG,,50,,0,,ea,$6.00,,$300.00,04/15/2019
+3,LV1001917,,Holy Cannoli French Toast 100ml 3MG,,150,,0,,ea,$6.00,,$900.00,04/15/2019
+4,LV1001918,,Holy Cannoli French Toast 100ml 6MG,,50,,0,,ea,$6.00,,$300.00,04/15/2019
+5,LV1001920,,Holy Cannoli Fruity Pebbled Cannoli 100ml 3MG,,200,,0,,ea,$6.00,,"$1,200.00",04/15/2019
+6,LV1001924,,Holy Cannoli Glazed Donut 100ml 6MG,,25,,0,,ea,$6.00,,$150.00,04/15/2019
+7,LV1001929,,Nude S.C.P 120ml 3MG,,100,,0,,ea,$5.50,,$550.00,04/15/2019
+8,LV1001930,,Nude S.C.P 120ml 6MG,,50,,0,,ea,$5.50,,$275.00,04/15/2019
+9,LV1001932,,Nude G.A.S. 120ml 3MG,,100,,0,,ea,$5.50,,$550.00,04/15/2019
+10,LV1001933,,Nude G.A.S. 120ml 6MG,,25,,0,,ea,$5.50,,$137.50,04/15/2019
+11,LV1001935,,Nude A.P.K. 120ml 3MG,,50,,0,,ea,$5.50,,$275.00,04/15/2019
+12,LV1001936,,Nude A.P.K. 120ml 6MG,,25,,0,,ea,$5.50,,$137.50,04/15/2019
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
+13,LV1001938,,Nude P.O.M. 120ml 3MG,,100,,0,,ea,$5.50,,$550.00,04/15/2019
+14,LV1001941,,Nude B.R.S. 120ml 3MG,,50,,0,,ea,$5.50,,$275.00,04/15/2019
+15,LV1001942,,Nude B.R.S. 120ml 6MG,,25,,0,,ea,$5.50,,$137.50,04/15/2019
+16,LV1005050,,Nude KRB 120ml 3MG,,50,,0,,ea,$5.50,,$275.00,04/15/2019
+17,Shipping,,Shipping,,1,,0,,ea,$300.00,,$300.00,04/15/2019
 D162,,Vape Dispatch,,Unissued,,,,,,,,,"$13,650.00"
 1,LV1006341,,Acrohm FUSH Mech Mod White,,100,,0,,ea,$45.00,,"$4,500.00",03/29/2019
 2,LV1006342,,Acrohm FUSH Mech Mod Black,,200,,0,,ea,$45.00,,"$9,000.00",03/29/2019
@@ -1304,18 +1462,36 @@ D2878,,Eliquid.co,,Unissued,,,,,,,,,"$2,625.00"
 2,LV1002319,,Vapetasia Peach Lemonade 100ml 6MG,,50,,0,,ea,$7.50,,$375.00,03/29/2019
 3,SV227531,,Vapetasia Pink Lemonade 100mL - 3mg,,150,,0,,ea,$7.50,,"$1,125.00",03/29/2019
 4,SV227532,,Vapetasia Pink Lemonade 100mL - 6mg,,50,,0,,ea,$7.50,,$375.00,03/29/2019
-D4417,,dotmodwholesale,,Unissued,,,,,,,,,"$2,974.80"
+D4417,,dotmodwholesale,,Unissued,,,,,,,,,"$6,628.00"
 1,LV1001657,,dotmod dotRDTA 24mm ULTEM,,10,,0,,ea,$32.00,,$320.00,03/22/2019
-2,LV1002678,,DotMod DotTank Gold,,6,,0,,ea,$24.00,,$144.00,03/22/2019
+2,LV1002678,,DotMod DotTank Gold,,10,,0,,ea,$24.00,,$240.00,03/22/2019
 3,SV239349,,dotmod dotBox 200w Mod - Black,,10,,0,,ea,$86.40,,$864.00,03/22/2019
 4,SV239350,,dotmod dotBox 200w Mod - Red,,5,,0,,ea,$86.40,,$432.00,03/22/2019
+5,SV239351,,dotmod dotBox 200w Mod - Royal Blue,,5,,0,,ea,$86.40,,$432.00,03/22/2019
+6,SV78298,,dotmod dotBox 200w Mod - Gold,,5,,0,,ea,$86.40,,$432.00,03/22/2019
+7,SV78301,,dotmod Tank Coils - Clapton (Pack of 5),,10,,0,,ea,$9.60,,$96.00,03/22/2019
+8,SV54927,,dotmod Tank Coils - SS316L (Pack of 5),,10,,0,,ea,$9.60,,$96.00,03/22/2019
+9,SV54928,,dotmod Tank Coils - Twisted (Pack of 5),,10,,0,,ea,$6.80,,$68.00,03/22/2019
+10,SV78297,,dotmod dotBox 200w Mod - Tiffany Blue,,5,,0,,ea,$86.40,,$432.00,03/22/2019
+11,LV1003354,,dotMod dotBox 200W Mod Space Grey,,5,,0,,ea,$86.40,,$432.00,03/22/2019
+12,SV191247,,dotmod dotBox 200w Mod - Peach,,5,,0,,ea,$86.40,,$432.00,03/22/2019
+13,LV1000893,,Dotmod Dotbox 200W Mod - Purple LE,,5,,0,,ea,$86.40,,$432.00,03/22/2019
+14,SV2677,,Dotmod dotSquonk Box - Black,,10,,0,,ea,$48.00,,$480.00,03/22/2019
+15,LV1000521,,Dotmod dotSquonk Mod - Tiffany Blue,,5,,0,,ea,$48.00,,$240.00,03/22/2019
+16,SV52937,,dotmod dotSquonk Mod - Red,,5,,0,,ea,$48.00,,$240.00,03/22/2019
+17,SV52938,,dotmod dotSquonk - Royal Blue,,5,,0,,ea,$48.00,,$240.00,03/22/2019
 Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
 #,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
-5,SV239351,,dotmod dotBox 200w Mod - Royal Blue,,6,,0,,ea,$86.40,,$518.40,03/22/2019
-6,SV78298,,dotmod dotBox 200w Mod - Gold,,6,,0,,ea,$86.40,,$518.40,03/22/2019
-7,SV78301,,dotmod Tank Coils - Clapton (Pack of 5),,5,,0,,ea,$9.60,,$48.00,03/22/2019
-8,SV54927,,dotmod Tank Coils - SS316L (Pack of 5),,10,,0,,ea,$9.60,,$96.00,03/22/2019
-9,SV54928,,dotmod Tank Coils - Twisted (Pack of 5),,5,,0,,ea,$6.80,,$34.00,03/22/2019
+18,SV52936,,dotmod dotSquonk Mod - Gold,,5,,0,,ea,$48.00,,$240.00,03/22/2019
+19,LV1000894,,Dotmod Dotsquonk Mod - Purple LE,,5,,0,,ea,$48.00,,$240.00,03/22/2019
+20,LV1003358,,dotMod dotSquonk Mod Space Grey,,5,,0,,ea,$48.00,,$240.00,03/22/2019
+D6817,,"VDX Distro, Inc",,Unissued,,,,,,,,,"$1,755.00"
+1,SV54096,,The Mamasan Purple Cheesecake 100ml 0mg,,10,,0,,ea,$6.50,,$65.00,04/16/2019
+2,SV54100,,The Mamasan Mama Melon 100ml 3mg,,50,,0,,ea,$6.50,,$325.00,04/16/2019
+3,SV54091,,The Mamasan Golden Slam 100ml 3mg,,100,,0,,ea,$6.50,,$650.00,04/16/2019
+4,SV54092,,The Mamasan Golden Slam 100ml 6mg,,50,,0,,ea,$6.50,,$325.00,04/16/2019
+5,LV1006347,,The Mamasan Super Cereal 100ml 0MG,,10,,0,,ea,$6.50,,$65.00,04/16/2019
+6,LV1006348,,The Mamasan Super Cereal 100ml 3MG,,50,,0,,ea,$6.50,,$325.00,04/16/2019
 DLQ2018080227,,Dinner lady,,Unissued,,,,,,,,,"$45,372.50"
 1,LV1001054,,Dinner Lady Salts Lemon Tart 30ml 30MG,,680,,0,,ea,$5.75,,"$3,910.00",04/02/2019
 2,LV1003409,,Dinner Lady Salts Blackberry Crumble 30ml 30MG,,280,,0,,ea,$5.75,,"$1,610.00",04/02/2019
@@ -1334,13 +1510,13 @@ DLQ2018080227,,Dinner lady,,Unissued,,,,,,,,,"$45,372.50"
 15,LV1004284,,Dinner Lady Tuck Shop Lemon Sherberts 60ml 3MG,,350,,0,,ea,$5.50,,"$1,925.00",04/02/2019
 16,LV1004285,,Dinner Lady Tuck Shop Lemon Sherberts 60ml 6MG,,140,,0,,ea,$5.50,,$770.00,04/02/2019
 17,LV1004287,,Dinner Lady Tuck Shop Bubble Trouble 60ml 3MG,,350,,0,,ea,$5.50,,"$1,925.00",04/02/2019
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 18,LV1004288,,Dinner Lady Tuck Shop Bubble Trouble 60ml 6MG,,105,,0,,ea,$5.50,,$577.50,04/02/2019
 19,LV1004290,,Dinner Lady Tuck Shop Apple Sours 60ml 3MG,,385,,0,,ea,$5.50,,"$2,117.50",04/02/2019
 20,LV1004291,,Dinner Lady Tuck Shop Apple Sours 60ml 6MG,,175,,0,,ea,$5.50,,$962.50,04/02/2019
 21,LV1001054,,Dinner Lady Salts Lemon Tart 30ml 30MG,,5,,0,,ea,$0.00,,$0.00,04/02/2019
 22,LV1005067,,Random Sample 10ml Vape Juice,,66,,0,,ea,$0.00,,$0.00,04/02/2019
-Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
-#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 23,LV1001055,,Dinner Lady Salts Lemon Tart 30ml 50MG,,5,,0,,ea,$0.00,,$0.00,04/02/2019
 24,SV54413,,Dinner Lady Summer Holidays 60ml Black Orange Crush - 3mg,,105,,0,,ea,$5.75,,$603.75,04/02/2019
 25,SV54414,,Dinner Lady Summer Holidays 60ml Black Orange Crush - 6mg,,70,,0,,ea,$5.75,,$402.50,04/02/2019
@@ -1366,13 +1542,13 @@ EIGHTC-0012,,Zenith E Juice,,Unissued,,,,,,,,,"$1,253.10"
 10,LV1005314,,Fantasi Zero Cooling Watermelon 65mL 6MG,,25,,0,,ea,$6.00,,$150.00,04/04/2019
 11,Shipping,,Shipping,,1,,0,,ea,$68.10,,$68.10,04/04/2019
 INV-002862,,ALT Zero inc,,Unissued,,,,,,,,,"$3,320.00"
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 1,SV227144,,Excision Harambe 60ML Ejuice 0MG,,10,,0,,ea,$7.00,,$70.00,04/10/2019
 2,SV227145,,Excision Harambe 60ML Ejuice 3MG,,100,,0,,ea,$7.00,,$700.00,04/10/2019
 3,SV54068,,Excision Paradox on the Rocks 60ML 0MG,,25,,0,,ea,$7.00,,$175.00,04/10/2019
 4,SV0000132239,,Excision Robokitty Cream 60ML Ejuice 3MG,,100,,0,,ea,$7.00,,$700.00,04/10/2019
 5,SV0000187395,,Excision X Rated 60ML Ejuice 6MG,,25,,0,,ea,$7.00,,$175.00,04/10/2019
-Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
-#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 6,SV168625,,Alt Zero Just Reds 100ML 3MG,,200,,0,,ea,$7.50,,"$1,500.00",04/10/2019
 INV-009214,,Smoking Vapor_v,,Unissued,,,,,,,,,"$5,685.48"
 1,LV1006464,,Smoking Vapor Mi Pod Royal Dark,,50,,0,,ea,$22.50,,"$1,125.00",04/11/2019
@@ -1396,11 +1572,11 @@ INV-17138,,Coastal Clouds LLC,,Unissued,,,,,,,,,"$3,100.96"
 7,LV1006491,,Coastal Clouds Oceanside Papaya Punch 60ml 0MG,,16,,0,,ea,$5.08,,$81.28,04/10/2019
 8,LV1006492,,Coastal Clouds Oceanside Papaya Punch 60ml 3MG,,64,,0,,ea,$5.08,,$325.12,04/10/2019
 9,LV1006493,,Coastal Clouds Oceanside Papaya Punch 60ml 6MG,,48,,0,,ea,$5.08,,$243.84,04/10/2019
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 10,LV1006494,,Coastal Clouds Sweets Passion Fruit Orange Guava 60ml 0MG,,16,,0,,ea,$5.08,,$81.28,04/10/2019
 11,LV1006495,,Coastal Clouds Sweets Passion Fruit Orange Guava 60ml 3MG,,64,,0,,ea,$5.08,,$325.12,04/10/2019
 12,LV1006496,,Coastal Clouds Sweets Passion Fruit Orange Guava 60ml 6MG,,48,,0,,ea,$5.08,,$243.84,04/10/2019
-Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
-#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 13,LV1006489,,Coastal Clouds Saltwater Sugared Nectarine 30ml 35MG,,50,,0,,ea,$5.00,,$250.00,04/10/2019
 14,LV1006490,,Coastal Clouds Saltwater Sugared Nectarine 30ml 50MG,,50,,0,,ea,$5.00,,$250.00,04/10/2019
 INV-70903,,Dynamic Creations,,Unissued,,,,,,,,,"$3,728.95"
@@ -1413,25 +1589,12 @@ INV-70903,,Dynamic Creations,,Unissued,,,,,,,,,"$3,728.95"
 7,LV1002552,,Hit That Donut Strawberry Frosted Donut 60ml 6MG,,20,,0,,ea,$3.71,,$74.20,04/01/2019
 8,LV1000105,,Twisted Sour Strawberry 100ml - 6mg,,30,,0,,ea,$4.46,,$133.80,04/01/2019
 9,LV1000109,,Twisted Sour Lemon Lime 100ml - 0mg,,20,,0,,ea,$4.46,,$89.20,04/01/2019
-PI-V20190410VA227-63,,Shenzhen Smoore Technology Limited,,Unissued,,,,,,,,,"$54,771.00"
-1,VP0000009,,Vaporesso LUXE with SKRR Tank Black,,360,,0,,ea,$38.50,,"$13,860.00",04/15/2019
-2,VP0000012,,Vaporesso LUXE with SKRR Tank Bronze,,30,,0,,ea,$39.50,,"$1,185.00",04/15/2019
-3,VP0000013,,Vaporesso LUXE with SKRR Tank Green Ape,,100,,0,,ea,$39.50,,"$3,950.00",04/15/2019
-4,VP0000014,,Vaporesso LUXE with SKRR Tank Red,,60,,0,,ea,$39.50,,"$2,370.00",04/15/2019
-5,VP0000040,,Vaporesso Renova Zero Black,,300,,0,,ea,$9.00,,"$2,700.00",04/15/2019
-6,VP0000043,,Vaporesso Renova Zero Rainbow,,250,,0,,ea,$9.00,,"$2,250.00",04/15/2019
-7,VP0000049,,Vaporesso Zero Pod 2 pcs/pack,,"4,000",,0,,ea,$2.20,,"$8,800.00",04/15/2019
-8,VP0000114,,"Vaporesso GT Mesh 0.18Ω
-50-90W",,"4,000",,0,,ea,$3.30,,"$13,200.00",04/15/2019
-9,VP0000223,,"Vaporesso GT CCELL Core 0.5Ω
-25-35W",,"1,585",,0,,ea,$3.60,,"$5,706.00",04/15/2019
-10,VP0000317,,Vaporesso Glass tube for Cascade  Baby SE Tank,,100,,0,,ea,$0.60,,$60.00,04/15/2019
-11,VP0000435,,Vaporesso Swag kit Red Devil,,30,,0,,ea,$23.00,,$690.00,04/15/2019
+JB1778,,JBOI Coils LLC,,Unissued,,,,,,,,,"$5,970.00"
+1,LV1005854,,JBoi Coils Display Bundle,,30,,0,,ea,$195.00,,"$5,850.00",04/15/2019
+2,Shipping,,Shipping,,1,,0,,ea,$120.00,,$120.00,04/15/2019
 PI-V20190410VA227-75,,Shenzhen Smoore Technology Limited,,Unissued,,,,,,,,,"$37,875.00"
 1,VP0000441,,Aurora Play Kit - Silver 2ml,,750,,0,,ea,$13.50,,"$10,125.00",04/15/2019
 2,VP0000442,,Aurora Play Kit - Bronze 2ml,,750,,0,,ea,$13.50,,"$10,125.00",04/15/2019
-Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
-#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 3,VP0000443,,Aurora Play Kit - Rainbow 2mL,,750,,0,,ea,$13.50,,"$10,125.00",04/15/2019
 4,VP0000445,,Aurora Play Pod-1.3ohm(2pcs),,"3,000",,0,,ea,$2.50,,"$7,500.00",04/15/2019
 PI5801901002-1,,FreeMax,,Unissued,,,,,,,,,"$1,008.00"
@@ -1439,6 +1602,8 @@ PI5801901002-1,,FreeMax,,Unissued,,,,,,,,,"$1,008.00"
 PI580PO001525,,FreeMax,,Unissued,,,,,,,,,"$51,750.00"
 1,LV1005328,,FreeMax Twister Kit Black,,500,,0,,ea,$22.50,,"$11,250.00",03/21/2019
 2,LV1005329,,FreeMax Twister Kit White,,500,,0,,ea,$22.50,,"$11,250.00",03/21/2019
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
 3,LV1005330,,FreeMax Twister Kit Blue,,400,,0,,ea,$22.50,,"$9,000.00",03/21/2019
 4,LV1005332,,FreeMax Twister Kit Green,,400,,0,,ea,$22.50,,"$9,000.00",03/21/2019
 5,LV1005333,,FreeMax Twister Kit Yellow,,200,,0,,ea,$22.50,,"$4,500.00",03/21/2019
@@ -1450,6 +1615,13 @@ PI580PO001531,,FreeMax,,Unissued,,,,,,,,,"$51,750.00"
 4,LV1005332,,FreeMax Twister Kit Green,,400,,0,,ea,$22.50,,"$9,000.00",03/21/2019
 5,LV1005333,,FreeMax Twister Kit Yellow,,200,,0,,ea,$22.50,,"$4,500.00",03/21/2019
 6,LV1005331,,FreeMax Twister Kit Red,,300,,0,,ea,$22.50,,"$6,750.00",03/21/2019
+Q2O04384,,Aspire Vape Co.,,Unissued,,,,,,,,,"$7,440.00"
+1,LV1006475,,Aspire AVP Pod Device Black,,100,,0,,ea,$12.00,,"$1,200.00",04/16/2019
+2,LV1006476,,Aspire AVP Pod Device Grey,,100,,0,,ea,$12.00,,"$1,200.00",04/16/2019
+3,LV1006478,,Aspire AVP Pod Device Rainbow,,100,,0,,ea,$12.00,,"$1,200.00",04/16/2019
+4,LV1006479,,Aspire AVP Pod Device Orange,,100,,0,,ea,$12.00,,"$1,200.00",04/16/2019
+5,LV1006477,,Aspire AVP Pod Device Purple,,100,,0,,ea,$12.00,,"$1,200.00",04/16/2019
+6,LV1006480,,Aspire AVP Replacement Pod (Pack of 2),,400,,0,,ea,$3.60,,"$1,440.00",04/16/2019
 S33027,,LFNT Distribution (Beard Vape Co),,Unissued,,,,,,,,,"$47,703.44"
 1,LV1000694,,Beard Vape Co No. 5 Salts 30ml 50mg,,50,,0,,ea,$5.00,,$250.00,04/08/2019
 2,LV1000697,,Beard Vape Co No. 71 Salts 30ml 50mg,,50,,0,,ea,$5.00,,$250.00,04/08/2019
@@ -1464,24 +1636,36 @@ S33027,,LFNT Distribution (Beard Vape Co),,Unissued,,,,,,,,,"$47,703.44"
 11,LV1001211,,The One Blueberry 100ml 6MG,,255,,0,,ea,$5.99,,"$1,527.45",04/08/2019
 12,SV168608,,Beard The One 100mL - 3mg,,"2,916",,0,,ea,$5.99,,"$17,466.84",04/08/2019
 13,SV168609,,Beard The One 100mL - 6mg,,"1,190",,0,,ea,$5.99,,"$7,128.10",04/08/2019
-Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,,Payment Terms,,Total Cost
-#,Part Number,,Part Name,,Ordered,,Received,,UOM,,Unit Cost,,Total Cost,Date Scheduled
-14,SV2348,,Beard The One Lemon 100mL - 3mg,,595,,0,,ea,,$5.99,,"$3,564.05",04/08/2019
-15,SV2349,,Beard The One Lemon 100mL - 6mg,,340,,0,,ea,,$5.99,,"$2,036.60",04/08/2019
-16,SV168618,,Beard No. 71 60mL - 3mg,,100,,0,,ea,,$5.00,,$500.00,04/08/2019
-17,SV168617,,Beard No. 71 60mL - 0mg,,20,,0,,ea,,$5.00,,$100.00,04/08/2019
-18,SV0000056928,,Beard Vape #42 60Ml 3mg,,50,,0,,ea,,$5.00,,$250.00,04/08/2019
-19,SV0000082055,,Beard Vape #42 60Ml 6mg,,20,,0,,ea,,$5.00,,$100.00,04/08/2019
-20,SV226212,,Beard No. 24 Salted Caramel Malt 60ml - 6mg,,25,,0,,ea,,$5.00,,$125.00,04/08/2019
-21,SV226215,,Beard No. 32 60ml - 6mg,,150,,0,,ea,,$5.00,,$750.00,04/08/2019
-22,SV227329,,Beard No. 05 60ml - 6mg,,50,,0,,ea,,$5.00,,$250.00,04/08/2019
-23,LV1004104,,Beard The One Apple 100ml 3MG,,170,,0,,ea,,$5.99,,"$1,018.30",04/08/2019
-24,LV1004105,,Beard The One Apple 100ml 6MG,,255,,0,,ea,,$5.99,,"$1,527.45",04/08/2019
-25,SV2347,,Beard The One Lemon 100mL - 0mg,,85,,0,,ea,,$5.99,,$509.15,04/08/2019
-S6444,,Sigelei Company,,Unissued,,,,,,,,,,"$34,500.00"
-1,LV1006538,,SnowWolf Mfeng UX Mod Space Blue,,200,,0,,ea,,$30.00,,"$6,000.00",04/11/2019
-2,LV1006539,,SnowWolf Mfeng UX Mod Pearl White&Gold,,200,,0,,ea,,$30.00,,"$6,000.00",04/11/2019
-3,LV1006540,,SnowWolf Mfeng UX Mod Chrome Red,,200,,0,,ea,,$30.00,,"$6,000.00",04/11/2019
-4,LV1006541,,SnowWolf Mfeng UX Mod Chrome Blue,,200,,0,,ea,,$30.00,,"$6,000.00",04/11/2019
-5,LV1006542,,SnowWolf Mfeng UX Mod Black & Gold,,350,,0,,ea,,$30.00,,"$10,500.00",04/11/2019
-Grand Total Cost: ,,,,,,,,,,"$2,867,746.35",,,,
+Purchase Order #,,Vendor Name,,Status,,Issue Date,,Date Completed,,,Payment Terms,,Total Cost
+#,Part Number,,Part Name,,Ordered,,Received,,UOM,Unit Cost,,Total Cost,Date Scheduled
+14,SV2348,,Beard The One Lemon 100mL - 3mg,,595,,0,,ea,$5.99,,"$3,564.05",04/08/2019
+15,SV2349,,Beard The One Lemon 100mL - 6mg,,340,,0,,ea,$5.99,,"$2,036.60",04/08/2019
+16,SV168618,,Beard No. 71 60mL - 3mg,,100,,0,,ea,$5.00,,$500.00,04/08/2019
+17,SV168617,,Beard No. 71 60mL - 0mg,,20,,0,,ea,$5.00,,$100.00,04/08/2019
+18,SV0000056928,,Beard Vape #42 60Ml 3mg,,50,,0,,ea,$5.00,,$250.00,04/08/2019
+19,SV0000082055,,Beard Vape #42 60Ml 6mg,,20,,0,,ea,$5.00,,$100.00,04/08/2019
+20,SV226212,,Beard No. 24 Salted Caramel Malt 60ml - 6mg,,25,,0,,ea,$5.00,,$125.00,04/08/2019
+21,SV226215,,Beard No. 32 60ml - 6mg,,150,,0,,ea,$5.00,,$750.00,04/08/2019
+22,SV227329,,Beard No. 05 60ml - 6mg,,50,,0,,ea,$5.00,,$250.00,04/08/2019
+23,LV1004104,,Beard The One Apple 100ml 3MG,,170,,0,,ea,$5.99,,"$1,018.30",04/08/2019
+24,LV1004105,,Beard The One Apple 100ml 6MG,,255,,0,,ea,$5.99,,"$1,527.45",04/08/2019
+25,SV2347,,Beard The One Lemon 100mL - 0mg,,85,,0,,ea,$5.99,,$509.15,04/08/2019
+S4254,,Juice Roll upz,,Unissued,,,,,,,,,"$3,492.50"
+1,SV53524,,Juice Roll Upz Carnival Berry Lemonade 100ml - 0mg,,10,,0,,ea,$6.50,,$65.00,04/15/2019
+2,SV53526,,Juice Roll Upz Carnival Berry Lemonade 100ml - 6mg,,100,,0,,ea,$6.50,,$650.00,04/15/2019
+3,LV1006094,,Juice Roll Upz Salt Watermelon Punch 30ml 50MG,,50,,0,,ea,$5.00,,$250.00,04/15/2019
+4,LV1006096,,Juice Roll Upz Salt Blue Raspberry On ICE 30ml 50MG,,50,,0,,ea,$5.00,,$250.00,04/15/2019
+5,LV1001175,,Juice Roll Upz Tropical Hi-Punch 100ml 0MG,,10,,0,,ea,$6.50,,$65.00,04/15/2019
+6,LV1004961,,Juice Roll Upz Twin Pack Grape 2x60ml 3MG,,100,,0,,ea,$9.00,,$900.00,04/15/2019
+7,LV1000562,,Juice Roll Upz Brew Eliquid Caramel Frappe 100ml 3MG,,100,,0,,ea,$6.50,,$650.00,04/15/2019
+8,LV1000565,,Juice Roll Upz Brew Eliquid Strawberry Frappe 100ml 3MG,,25,,0,,ea,$6.50,,$162.50,04/15/2019
+9,LV1005489,,Carnival Salts Blue Cotton Candy 30ml 25MG,,100,,0,,ea,$5.00,,$500.00,04/15/2019
+S4254-1,,Juice Roll upz,,Unissued,,,,,,,,,$900.00
+1,LV1004421,,Juice Roll Upz Twin Pack Strawberry 2x60ml 6MG,,100,,0,,ea,$9.00,,$900.00,04/15/2019
+S6444,,Sigelei Vape Inc,,Unissued,,,,,,,,,"$34,500.00"
+1,LV1006538,,SnowWolf Mfeng UX Mod Space Blue,,200,,0,,ea,$30.00,,"$6,000.00",04/11/2019
+2,LV1006539,,SnowWolf Mfeng UX Mod Pearl White&Gold,,200,,0,,ea,$30.00,,"$6,000.00",04/11/2019
+3,LV1006540,,SnowWolf Mfeng UX Mod Chrome Red,,200,,0,,ea,$30.00,,"$6,000.00",04/11/2019
+4,LV1006541,,SnowWolf Mfeng UX Mod Chrome Blue,,200,,0,,ea,$30.00,,"$6,000.00",04/11/2019
+5,LV1006542,,SnowWolf Mfeng UX Mod Black & Gold,,350,,0,,ea,$30.00,,"$10,500.00",04/11/2019
+Grand Total Cost: ,"$2,981,948.37"
