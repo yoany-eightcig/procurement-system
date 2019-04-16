@@ -68,21 +68,21 @@ function updateCurrentInventory()
 	}
 
     foreach ($csv as $line) {
-        if ( (count($line) == 12 && $line[0]!= '' && $line[0]!= 'North' && $line[2]!='Part Name') || (count($line) == 10 && !empty($line[0])) ) {
+        if ( (count($line) == 4 && $line[0]!= '' && $line[0]!= 'North' && $line[0]!= 'Main' && $line[0]!= 'Part Number') ||  (count($line) == 6 && $line[0]!= ''  && $line[0]!= 'Main' && $line[0]!= 'North' && $line[0]!= 'Part Number')) {
+
             $data = [];
-            if (count($line) == 12) {
+            if (count($line) == 4) {
                 $data = [
                     'sku' => $line[0],
-                    'name' => $line[2],
-                    'on_order' => $line[9],
-                    'quantity' => $line[10],
+                    'on_order' => $line[1],
+                    'quantity' => $line[2],
                 ];
-            } if ((count($line) == 10) && $line[1] != 'Available for Sale') {
+            } 
+            if ((count($line) == 6) && $line[2] != 'Available for Sale') {
                 $data = [
                     'sku' => $line[0],
-                    'name' => $line[1],
-                    'on_order' => $line[7],
-                    'quantity' => $line[8],
+                    'on_order' => $line[2],
+                    'quantity' => $line[3],
                 ];
             }
 
@@ -99,10 +99,11 @@ function updateCurrentInventory()
 
                 $sql = "UPDATE `parts` SET `on_order` = '{$data['on_order']}', `quantity` = '{$data['quantity']}' WHERE `sku` LIKE '{$data['sku']}'";
 
+                echo $sql."\n";
                 if (mysqli_query($conn, $sql)) {
                     echo $sql."\n";
                     echo $data['sku']." ";
-                }                
+                } 
             }
 
         }
@@ -125,25 +126,25 @@ function downloadCurrentInventoryReport($sessionToken)
     $report_id = 645;
 
     $response = locateRequest('GET', "/report/".$report_id."/run", $sessionToken, array(
-        // 'includeoutofstockparts' => '1',
+        'includeoutofstockparts' => 'LEFT',
         'orderby' => 1,
         'availableforsale' => 1,
         'bomqtydeconstructable' => 0,
         'bomquantitybuildable' => 0,
-        'costingvalue' => 1,
+        'costingvalue' => 0,
         'formatassinglepage' => 0,
         'lastcostatsite' => 0,
         'lmbundlequantitybuildable' => 0,
         'lmbundlequantitydeconstructable' => 0,
         'partdescription' => 0,
-        'partname' => 1,
+        'partname' => 0,
         'partnumber' => 1,
         'purchasevalue' => 0,
-        'qtyallocated' => 1,
-        'qtycommitted' => 1,
-        'qtyininventory' => 1,
+        'qtyallocated' => 0,
+        'qtycommitted' => 0,
+        'qtyininventory' => 0,
         'qtyonorder' => 1,
-        'uom' => 1,
+        'uom' => 0,
         'format'=> 'csv',
     ));
 
@@ -170,7 +171,7 @@ $loginResponse = locateRequest('POST', '/login', null, $loginRequest);
 $sessionToken = $loginResponse->session_token;
 
 echo "Session Token: ".$sessionToken."\n";
-echo "Downloading: Current Inventory Report\n";
+echo "Downloading: Inventory By Part Report\n";
 $result = downloadCurrentInventoryReport($sessionToken)."\n";
 
 if ($result) {
@@ -179,5 +180,6 @@ if ($result) {
     echo $result;
 }
 
+echo "Done";
 
 ?>

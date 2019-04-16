@@ -115,6 +115,9 @@
 		    fixedHeader: true,
 		    select: true,
 		    pageLength: 100,
+		    search: {
+		    	regex: true,
+		    },
 		    lengthMenu: [[25, 50, 100, -1], [25, 50, 100, "All"]],
 		    ajax: {
 		        "url": "postDatatable/0",
