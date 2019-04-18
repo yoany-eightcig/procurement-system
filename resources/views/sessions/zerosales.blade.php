@@ -53,6 +53,7 @@
 	<table id="table_id" class="display table table-striped table-fixed" >
 		<thead class="thead-dark">
 	    	<tr>
+	    		<th>&nbsp;&nbsp;&nbsp;&nbsp;</th>
 	      		<th scope="col">
 	      			<label class="mb-0" for="filter_sku">Sku</label>
 	      		</th>
@@ -80,6 +81,7 @@
 	  	</thead>
 		<tfoot class="thead-dark">
 	    	<tr>
+	    		<th></th>
 	      		<th scope="col">
 	      			<label class="mb-0" for="filter_sku">Sku</label>
 	      		</th>
@@ -159,13 +161,20 @@
 
 	$(document).ready( function () {
 		$.noConflict();
+		$.fn.dataTable.ext.errMode = 'none';
 
 		var table = $('#table_id').DataTable( {
 		    processing: true,
 		    serverSide: true,
 		    fixedHeader: true,
-		    select: true,
+		    select: {
+		        style:    'os',
+		        selector: 'td:first-child'
+		    },
 		    pageLength: 100,
+		    search: {
+		    	regex: true,
+		    },
 		    lengthMenu: [[25, 50, 100, -1], [25, 50, 100, "All"]],
 		    ajax: {
 		        "url": "postDatatable/5",
@@ -175,18 +184,24 @@
 		    	},
 		    },
 		    createdRow: function( row, data, dataIndex ) {
-		    	// $(row).addClass( data[5] >= data[2]  ? 'table-danger' : "" ); 
+		    	// $(row).addClass( parseInt(data[6]) >= parseInt(data[3])  ? 'table-danger' : "" ); 
 		    },
-		    columnDefs: [ 
+		    order: [[ 1, 'asc' ]],
+		    columnDefs: [
 		    	{
-		      		"targets": [5,6],
+	                orderable: false,
+	                className: 'select-checkbox',
+	                targets:   0
+		        },		    
+		    	{
+		      		"targets": [6,7],
 		      		"createdCell": function (td, cellData, rowData, row, col) {
 	          			$(td).addClass("border border-dark");
 	          			$(td).css("background", "#c6e0f5");
 		      		}
 		      	},
   		    	{
-  		      		"targets": [7,8,9,10],
+  		      		"targets": [8,9,10,11],
   		      		"createdCell": function (td, cellData, rowData, row, col) {
   	          			$(td).addClass("border border-dark");
   	          			$(td).css("background", "#c7eed8");
@@ -228,5 +243,3 @@
 	});	
 </script>
 @endsection
-
-
