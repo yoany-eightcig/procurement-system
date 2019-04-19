@@ -43,3 +43,4 @@ Route::get('/zerosales/search', 'HomeController@zerosalesSearch')->name('zerosal
 Route::get('/export/{report}', 'HomeController@exportToExcel')->name('exportToExcel');
 
 Route::post('postDatatable/{report}','HomeController@searchData');
+Route::get('/updatefield', 'UpdateController@updateField')->name('updateField');

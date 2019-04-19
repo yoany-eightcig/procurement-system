@@ -41,7 +41,37 @@ class HomeController extends Controller
         // The `db` parameter represents the column name in the database, while the `dt`
         // parameter represents the DataTables column identifier. In this case object
         // parameter names
+        $fields = [
+            "sku",
+            "name",
+            "quantity",
+            "unissued",
+            "on_order",
+            "suggest_qty",
+            "case_lot",
+            "ave",
+            "max",
+            "dec",
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sept",
+            "oct",
+            "nov",
+            "vendor",
+        ];
 
+        $columns = [];
+        for ($i = 0; $i < count($fields); $i++) {
+            $columns[] = array( 'db' => $fields[$i],       'dt' => $i+1 );
+        }
+
+        /*
         $columns = array(
             array( 'db' => 'sku',       'dt' => 1 ),
             array( 'db' => 'name',      'dt' => 2 ),
@@ -63,6 +93,7 @@ class HomeController extends Controller
             array( 'db' => 'oct',       'dt' => 18),
             array( 'db' => 'nov',       'dt' => 19),
         );
+        */
 
         // SQL server connection information
         $sql_details = array(

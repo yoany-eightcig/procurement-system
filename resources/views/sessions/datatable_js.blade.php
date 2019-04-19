@@ -1,5 +1,3 @@
-@include('sessions.table_header', [])
-
 @section('scripts')
 <script type="text/javascript">
 	var oldExportAction = function (self, e, dt, button, config) {
@@ -51,7 +49,6 @@
 	$(document).ready( function () {
 		$.noConflict();
 		$.fn.dataTable.ext.errMode = 'none';
-		let sku = '';
 
 		var table = $('#table_id').DataTable( {
 		    processing: true,
@@ -62,22 +59,19 @@
 		        selector: 'td:first-child'
 		    },
 		    pageLength: 100,
-		    search: {
-		    	regex: true,
-		    },
 		    lengthMenu: [[25, 50, 100, -1], [25, 50, 100, "All"]],
 		    ajax: {
-		        "url": "postDatatable/0",
+		        "url": '/postDatatable/{{ $option }}',
 		        "type": "POST",
 		        "headers": {
 		        	'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
 		    	},
 		    },
 		    createdRow: function( row, data, dataIndex ) {
-		    	$(row).addClass( parseInt(data[8]) >= parseInt(data[3])  ? 'table-danger' : "" ); 
+		    	// $(row).addClass( data[5] >= data[2]  ? 'table-danger' : "" ); 
 		    },
 		    order: [[ 1, 'asc' ]],
-		    columnDefs: [
+		    columnDefs: [ 
 		    	{
 	                orderable: false,
 	                className: 'select-checkbox',
@@ -113,6 +107,7 @@
 		        			search : 'applied'
 		        		}
 		        	},
+		        	// action: newExportAction,
 		        },
 		        { 
 		        	extend: 'excel',
@@ -170,5 +165,3 @@
 	});	
 </script>
 @endsection
-
-

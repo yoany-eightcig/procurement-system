@@ -10,6 +10,21 @@ use App\Parts;
 class UpdateController extends Controller
 {
     //
+	public function updateField(Request $request) 
+	{
+		$result = ["status" => "error"];
+		$part = Parts::where("sku", "=", $request->input('sku'))->first();
+		if ($part) {
+			$data = [
+				"suggest_qty" => $request->input("value"),
+				"suggest_updated" => true,
+			];
+			if ($part->update($data)) {
+				$result['status'] = "updated";
+			}
+		}
+		return response()->json($result);
+	}
 
     public function importData() {
     	set_time_limit(0);
