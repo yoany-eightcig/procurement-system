@@ -95,7 +95,7 @@ function updateSalesMonth()
         }
     }
 
-    $sql = "UPDATE parts SET suggest_qty = CASE WHEN suggest_qty < case_lot THEN case_lot ELSE suggest_qty END";
+    $sql = "UPDATE parts SET suggest_qty = CASE WHEN ((ave-quantity-unissued-on_order) / case_lot) > 0 THEN case_lot ELSE 0 END WHERE case_lot > 0";
 
     if (mysqli_query($conn, $sql)) {
         echo "[suggest_qty] updated \n\r";
