@@ -86,7 +86,8 @@ function updateSalesMonth()
                         echo $sql. "\n";
                         exit;
                     }
-                }     
+                }
+               
                 echo "[".count($line)."] \n";
             } else {
                 echo "ERROR: [".count($line)."] $sku \n";

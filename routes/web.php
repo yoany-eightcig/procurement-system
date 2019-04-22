@@ -44,3 +44,4 @@ Route::get('/export/{report}', 'HomeController@exportToExcel')->name('exportToEx
 
 Route::post('postDatatable/{report}','HomeController@searchData');
 Route::get('/updatefield', 'UpdateController@updateField')->name('updateField');
+Route::get('/updatesuggest', 'UpdateController@updateSuggest')->name('updateSuggest');

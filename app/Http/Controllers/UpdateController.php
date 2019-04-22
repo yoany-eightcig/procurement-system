@@ -10,6 +10,25 @@ use App\Parts;
 class UpdateController extends Controller
 {
     //
+
+	public function updateSuggest() {
+		$parts = Parts::get();
+		$suggest_qty = 0;
+		foreach ($parts as $part) {
+			$x = 0;
+			if ($part->case_lot > 0) {
+				$x = ($part->ave - $part->quantity - $part->unissued - $part->on_order) / $part->case_lot;
+				if ($x > 0.3) {
+					$suggest_qty = round($x) * $part->case_lot;
+					$part->suggest_qty = $suggest_qty;
+					$part->save();
+				}
+			} 
+
+		}
+		return response()->json(["status" => "done"]);
+	}
+
 	public function updateField(Request $request) 
 	{
 		$result = ["status" => "error"];
