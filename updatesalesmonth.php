@@ -6,8 +6,8 @@ function updateSalesMonth()
 
     $fileName = "finished_data.csv";
 
-    if (file_exists('storage/app/public/'.$fileName)) {
-        $csv = array_map('str_getcsv', file('storage/app/public/'.$fileName));
+    if (file_exists(dirname(__FILE__).'/storage/app/public/'.$fileName)) {
+        $csv = array_map('str_getcsv', file(dirname(__FILE__).'/storage/app/public/'.$fileName));
     }
 
     $missing = [];

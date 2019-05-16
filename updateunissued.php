@@ -47,8 +47,8 @@ function updateUnissued ()
 
     $fileName = "purchase_order_summary.csv";
 
-    if (file_exists('storage/app/public/'.$fileName)) {
-        $csv = array_map('str_getcsv', file('storage/app/public/'.$fileName));
+    if (file_exists(dirname(__FILE__).'/storage/app/public/'.$fileName)) {
+        $csv = array_map('str_getcsv', file(dirname(__FILE__).'/storage/app/public/'.$fileName));
     }
 
     $result = false;
@@ -157,7 +157,7 @@ function downloadPurchaseOrderSummary ($sessionToken)
         'format'=> 'csv',
     ));
 
-    $result = file_put_contents('storage/app/public/purchase_order_summary.csv', $response);
+    $result = file_put_contents(dirname(__FILE__).'/storage/app/public/purchase_order_summary.csv', $response);
 
     if ($result) {
         return true;
