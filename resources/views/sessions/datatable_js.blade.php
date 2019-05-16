@@ -85,7 +85,7 @@
 		      		}
 		      	},
   		    	{
-  		      		"targets": [10,11,12,13],
+  		      		"targets": [10,11,12,13, 14],
   		      		"createdCell": function (td, cellData, rowData, row, col) {
   	          			$(td).addClass("border border-dark");
   	          			$(td).css("background", "#c7eed8");
