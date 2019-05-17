@@ -37,6 +37,7 @@ function locateRequest($curlRequestType, $endpoint, $sessionToken = null, $postD
     else {
         // throw new Exception($httpCode . ' - ' . $response);
         echo ($httpCode . ' - ' . $response);
+        return false;
     }
 }
 
@@ -157,8 +158,10 @@ function downloadPurchaseOrderSummary ($sessionToken)
         'format'=> 'csv',
     ));
 
-    $result = file_put_contents(dirname(__FILE__).'/storage/app/public/purchase_order_summary.csv', $response);
-
+    if ($response) {
+        $result = file_put_contents(dirname(__FILE__).'/storage/app/public/purchase_order_summary.csv', $response);    
+    }
+    
     if ($result) {
         return true;
     } else {
