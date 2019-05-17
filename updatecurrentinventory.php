@@ -127,7 +127,8 @@ function downloadCurrentInventoryReport($sessionToken)
     $report_id = 645;
 
     $response = locateRequest('GET', "/report/".$report_id."/run", $sessionToken, array(
-        'includeoutofstockparts' => 'LEFT',
+        //'includeoutofstockparts' => 'LEFT',
+        'includeoutofstockparts' => '',
         'orderby' => 1,
         'availableforsale' => 1,
         'bomqtydeconstructable' => 0,
