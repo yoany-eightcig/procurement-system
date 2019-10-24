@@ -106,7 +106,7 @@
 		        	text: '<i class="fas fa-file-excel pr-2"></i>Export Page',
 		        	className: 'btn-info',
 		        	exportOptions: {
-		        		columns: [1, 2, 5, 6, 22],
+		        		columns: [1, 2, 5, 6, 19],
 		        		modifier: {
 		        			order : 'current',
 		        			page : 'all',
@@ -119,7 +119,7 @@
 		        	text: '<i class="fas fa-file-excel pr-2"></i>Export All',
 		        	className: 'btn-success ml-2',
 		        	exportOptions: {
-		        		columns: [1, 2, 5, 6, 22],
+		        		columns: [1, 2, 5, 6, 19],
 		        		modifier: {
 		        			order : 'current',
 		        			page : 'all',

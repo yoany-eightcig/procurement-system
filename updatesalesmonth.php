@@ -77,7 +77,7 @@ function updateSalesMonth()
                     }
 
                 } else {
-                    $sql = "INSERT INTO `parts` (`id`, `sku`, `name`, `quantity`, `ave`, `max`, `jan`, `feb`, `mar`, `apr`, `may`, `jun`, `jul`, `aug`, `sept`, `oct`, `nov`, `dec`, `unissued`, `on_order`, `created_at`, `updated_at`, `vendor`, `case_lot`, `suggest_qty`) VALUES (NULL, \"$sku\", \"$name\", '1', $ave, $max, $jan, $feb, $mar, $apr, $may, $jun, $jul, $aug, $sept, $oct, $nov, $dec, '0', '0', CURRENT_TIME(), CURRENT_TIME(), \"$vendor\", $case_lot, (`ave`-`quantity`-`unissued`-`on_order`));";
+                    $sql = "INSERT INTO `parts` (`id`, `sku`, `name`, `quantity`, `ave`, `max`, `jan`, `feb`, `mar`, `apr`, `may`, `jun`, `jul`, `aug`, `sept`, `oct`, `nov`, `dec`, `unissued`, `on_order`, `created_at`, `updated_at`, `vendor`, `case_lot`, `suggest_qty`) VALUES (NULL, \"$sku\", \"$name\", '0', $ave, $max, $jan, $feb, $mar, $apr, $may, $jun, $jul, $aug, $sept, $oct, $nov, $dec, '0', '0', CURRENT_TIME(), CURRENT_TIME(), \"$vendor\", $case_lot, (`ave`-`quantity`-`unissued`-`on_order`));";
 
                     if (mysqli_query($conn, $sql)) {
                         echo "NEW ";
