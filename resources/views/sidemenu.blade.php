@@ -3,6 +3,7 @@
     <a class="nav-link {{ Request::path() == 'home' || Request::path() == 'search' ? 'active' : '' }}" id="v-pills-statistics-tab"  href="{{ route('home') }}" >
         <i class="fas fa-server pr-2"></i> Statistics
     </a>
+    {{-- 
     <hr class="bg-dark w-100"> <span>Re-Order Report</span>
     <a class="nav-link {{ Request::path() == 'monthlysales' || Request::path() == 'monthlysales/search'  ? 'active' : '' }}" id="v-pills-monthlysales-tab" href="{{ route('monthlySales') }}" >
         <i class="fas fa-clipboard-list pr-2"></i> Monthly Sales
@@ -24,5 +25,5 @@
     <a class="nav-link {{ Request::path() == 'zerosales' || Request::path() == 'zerosales/search' ? 'active' : '' }}" id="v-pills-weeklysales-tab" href="{{ route('zerosales') }}">
         <i class="fas fa-receipt pr-2"></i> Zero Sales
     </a>
-
+    --}}
 </div>

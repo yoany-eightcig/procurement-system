@@ -51,7 +51,6 @@ class HomeController extends Controller
             "case_lot",
             "ave",
             "max",
-            "dec",
             "jan",
             "feb",
             "mar",
@@ -61,8 +60,11 @@ class HomeController extends Controller
             "jul",
             "aug",
             "sept",
+            /*
             "oct",
             "nov",
+            "dec",
+            */
             "vendor",
         ];
 

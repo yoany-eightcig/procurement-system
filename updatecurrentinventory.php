@@ -42,77 +42,6 @@ function locateRequest($curlRequestType, $endpoint, $sessionToken = null, $postD
 }
 
 
-function updateCurrentInventory() 
-{
-	set_time_limit(0);
-	ini_set('max_execution_time', 0);
-
-    $fileName = "current_inventory.csv";
-
-    if (file_exists(dirname(__FILE__).'/storage/app/public/'.$fileName)) {
-        $csv = array_map('str_getcsv', file(dirname(__FILE__).'/storage/app/public/'.$fileName));
-    }
-
-    $missing = [];
-    echo "updating: Current Inventory \n\r";
-
-	$servername = "localhost";
-	$username = "root";
-	$password = "Magma2019";
-	$dbname = "procurement_system";
-
-	// Create connection
-	$conn = mysqli_connect($servername, $username, $password, $dbname);
-
-	// Check connection
-	if (!$conn) {
-	    die("Connection failed: " . mysqli_connect_error());
-	}
-
-    foreach ($csv as $line) {
-        if ( (count($line) == 4 && $line[0]!= '' && $line[0]!= 'North' && $line[0]!= 'Main' && $line[0]!= 'Part Number') ||  (count($line) == 6 && $line[0]!= ''  && $line[0]!= 'Main' && $line[0]!= 'North' && $line[0]!= 'Part Number')) {
-
-            $data = [];
-            if (count($line) == 4) {
-                $data = [
-                    'sku' => $line[0],
-                    'on_order' => $line[1],
-                    'quantity' => $line[2],
-                ];
-            } 
-            if ((count($line) == 6) && $line[2] != 'Available for Sale') {
-                $data = [
-                    'sku' => $line[0],
-                    'on_order' => $line[2],
-                    'quantity' => $line[3],
-                ];
-            }
-
-            if (count($data)) {
-                $data['quantity'] = str_replace(',', '', $data['quantity']);
-                if (empty($data['quantity'])) {
-                    $data['quantity'] = 0;
-                }
-
-                $data['on_order'] = str_replace(',', '', $data['on_order']);
-                if (empty($data['on_order'])) {
-                    $data['on_order'] = 0;
-                }
-
-                $sql = "UPDATE `parts` SET `on_order` = '{$data['on_order']}', `quantity` = '{$data['quantity']}' WHERE `sku` LIKE '{$data['sku']}'";
-
-                echo $sql."\n";
-                if (mysqli_query($conn, $sql)) {
-                    echo $sql."\n";
-                    echo $data['sku']." ";
-                } 
-            }
-
-        }
-    }
-
-    echo "updated \n\r";
-} 
 
 function downloadCurrentInventoryReport($sessionToken) 
 {
@@ -151,6 +80,8 @@ function downloadCurrentInventoryReport($sessionToken)
         'format'=> 'csv',
     ));
 
+    $result = false;
+    
     if ($response) {
         $result = file_put_contents(dirname(__FILE__).'/storage/app/public/current_inventory.csv', $response);
     }
@@ -178,12 +109,6 @@ $sessionToken = $loginResponse->session_token;
 echo "Session Token: ".$sessionToken."\n";
 echo "Downloading: Inventory By Part Report\n";
 $result = downloadCurrentInventoryReport($sessionToken)."\n";
-
-if ($result) {
-    updateCurrentInventory();
-} else {
-    echo $result;
-}
 
 echo "Done";
 

@@ -35,7 +35,6 @@
 	      		<th scope="col">Case Lot.</th>
 	      		<th class="text-center" scope="col">Est.<br> Monthly</th>
 	      		<th scope="col">Max.</th>
-	      		<th scope="col">Dec.</th>
 	      		<th scope="col">Jan.</th>
 	      		<th scope="col">Feb.</th>
 	      		<th scope="col">Mar.</th>
@@ -45,8 +44,11 @@
 	      		<th scope="col">Jul.</th>
 	      		<th scope="col">Aug.</th>
 	      		<th scope="col">Sept.</th>
+{{-- 
 	      		<th scope="col">Oct.</th>
 	      		<th scope="col">Nov.</th>
+	      		<th scope="col">Dec.</th>
+ --}}	      		
 	      		<th scope="col">Vendor</th>
 	    	</tr>
 	  	</thead>
