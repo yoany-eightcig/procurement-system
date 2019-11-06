@@ -60,8 +60,8 @@ class HomeController extends Controller
             "jul",
             "aug",
             "sept",
-            /*
             "oct",
+            /*
             "nov",
             "dec",
             */
