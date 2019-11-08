@@ -96,6 +96,11 @@ function updateSalesMonth()
         }
     }
 
+    $sql = "UPDATE `parts` SET `ave`=(`jan`+`feb`+`mar`+`apr`+`may`+`jun`+`jul`+`aug`+`sept`+`oct`) / 10 WHERE 1";
+    if (mysqli_query($conn, $sql)) {
+        echo "[ave] updated \n\r";
+    }
+    
     $sql = "UPDATE parts SET suggest_qty = CASE WHEN ((ave-quantity-unissued-on_order) / case_lot) > 0 THEN case_lot ELSE 0 END WHERE case_lot > 0";
 
     if (mysqli_query($conn, $sql)) {
