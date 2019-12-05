@@ -45,8 +45,8 @@
 	      		<th scope="col">Aug.</th>
 	      		<th scope="col">Sept.</th>
 	      		<th scope="col">Oct.</th>
-{{-- 
 	      		<th scope="col">Nov.</th>
+{{-- 
 	      		<th scope="col">Dec.</th>
  --}}	      		
 	      		<th scope="col">Vendor</th>
