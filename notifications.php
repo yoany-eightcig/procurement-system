@@ -236,7 +236,12 @@ function getNotifications($sessionToken)
 
     		$filename = "sales_order_".$date.".csv";
             saveReport($notification->id, $filename, $sessionToken, $response);
-		}
+		} else {
+            $response = locateRequest('POST', "/notification/delete", $sessionToken, array(
+                "notification_ids" => [$notification->id],
+            ));
+            echo "Notification ID: {$notification->id} DELETED\n";
+        }
 	}
 
 	return $result;
