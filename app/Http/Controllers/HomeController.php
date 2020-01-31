@@ -62,9 +62,7 @@ class HomeController extends Controller
             "sept",
             "oct",
             "nov",
-            /*
             "dec",
-            */
             "vendor",
         ];
 

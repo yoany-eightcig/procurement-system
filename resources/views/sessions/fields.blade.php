@@ -17,7 +17,8 @@
   		<td class="text-center" scope="col">{{$element->aug}}</td>
   		<td class="text-center" scope="col">{{$element->sept}}</td>
   		<td class="text-center" scope="col">{{$element->oct}}</td>
-  		<td class="text-center" scope="col">{{$element->nov}}</td>
+      <td class="text-center" scope="col">{{$element->nov}}</td>
+      <td class="text-center" scope="col">{{$element->dec}}</td>
       <td class="text-center table-success border border-dark" scope="col">{{$element->dec}}</td>
 	</tr>
 @endif
