@@ -96,7 +96,7 @@ function updateSalesMonth()
         }
     }
 
-    $sql = "UPDATE `parts` SET `ave`=(`jan`+`feb`+`mar`+`apr`+`may`+`jun`+`jul`+`aug`+`sept`+`oct`+`nov`) / 10 WHERE 1";
+    $sql = "UPDATE `parts` SET `ave`=CEILING((`jan`+`feb`+`mar`+`apr`+`may`+`jun`+`jul`+`aug`+`sept`+`oct`+`nov`+`dec`) / 12) WHERE 1";
     if (mysqli_query($conn, $sql)) {
         echo "[ave] updated \n\r";
     }

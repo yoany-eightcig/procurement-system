@@ -283,7 +283,7 @@ class SSP {
         } else if ($report_id == 4) {
             $reportQuery = "WHERE (quantity >= ave*6)";
         } else if ($report_id == 5) {
-            $reportQuery = "WHERE (ave = 0)";
+            $reportQuery = "WHERE (ave <= 1)";
         }
 
         if (!empty($where) && !empty($reportQuery)) {
