@@ -56,6 +56,7 @@ class HomeController extends Controller
             "mar",
             "apr",
             "may",
+            "extract_month",
             "jun",
             "jul",
             "aug",
@@ -64,6 +65,7 @@ class HomeController extends Controller
             "nov",
             "dec",
             "vendor",
+            "category",
         ];
 
         $columns = [];

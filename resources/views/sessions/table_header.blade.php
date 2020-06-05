@@ -21,6 +21,12 @@
   	</div>
 </div>
 
+@php
+	$m	= date("n");
+	$months = ['Jan.', 'Feb.', 'Mar.', 'Apr.', 'May.', 'Jun.', 'Jul.', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.'];
+	$show_extra_m = true;
+@endphp
+
 <div class="table-responsive">
 	<table id="table_id" class="display table table-striped table-fixed" >
 		<thead class="thead-dark">
@@ -35,19 +41,17 @@
 	      		<th scope="col">Case Lot.</th>
 	      		<th class="text-center" scope="col">Est.<br> Monthly</th>
 	      		<th scope="col">Max.</th>
-	      		<th scope="col">Jan.</th>
-	      		<th scope="col">Feb.</th>
-	      		<th scope="col">Mar.</th>
-	      		<th scope="col">Apr.</th>
-	      		<th scope="col">May.</th>
-	      		<th scope="col">Jun.</th>
-	      		<th scope="col">Jul.</th>
-	      		<th scope="col">Aug.</th>
-	      		<th scope="col">Sept.</th>
-	      		<th scope="col">Oct.</th>
-	      		<th scope="col">Nov.</th>
-	      		<th scope="col">Dec.</th>
+
+	      		@for ($i = 0; $i < count($months); $i++)
+	      			<th class = "{{ ($m > $i+1) ? 'text-success' : 'text-warning' }}" scope="col">{{ $months[$i] }} {{ ($m > $i+1) ? '20' : '19' }}</th>
+	      			@if ($show_extra_m && ($i+1) == $m-1  )
+	      				{{ $show_extra_m = false }}
+	      				<th class = "text-warning" scope="col">{{ $months[$i] }}<br> 19</th>
+	      			@endif
+	      		@endfor
+
 	      		<th scope="col">Vendor</th>
+	      		<th scope="col">Category</th>
 	    	</tr>
 	  	</thead>
 	</table>	
